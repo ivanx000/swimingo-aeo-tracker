@@ -1,19 +1,29 @@
 """Runs every buyer question through the Gemini API and saves the raw responses."""
 import json
 import os
+import re
 import time
 from datetime import date
 from pathlib import Path
 
 from dotenv import load_dotenv
 from google import genai
+from google.genai import errors
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 QUESTIONS_FILE = DATA_DIR / "questions.json"
 
-MODEL_NAME = "gemini-2.5-flash"
-DELAY_SECONDS = 4  # be polite to the free-tier rate limit
+# "gemini-flash-latest" is Google's rolling alias for the current stable free-tier
+# Flash model, so this keeps working as Google retires/renames dated model versions.
+MODEL_NAME = "gemini-flash-latest"
+
+# Free tier caps this model at 5 requests/minute; spacing calls by 13s (>60/5)
+# keeps every call under that cap instead of bursting through all 42 questions
+# and hitting 429s on nearly every one after the first few.
+MIN_INTERVAL_SECONDS = 13.0
+DEFAULT_RETRY_DELAY_SECONDS = 15.0
+MAX_RATE_LIMIT_RETRIES = 6
 
 
 def load_questions() -> list[dict]:
@@ -43,6 +53,39 @@ def save_results(path: Path, results: list[dict]) -> None:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
 
+def parse_retry_delay(error: errors.ClientError) -> float:
+    """Extract the server-suggested retry delay (seconds) from a 429 error.
+
+    Falls back to DEFAULT_RETRY_DELAY_SECONDS if the response doesn't include
+    a RetryInfo detail (Google's standard quota-exceeded error shape).
+    """
+    details = getattr(error, "details", None) or {}
+    error_details = details.get("error", {}).get("details", [])
+    for detail in error_details:
+        if str(detail.get("@type", "")).endswith("RetryInfo"):
+            match = re.match(r"([\d.]+)", str(detail.get("retryDelay", "")))
+            if match:
+                return float(match.group(1))
+    return DEFAULT_RETRY_DELAY_SECONDS
+
+
+def ask_gemini(client: genai.Client, question_text: str) -> str:
+    """Ask Gemini one question, retrying on 429 instead of giving up on it."""
+    for attempt in range(1, MAX_RATE_LIMIT_RETRIES + 1):
+        try:
+            response = client.models.generate_content(model=MODEL_NAME, contents=question_text)
+            return response.text or ""
+        except errors.ClientError as e:
+            if e.code != 429:
+                raise
+            delay = parse_retry_delay(e)
+            print(f"  Rate limited (attempt {attempt}/{MAX_RATE_LIMIT_RETRIES}); "
+                  f"waiting {delay:.0f}s before retrying...")
+            time.sleep(delay)
+
+    raise RuntimeError(f"Still rate-limited after {MAX_RATE_LIMIT_RETRIES} retries")
+
+
 def run() -> None:
     """Ask Gemini every buyer question and save the raw responses for today."""
     load_dotenv()
@@ -68,11 +111,7 @@ def run() -> None:
     for i, q in enumerate(remaining, start=1):
         print(f"[{i}/{len(remaining)}] Q{q['id']}: {q['question']}")
         try:
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=q["question"],
-            )
-            raw_text = response.text or ""
+            raw_text = ask_gemini(client, q["question"])
         except Exception as e:
             print(f"  Error on question {q['id']}: {e}")
             continue
@@ -86,7 +125,7 @@ def run() -> None:
             }
         )
         save_results(path, results)  # save after every call so an interruption loses nothing
-        time.sleep(DELAY_SECONDS)
+        time.sleep(MIN_INTERVAL_SECONDS)
 
     print(f"Done. Saved {len(results)} results to {path}")
 
