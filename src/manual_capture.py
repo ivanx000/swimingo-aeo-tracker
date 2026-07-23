@@ -46,11 +46,13 @@ class InputStreamClosed(Exception):
 
 
 def read_multiline_paste() -> str | None:
-    """Read a multi-line pasted response, terminated by a blank line or END.
+    """Read a multi-line pasted response, terminated only by END on its own line.
 
-    Returns None if the user types SKIP as the first line. Raises
-    InputStreamClosed if stdin closes before any line is entered, so the
-    caller can stop the session instead of saving empty responses.
+    Blank lines within the paste (e.g. between paragraphs of a real AI
+    response) are captured as part of the response, not treated as a
+    terminator. Returns None if the user types SKIP as the first line.
+    Raises InputStreamClosed if stdin closes before any line is entered,
+    so the caller can stop the session instead of saving empty responses.
     """
     lines: list[str] = []
     while True:
@@ -62,7 +64,7 @@ def read_multiline_paste() -> str | None:
             break
         if not lines and line.strip() == SKIP_SENTINEL:
             return None
-        if line.strip() == END_SENTINEL or line == "":
+        if line.strip() == END_SENTINEL:
             break
         lines.append(line)
     return "\n".join(lines).strip()
@@ -103,7 +105,7 @@ def run(platform: str) -> None:
 
     print(f"\nCapturing responses for: {platform}")
     print(f"{len(done_ids)} already done, {len(remaining)} remaining.")
-    print(f"Paste the full response, then a blank line (or '{END_SENTINEL}') to finish.")
+    print(f"Paste the full response, then type '{END_SENTINEL}' on its own line to finish.")
     print(f"Type {SKIP_SENTINEL} to skip a question.\n")
 
     for i, q in enumerate(remaining, start=1):

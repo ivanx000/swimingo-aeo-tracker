@@ -52,9 +52,10 @@ cp .env.example .env
    ```
    For each platform, manually ask every printed question on that
    platform's website, then paste the full response back into the
-   terminal (finish a paste with a blank line, or type `END` on its own
-   line). Type `SKIP` to skip a question. Each command can be stopped and
-   resumed later without redoing finished questions.
+   terminal and type `END` on its own line to finish (blank lines within
+   the paste are kept as part of the response). Type `SKIP` to skip a
+   question. Each command can be stopped and resumed later without
+   redoing finished questions.
 
 3. **Parse raw responses:**
    ```bash
