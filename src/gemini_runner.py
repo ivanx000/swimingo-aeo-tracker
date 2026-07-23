@@ -14,9 +14,10 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 QUESTIONS_FILE = DATA_DIR / "questions.json"
 
-# "gemini-flash-latest" is Google's rolling alias for the current stable free-tier
-# Flash model, so this keeps working as Google retires/renames dated model versions.
-MODEL_NAME = "gemini-flash-latest"
+# "gemini-2.5-flash-lite" (and "gemini-2.5-flash") 404 as "no longer available to
+# new users" -- "gemini-flash-lite-latest" is Google's rolling alias for the
+# current stable free-tier Flash-Lite model and is what's actually live.
+MODEL_NAME = "gemini-flash-lite-latest"
 
 # Free tier caps this model at 5 requests/minute; spacing calls by 13s (>60/5)
 # keeps every call under that cap instead of bursting through all 42 questions
