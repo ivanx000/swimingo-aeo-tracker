@@ -51,10 +51,14 @@ cp .env.example .env
    python main.py capture ai_overviews
    ```
    For each platform, manually ask every printed question on that
-   platform's website, then paste the full response back into the
-   terminal and type `END` on its own line to finish (blank lines within
-   the paste are kept as part of the response). Type `SKIP` to skip a
-   question. Each command can be stopped and resumed later without
+   platform's website. Each question opens a temp file in your text
+   editor (respects `$EDITOR`; otherwise falls back to TextEdit on
+   macOS, notepad on Windows, or nano elsewhere) -- paste the full
+   response below the marker line, then save and close the file to
+   continue. This avoids the truncation that can happen pasting very
+   long responses directly into the terminal. Leave the body empty, or
+   type `SKIP`, to skip a question. Each command can be stopped and
+   resumed later without
    redoing finished questions.
 
 3. **Parse raw responses:**

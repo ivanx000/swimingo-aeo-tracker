@@ -1,7 +1,17 @@
-"""Interactive manual-paste capture tool for platforms that can't be automated
-(ChatGPT, Perplexity, Copilot, Google AI Overviews)."""
+"""Editor-based manual capture tool for platforms that can't be automated
+(ChatGPT, Perplexity, Copilot, Google AI Overviews).
+
+Each question opens in the user's text editor rather than being pasted into
+the terminal directly -- terminal paste mode truncates very long single
+blocks of text (e.g. a long AI Overview response), which an editor buffer
+does not."""
 import json
+import os
+import platform
+import shlex
+import subprocess
 import sys
+import tempfile
 from datetime import date
 from pathlib import Path
 
@@ -10,8 +20,8 @@ RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 QUESTIONS_FILE = DATA_DIR / "questions.json"
 
 PLATFORMS = ["chatgpt", "perplexity", "copilot", "ai_overviews"]
-END_SENTINEL = "END"
 SKIP_SENTINEL = "SKIP"
+RESPONSE_MARKER = "===== WRITE YOUR RESPONSE BELOW THIS LINE ====="
 
 
 def load_questions() -> list[dict]:
@@ -41,33 +51,67 @@ def save_results(path: Path, results: list[dict]) -> None:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
 
-class InputStreamClosed(Exception):
-    """Raised when stdin closes (EOF) before any input was given for a question."""
+def get_editor_command(path: Path) -> list[str]:
+    """Build the command to open `path` for editing, blocking until it's closed.
 
-
-def read_multiline_paste() -> str | None:
-    """Read a multi-line pasted response, terminated only by END on its own line.
-
-    Blank lines within the paste (e.g. between paragraphs of a real AI
-    response) are captured as part of the response, not treated as a
-    terminator. Returns None if the user types SKIP as the first line.
-    Raises InputStreamClosed if stdin closes before any line is entered,
-    so the caller can stop the session instead of saving empty responses.
+    Honors $EDITOR if set. Otherwise falls back to notepad on Windows,
+    TextEdit on macOS, and nano elsewhere.
     """
-    lines: list[str] = []
-    while True:
+    editor = os.environ.get("EDITOR")
+    if editor:
+        return shlex.split(editor) + [str(path)]
+
+    system = platform.system()
+    if system == "Windows":
+        return ["notepad", str(path)]
+    if system == "Darwin":
+        # -n opens a fresh TextEdit instance so -W only waits on that
+        # instance, not on every other TextEdit window already open.
+        return ["open", "-n", "-W", "-a", "TextEdit", str(path)]
+    return ["nano", str(path)]
+
+
+def capture_via_editor(question: dict) -> str | None:
+    """Open a temp file for one question in the user's editor and return the saved response.
+
+    Returns None if the saved body is empty or just SKIP.
+    """
+    header = (
+        f"Q{question['id']} ({question['city']}, {question['persona']}, {question['type']}):\n"
+        f"{question['question']}\n"
+        "\n"
+        "Paste the platform's full response below the marker line, then save\n"
+        f"and close this file. Leave the body empty, or type {SKIP_SENTINEL}, to skip.\n"
+        "\n"
+        f"{RESPONSE_MARKER}\n"
+    )
+
+    with tempfile.NamedTemporaryFile(
+        mode="w", suffix=".txt", prefix=f"aeo_q{question['id']}_", delete=False, encoding="utf-8"
+    ) as tmp:
+        tmp.write(header)
+        tmp_path = Path(tmp.name)
+
+    try:
+        command = get_editor_command(tmp_path)
         try:
-            line = input()
-        except EOFError:
-            if not lines:
-                raise InputStreamClosed
-            break
-        if not lines and line.strip() == SKIP_SENTINEL:
-            return None
-        if line.strip() == END_SENTINEL:
-            break
-        lines.append(line)
-    return "\n".join(lines).strip()
+            subprocess.run(command)
+        except FileNotFoundError:
+            raise RuntimeError(
+                f"Could not launch editor command {command!r}. "
+                "Set the EDITOR environment variable to a command that works on your system."
+            )
+        content = tmp_path.read_text(encoding="utf-8")
+    finally:
+        tmp_path.unlink(missing_ok=True)
+
+    if RESPONSE_MARKER in content:
+        content = content.split(RESPONSE_MARKER, 1)[1]
+    response_text = content.strip()
+
+    if not response_text or response_text == SKIP_SENTINEL:
+        return None
+    return response_text
 
 
 def select_platform() -> str:
@@ -105,32 +149,29 @@ def run(platform: str) -> None:
 
     print(f"\nCapturing responses for: {platform}")
     print(f"{len(done_ids)} already done, {len(remaining)} remaining.")
-    print(f"Paste the full response, then type '{END_SENTINEL}' on its own line to finish.")
-    print(f"Type {SKIP_SENTINEL} to skip a question.\n")
+    print("Each question opens in your editor. Paste the response, save, and close to continue.\n")
 
-    for i, q in enumerate(remaining, start=1):
-        print(f"\n[{i}/{len(remaining)}] Q{q['id']} ({q['city']}, {q['persona']}, {q['type']}):")
-        print(f"  {q['question']}")
-        print("Paste response below:")
-        try:
-            response_text = read_multiline_paste()
-        except InputStreamClosed:
-            print("\nInput stream closed. Progress saved; run again to resume.")
-            break
+    try:
+        for i, q in enumerate(remaining, start=1):
+            print(f"[{i}/{len(remaining)}] Q{q['id']} ({q['city']}, {q['persona']}, {q['type']}): {q['question']}")
+            response_text = capture_via_editor(q)
 
-        if response_text is None:
-            print("  Skipped.")
-            continue
+            if response_text is None:
+                print("  Skipped.")
+                continue
 
-        results.append(
-            {
-                "question_id": q["id"],
-                "platform": platform,
-                "date": today,
-                "raw_response": response_text,
-            }
-        )
-        save_results(path, results)  # save after every question so progress is never lost
+            results.append(
+                {
+                    "question_id": q["id"],
+                    "platform": platform,
+                    "date": today,
+                    "raw_response": response_text,
+                }
+            )
+            save_results(path, results)  # save after every question so progress is never lost
+            print("  Saved.")
+    except KeyboardInterrupt:
+        print("\nInterrupted. Progress saved; run again to resume.")
 
     print(f"\nDone. Saved {len(results)} results to {path}")
 
