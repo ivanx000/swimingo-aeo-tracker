@@ -51,13 +51,18 @@ cp .env.example .env
    python main.py capture ai_overviews
    ```
    For each platform, manually ask every printed question on that
-   platform's website. Each question opens a temp file in your text
-   editor (respects `$EDITOR`; otherwise falls back to TextEdit on
-   macOS, notepad on Windows, or nano elsewhere) -- paste the full
-   response below the marker line, then save and close the file to
-   continue. This avoids the truncation that can happen pasting very
-   long responses directly into the terminal. Leave the body empty, or
-   type `SKIP`, to skip a question. Each command can be stopped and
+   platform's website. Two capture methods avoid the truncation that can
+   happen pasting a long response directly into the terminal:
+   - `editor` (default): each question opens a temp file in your text
+     editor (respects `$EDITOR`; otherwise falls back to TextEdit on
+     macOS, notepad on Windows, or nano elsewhere) -- paste the response
+     below the marker line, then save and close the file to continue.
+   - `clipboard` (`--method clipboard`): copy the response to your
+     clipboard, then press Enter in the terminal; the tool reads it
+     straight from the clipboard via `pyperclip`.
+
+   Either way, leave the response empty (or type `SKIP`) to skip a
+   question. Each command can be stopped and
    resumed later without
    redoing finished questions.
 

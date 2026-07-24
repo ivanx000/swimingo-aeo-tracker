@@ -23,6 +23,12 @@ def main() -> None:
 
     capture_parser = subparsers.add_parser("capture", help="Manually capture responses for one platform.")
     capture_parser.add_argument("platform", choices=manual_capture.PLATFORMS)
+    capture_parser.add_argument(
+        "--method",
+        choices=manual_capture.CAPTURE_METHODS,
+        default="editor",
+        help="How to capture each response (default: editor).",
+    )
 
     subparsers.add_parser("parse", help="Parse all of today's raw result files.")
     subparsers.add_parser("report", help="Generate today's summary report.")
@@ -33,7 +39,7 @@ def main() -> None:
     if args.command == "run-gemini":
         gemini_runner.run()
     elif args.command == "capture":
-        manual_capture.run(args.platform)
+        manual_capture.run(args.platform, args.method)
     elif args.command == "parse":
         result_parser.parse_today()
     elif args.command == "report":

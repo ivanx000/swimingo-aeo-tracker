@@ -1,10 +1,12 @@
-"""Editor-based manual capture tool for platforms that can't be automated
-(ChatGPT, Perplexity, Copilot, Google AI Overviews).
+"""Manual capture tool for platforms that can't be automated (ChatGPT,
+Perplexity, Copilot, Google AI Overviews).
 
-Each question opens in the user's text editor rather than being pasted into
-the terminal directly -- terminal paste mode truncates very long single
-blocks of text (e.g. a long AI Overview response), which an editor buffer
-does not."""
+Two capture methods avoid the terminal's paste-length issues with very long
+single blocks of text (e.g. a long AI Overview response):
+  - "editor" (default): each question opens in the user's text editor; the
+    saved file content becomes the response.
+  - "clipboard": the user copies the response, presses Enter, and the tool
+    reads it straight from the OS clipboard via pyperclip."""
 import json
 import os
 import platform
@@ -15,11 +17,14 @@ import tempfile
 from datetime import date
 from pathlib import Path
 
+import pyperclip
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 QUESTIONS_FILE = DATA_DIR / "questions.json"
 
 PLATFORMS = ["chatgpt", "perplexity", "copilot", "ai_overviews"]
+CAPTURE_METHODS = ["editor", "clipboard"]
 SKIP_SENTINEL = "SKIP"
 RESPONSE_MARKER = "===== WRITE YOUR RESPONSE BELOW THIS LINE ====="
 
@@ -114,6 +119,40 @@ def capture_via_editor(question: dict) -> str | None:
     return response_text
 
 
+def capture_via_clipboard(question: dict) -> str | None:
+    """Wait for the user to copy the platform's response, then read it from the clipboard.
+
+    Returns None if the user types SKIP instead of pressing Enter, or if
+    the clipboard is empty.
+    """
+    prompt = (
+        f"Copy the response (select it and Cmd/Ctrl+C), then press Enter here "
+        f"(or type {SKIP_SENTINEL} to skip): "
+    )
+    choice = input(prompt).strip()
+    if choice == SKIP_SENTINEL:
+        return None
+
+    try:
+        response_text = pyperclip.paste().strip()
+    except pyperclip.PyperclipException as e:
+        raise RuntimeError(
+            "Could not read the clipboard. On Linux, install xclip or xsel "
+            f"and try again. ({e})"
+        )
+
+    if not response_text:
+        return None
+    return response_text
+
+
+def capture_response(method: str, question: dict) -> str | None:
+    """Dispatch to the chosen capture method for a single question."""
+    if method == "clipboard":
+        return capture_via_clipboard(question)
+    return capture_via_editor(question)
+
+
 def select_platform() -> str:
     """Interactively prompt the user to choose which platform to capture."""
     print("Select a platform to capture:")
@@ -130,10 +169,12 @@ def select_platform() -> str:
         sys.exit(1)
 
 
-def run(platform: str) -> None:
+def run(platform: str, method: str = "editor") -> None:
     """Run the manual capture loop for a single platform, resuming if partly done."""
     if platform not in PLATFORMS:
         raise ValueError(f"Unknown platform '{platform}'. Choose from: {PLATFORMS}")
+    if method not in CAPTURE_METHODS:
+        raise ValueError(f"Unknown capture method '{method}'. Choose from: {CAPTURE_METHODS}")
 
     questions = load_questions()
     today = date.today().isoformat()
@@ -147,14 +188,17 @@ def run(platform: str) -> None:
         print(f"All {len(questions)} questions already captured for {platform} on {today}.")
         return
 
-    print(f"\nCapturing responses for: {platform}")
+    print(f"\nCapturing responses for: {platform} (method: {method})")
     print(f"{len(done_ids)} already done, {len(remaining)} remaining.")
-    print("Each question opens in your editor. Paste the response, save, and close to continue.\n")
+    if method == "clipboard":
+        print("For each question, copy the response to your clipboard, then press Enter.\n")
+    else:
+        print("Each question opens in your editor. Paste the response, save, and close to continue.\n")
 
     try:
         for i, q in enumerate(remaining, start=1):
             print(f"[{i}/{len(remaining)}] Q{q['id']} ({q['city']}, {q['persona']}, {q['type']}): {q['question']}")
-            response_text = capture_via_editor(q)
+            response_text = capture_response(method, q)
 
             if response_text is None:
                 print("  Skipped.")
@@ -177,12 +221,16 @@ def run(platform: str) -> None:
 
 
 def main() -> None:
-    """Standalone entry point: use a CLI arg if given, otherwise prompt for a platform."""
+    """Standalone entry point: use CLI args if given, otherwise prompt for a platform.
+
+    Usage: python manual_capture.py [platform] [method]
+    """
     if len(sys.argv) > 1 and sys.argv[1] in PLATFORMS:
         platform = sys.argv[1]
     else:
         platform = select_platform()
-    run(platform)
+    method = sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] in CAPTURE_METHODS else "editor"
+    run(platform, method)
 
 
 if __name__ == "__main__":
