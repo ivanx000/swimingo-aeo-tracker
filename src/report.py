@@ -16,10 +16,12 @@ def load_questions_by_id() -> dict[int, dict]:
     return {q["id"]: q for q in questions}
 
 
-def load_parsed_entries(today: str) -> list[dict]:
-    """Load and combine all *_parsed.json files for today."""
+def load_parsed_entries(dates: list[str]) -> list[dict]:
+    """Load and combine all *_parsed.json files for the given dates (a capture round
+    can span more than one calendar day if manual capture takes a while)."""
     entries = []
-    for path in sorted(RESULTS_DIR.glob(f"{today}_*_parsed.json")):
+    paths = sorted(path for d in dates for path in RESULTS_DIR.glob(f"{d}_*_parsed.json"))
+    for path in paths:
         with open(path, "r", encoding="utf-8") as f:
             entries.extend(json.load(f))
     return entries
@@ -97,15 +99,16 @@ def find_gaps(entries: list[dict], questions_by_id: dict[int, dict]) -> list[dic
     return gaps
 
 
-def build_report(today: str) -> str:
+def build_report(dates: list[str]) -> str:
     """Build the full Markdown report as a string."""
     questions_by_id = load_questions_by_id()
-    entries = load_parsed_entries(today)
+    entries = load_parsed_entries(dates)
 
-    lines = [f"# Swimingo AEO Visibility Report — {today}", ""]
+    date_label = dates[0] if len(dates) == 1 else f"{dates[0]} to {dates[-1]}"
+    lines = [f"# Swimingo AEO Visibility Report — {date_label}", ""]
 
     if not entries:
-        lines.append("No parsed results found for this date.")
+        lines.append("No parsed results found for these dates.")
         return "\n".join(lines)
 
     total_mentioned = sum(1 for e in entries if e["swimingo_mentioned"])
@@ -171,12 +174,14 @@ def build_report(today: str) -> str:
     return "\n".join(lines)
 
 
-def run() -> None:
-    """Generate today's summary report, save it, and print a short version to stdout."""
-    today = date.today().isoformat()
-    report_text = build_report(today)
+def run(dates: list[str] | None = None) -> None:
+    """Generate a summary report for the given dates (default: today), save it,
+    and print a short version to stdout."""
+    dates = dates or [date.today().isoformat()]
+    report_text = build_report(dates)
 
-    report_path = RESULTS_DIR / f"{today}_summary_report.md"
+    name_part = dates[0] if len(dates) == 1 else f"{dates[0]}_to_{dates[-1]}"
+    report_path = RESULTS_DIR / f"{name_part}_summary_report.md"
     RESULTS_DIR.mkdir(exist_ok=True)
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report_text)

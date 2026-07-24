@@ -72,7 +72,9 @@ cp .env.example .env
    ```
    Scans today's `*_raw.json` files and extracts whether Swimingo was
    mentioned, which competitors were mentioned, and which domains were
-   cited, saving `*_parsed.json` files.
+   cited, saving `*_parsed.json` files. If capturing all 5 platforms
+   spanned more than one calendar day, pass every date it touched:
+   `python main.py parse --dates 2026-07-23,2026-07-24`.
 
 4. **Generate the report:**
    ```bash
@@ -81,7 +83,9 @@ cp .env.example .env
    Builds `results/<date>_summary_report.md` — visibility by platform,
    by question type, by persona, a competitor leaderboard, top cited
    domains, and a list of "gap" questions where Swimingo was absent but a
-   competitor was mentioned. Also prints the report to the terminal.
+   competitor was mentioned. Also prints the report to the terminal. Use
+   the same `--dates` flag as `parse` to combine a capture round that
+   spanned multiple days into one report.
 
 Steps 1, 3, and 4 can be run together (minus the manual platforms):
 

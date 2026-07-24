@@ -30,8 +30,16 @@ def main() -> None:
         help="How to capture each response (default: editor).",
     )
 
-    subparsers.add_parser("parse", help="Parse all of today's raw result files.")
-    subparsers.add_parser("report", help="Generate today's summary report.")
+    dates_help = (
+        "Comma-separated dates (YYYY-MM-DD) to include, for a capture round that "
+        "spanned more than one day. Default: today only."
+    )
+    parse_parser = subparsers.add_parser("parse", help="Parse raw result files.")
+    parse_parser.add_argument("--dates", help=dates_help)
+
+    report_parser = subparsers.add_parser("report", help="Generate a summary report.")
+    report_parser.add_argument("--dates", help=dates_help)
+
     subparsers.add_parser("run-all", help="Run Gemini, then parse, then report (skips manual capture).")
 
     args = arg_parser.parse_args()
@@ -41,9 +49,14 @@ def main() -> None:
     elif args.command == "capture":
         manual_capture.run(args.platform, args.method)
     elif args.command == "parse":
-        result_parser.parse_today()
+        dates = args.dates.split(",") if args.dates else None
+        if dates:
+            result_parser.parse_dates(dates)
+        else:
+            result_parser.parse_today()
     elif args.command == "report":
-        report.run()
+        dates = args.dates.split(",") if args.dates else None
+        report.run(dates)
     elif args.command == "run-all":
         gemini_runner.run()
         result_parser.parse_today()

@@ -84,13 +84,15 @@ def parse_file(raw_path: Path) -> Path:
     return parsed_path
 
 
-def parse_today() -> list[Path]:
-    """Parse every *_raw.json file for today's date."""
-    today = date.today().isoformat()
-    raw_files = sorted(RESULTS_DIR.glob(f"{today}_*_raw.json"))
+def parse_dates(dates: list[str]) -> list[Path]:
+    """Parse every *_raw.json file for the given dates (a capture round can span more
+    than one calendar day if manual capture takes a while)."""
+    raw_files = sorted(
+        path for d in dates for path in RESULTS_DIR.glob(f"{d}_*_raw.json")
+    )
 
     if not raw_files:
-        print(f"No raw result files found for {today}.")
+        print(f"No raw result files found for {', '.join(dates)}.")
         return []
 
     parsed_paths = []
@@ -100,6 +102,11 @@ def parse_today() -> list[Path]:
         parsed_paths.append(parsed_path)
 
     return parsed_paths
+
+
+def parse_today() -> list[Path]:
+    """Parse every *_raw.json file for today's date."""
+    return parse_dates([date.today().isoformat()])
 
 
 if __name__ == "__main__":
