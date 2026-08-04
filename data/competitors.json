@@ -6,5 +6,13 @@
   {"name": "AQUA S.T.A.R.", "domains": ["aquastarcanada.com"]},
   {"name": "School in the Pool", "domains": ["schoolinthepool.ca"]},
   {"name": "Inspired Swim", "domains": ["inspiredswim.com"]},
-  {"name": "Coast2Coast", "domains": ["c2cfirstaidaquatics.com"]}
+  {"name": "Coast2Coast First Aid & Aquatics", "domains": ["c2cfirstaidaquatics.com"]},
+  {"name": "British Swim School", "domains": ["britishswimschool.com"]},
+  {"name": "Felix Swim Schools", "domains": ["felixswimschools.com"]},
+  {"name": "Marina Swim School", "domains": ["marinaswimschool.com"]},
+  {"name": "Davina's Swim House", "domains": ["davinasswimhouse.com"]},
+  {"name": "Toronto Swim School", "domains": ["torontoswimschool.com"]},
+  {"name": "Olympia Swim Academy", "domains": ["olympiaswimacademy.ca"]},
+  {"name": "Coastal Waves Swim School", "domains": ["coastalwavesswimschool.com"]},
+  {"name": "Superprof", "domains": ["superprof.ca"], "note": "General tutoring marketplace, not swim-specific; cited in Week 1 results but treat separately in future analysis"}
 ]
