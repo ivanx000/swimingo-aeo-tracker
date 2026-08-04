@@ -1,0 +1,2254 @@
+{
+  "summary": {
+    "total_questions": 42,
+    "winning": 27,
+    "close": 10,
+    "losing": 5
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "city": "Toronto",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "where can I find a private swim instructor in Toronto",
+      "swimingo_rank": 3,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.7314,
+          "text_preview": "America that allows you to choose your own private swim instructor . All of our swim instructors in Scarborough Village, Toronto are warm, friendly, and highly qualified. If you have trouble picking t"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-north-york-centre-on/",
+          "similarity": 0.7283,
+          "text_preview": "makes us different \u2014 we're the only at-home adult swim lesson provider in North America that allows you to choose your own private swim instructor . All of our swim instructors in North York Centre, T"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/toronto",
+          "similarity": 0.7119,
+          "text_preview": "Private Swim Lessons in Toronto Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified "
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.7066,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/toronto",
+          "similarity": 0.6979,
+          "text_preview": "Pricing is on our website and depends on lesson length and package. Many Toronto families compare at-home lessons to club fees or long commutes to public facilities. Can Swimingo teach at my condo poo"
+        }
+      ]
+    },
+    {
+      "question_id": 2,
+      "city": "Toronto",
+      "persona": "parent",
+      "type": "logistics",
+      "question": "do private swim instructors come to condo pools in Toronto",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/toronto",
+          "similarity": 0.757,
+          "text_preview": "Private Swim Lessons in Toronto Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified "
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/toronto",
+          "similarity": 0.7544,
+          "text_preview": "Pricing is on our website and depends on lesson length and package. Many Toronto families compare at-home lessons to club fees or long commutes to public facilities. Can Swimingo teach at my condo poo"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/6",
+          "similarity": 0.7439,
+          "text_preview": "Questions Can Swimingo instructors access my condo building's pool? Yes. Most condo buildings allow registered service providers. Check your building's guest policy and inform your concierge before th"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/downtown-toronto",
+          "similarity": 0.7362,
+          "text_preview": "Private Swim Lessons in Downtown Toronto Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. C"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.7213,
+          "text_preview": "America that allows you to choose your own private swim instructor . All of our swim instructors in Scarborough Village, Toronto are warm, friendly, and highly qualified. If you have trouble picking t"
+        }
+      ]
+    },
+    {
+      "question_id": 3,
+      "city": "Toronto",
+      "persona": "adult",
+      "type": "discovery",
+      "question": "best private swim lessons for adults in Toronto",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/midtown-toronto",
+          "similarity": 0.8009,
+          "text_preview": "with Swimingo. From Midtown Toronto, explore Private swim lessons in Downtown Toronto , Private swim lessons in Toronto Private swim lessons in North York Private swim lessons in Etobicoke . Browse al"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "marinaswimschool.com",
+          "url": "https://marinaswimschool.com/dive-into-excellence-marinas-swim-school-offers-premier-swimming-lessons-in-toronto/",
+          "similarity": 0.7846,
+          "text_preview": "Back to Blog Share this post Facebook Twitter LinkedIn Email WhatsApp Dive into Excellence: Marina\u2019s Swim School Offers Premier Swimming Lessons in Toronto Mehrdad Tavakoli 2026-04-29T06:29:52+00:00 D"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.7796,
+          "text_preview": "Adult Swimming Lessons Scarborough Village, Toronto ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Scarborough Village, Toronto 1-888-950-7946 AquaMobile Home Swim Lessons - Scarborou"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/toronto",
+          "similarity": 0.7795,
+          "text_preview": "Private Swim Lessons in Toronto Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified "
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/east-york",
+          "similarity": 0.7755,
+          "text_preview": "York, explore Private swim lessons in Toronto , Private swim lessons in Scarborough Private swim lessons in North York Private swim lessons in Markham . Browse all Swimingo service areas Book a Lesson"
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "city": "Mississauga",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "who offers at-home swim lessons for kids in Mississauga",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/mississauga",
+          "similarity": 0.7669,
+          "text_preview": "YOU so much again for helping me on such short notice and providing me a wonderful experience with Charlotte! Samantha Perri 5.0 \u2b50 FAQs: Swim Lessons in Mississauga How much do private swim lessons co"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/mississauga",
+          "similarity": 0.7476,
+          "text_preview": "get help with technique and stamina. Every lesson is one-on-one, so your child moves at their own speed, not the speed of a group class. Families in nearby communities also book with Swimingo. From Mi"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/milton",
+          "similarity": 0.7361,
+          "text_preview": "Mississauga Private swim lessons in Burlington Private swim lessons in Brampton . Browse all Swimingo service areas Book a Lesson in Milton Our Services Save 10% by booking a package of 10 lessons! Wi"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/etobicoke",
+          "similarity": 0.7304,
+          "text_preview": "lessons in Toronto , Private swim lessons in Mississauga Private swim lessons in North York Private swim lessons in Brampton . Browse all Swimingo service areas Book a Lesson in Etobicoke Our Services"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/mississauga",
+          "similarity": 0.7287,
+          "text_preview": "Private Swim Lessons in Mississauga Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certif"
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "city": "Mississauga",
+      "persona": "parent",
+      "type": "cost",
+      "question": "how much do private swim lessons cost in Mississauga",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/milton",
+          "similarity": 0.7693,
+          "text_preview": "Mississauga Private swim lessons in Burlington Private swim lessons in Brampton . Browse all Swimingo service areas Book a Lesson in Milton Our Services Save 10% by booking a package of 10 lessons! Wi"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/etobicoke",
+          "similarity": 0.7559,
+          "text_preview": "lessons in Toronto , Private swim lessons in Mississauga Private swim lessons in North York Private swim lessons in Brampton . Browse all Swimingo service areas Book a Lesson in Etobicoke Our Services"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/mississauga",
+          "similarity": 0.7541,
+          "text_preview": "YOU so much again for helping me on such short notice and providing me a wonderful experience with Charlotte! Samantha Perri 5.0 \u2b50 FAQs: Swim Lessons in Mississauga How much do private swim lessons co"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/brampton",
+          "similarity": 0.7331,
+          "text_preview": "in nearby communities also book with Swimingo. From Brampton, explore Private swim lessons in Mississauga , Private swim lessons in Vaughan Private swim lessons in Milton Private swim lessons in Etobi"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/hamilton",
+          "similarity": 0.7311,
+          "text_preview": "Milton Private swim lessons in Mississauga . Browse all Swimingo service areas Book a Lesson in Hamilton Our Services Save 10% by booking a package of 10 lessons! With personalized progress tracking f"
+        }
+      ]
+    },
+    {
+      "question_id": 6,
+      "city": "Brampton",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "are there swim instructors experienced with toddlers in Brampton",
+      "swimingo_rank": null,
+      "classification": "losing",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "schoolinthepool.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/brampton-swimming-lessons/",
+          "similarity": 0.7913,
+          "text_preview": "guide you through the process. Visit School In The Pool \u2013 Where Brampton Learns to Swim At School In The Pool, we believe in making students of all ages safe and confident swimmers. Whether it\u2019s toddl"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/brampton-swimming-lessons/",
+          "similarity": 0.7833,
+          "text_preview": "lessons in Brampton for kids Our swim programs are designed to accommodate the developmental stages of each age group of our children. Our instructors provide a structured and fun experience for your "
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/brampton-swimming-lessons/",
+          "similarity": 0.7544,
+          "text_preview": "citing the noticeable improvements they observe in their children\u2014enhanced technique, stronger strokes, and increased confidence in the water. Inclusive and Friendly Environment We are open to all stu"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-brampton-on/",
+          "similarity": 0.7418,
+          "text_preview": "Adult Swimming Lessons Brampton ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Brampton 1-888-950-7946 AquaMobile Home Swim Lessons - Bracondale Hill, Toronto ON M6G, Canada M6G AquaM"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/brampton-swimming-lessons/",
+          "similarity": 0.7254,
+          "text_preview": "Skip to content Brampton Swimming Lessons Home School In The Pool: Your Destination for Brampton Swimming Lessons Swim Smarter, Safer, Stronger \u2013 With Us Swimming is a life skill that offers safety, c"
+        }
+      ]
+    },
+    {
+      "question_id": 7,
+      "city": "Vaughan",
+      "persona": "parent",
+      "type": "comparison",
+      "question": "private swim lessons vs group lessons for kids in Vaughan",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/vaughan",
+          "similarity": 0.7345,
+          "text_preview": "on lesson length and package. Many Vaughan families compare private at-home lessons to club programs or long commutes to Toronto pools. Does Swimingo cover Woodbridge, Maple, and Kleinburg? Yes. We se"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/thornhill",
+          "similarity": 0.7015,
+          "text_preview": "lessons in Vaughan , Private swim lessons in Richmond Hill Private swim lessons in Markham Private swim lessons in North York . Browse all Swimingo service areas Book a Lesson in Thornhill Our Service"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/brampton",
+          "similarity": 0.7008,
+          "text_preview": "in nearby communities also book with Swimingo. From Brampton, explore Private swim lessons in Mississauga , Private swim lessons in Vaughan Private swim lessons in Milton Private swim lessons in Etobi"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/markham",
+          "similarity": 0.6898,
+          "text_preview": "lessons in Vaughan Private swim lessons in Pickering Private swim lessons in Scarborough . Browse all Swimingo service areas Book a Lesson in Markham Our Services Save 10% by booking a package of 10 l"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/north-york",
+          "similarity": 0.6894,
+          "text_preview": "Families in nearby communities also book with Swimingo. From North York, explore Private swim lessons in Toronto , Private swim lessons in Vaughan Private swim lessons in Richmond Hill Private swim le"
+        }
+      ]
+    },
+    {
+      "question_id": 8,
+      "city": "Markham",
+      "persona": "parent",
+      "type": "trust",
+      "question": "are private swim instructors certified in Markham",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.7027,
+          "text_preview": "America that allows you to choose your own private swim instructor . All of our swim instructors in Scarborough Village, Toronto are warm, friendly, and highly qualified. If you have trouble picking t"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/markham",
+          "similarity": 0.6784,
+          "text_preview": "Private Swim Lessons in Markham Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified "
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/markham-swimming-lessons/",
+          "similarity": 0.6753,
+          "text_preview": "Skip to content Markham Swimming Lessons Home Dive into Excellence with Markham\u2019s Trusted Swimming Experts! Look no further if you\u2019re searching for swimming lessons in Markham, Ontario. We are School "
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.6739,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-newmarket-on/",
+          "similarity": 0.6683,
+          "text_preview": "picking the perfect one, our AquaMobile customer service team is more than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is eit"
+        }
+      ]
+    },
+    {
+      "question_id": 9,
+      "city": "Richmond Hill",
+      "persona": "adult",
+      "type": "discovery",
+      "question": "adult swim lessons that come to your condo pool in Richmond Hill",
+      "swimingo_rank": 3,
+      "classification": "close",
+      "beaten_by": [
+        "schoolinthepool.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/swimming-school-richmond-hill/",
+          "similarity": 0.7939,
+          "text_preview": "Skip to content \u2605 \u2605 \u2605 \u2605 \u2605 RATED 4.9 STARS ON GOOGLE! Richmond Hill's Top Rated Swim School Infants, Kids, Adults, and Seniors \u2013 Learn to Swim with Confidence! The only accredited swim school for indiv"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/swimming-school-richmond-hill/",
+          "similarity": 0.7885,
+          "text_preview": "are also the only accredited private swim school in Richmond Hill dedicated to serving those living with autism and special needs . Adults Adaptive Swim Lessons Swim Kids Pre Schoolers Parent & Tot We"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/richmond-hill",
+          "similarity": 0.7724,
+          "text_preview": "Prices are on our website and vary by lesson length and package. Many Richmond Hill families find at-home lessons save time compared to driving to public facilities. Do you cover Oak Ridges and Jeffer"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/swimming-school-richmond-hill/",
+          "similarity": 0.7503,
+          "text_preview": "environment, fostering a positive connection with the aquatic world. Through water safety-focused activities, games, songs, and playful interaction, young swimmers will develop essential water skills "
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-richmond-hill-on/",
+          "similarity": 0.7438,
+          "text_preview": "the specific needs of you and your baby or toddler. There's no easier way to learn how to swim than with your very own teacher. Infant swimming classes are taught on a one-on-one basis , providing you"
+        }
+      ]
+    },
+    {
+      "question_id": 10,
+      "city": "Oakville",
+      "persona": "parent",
+      "type": "logistics",
+      "question": "can a swim instructor come to my backyard pool in Oakville",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/p/lifeguards-for-hire-in-oakville-on/",
+          "similarity": 0.5959,
+          "text_preview": "book swim lessons with the instructor of your choice, at times and days that fit your busy schedule. AquaMobile Swim Instructors customize our proprietary learn to swim lesson plans to meet each stude"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/fl/parkland",
+          "similarity": 0.5916,
+          "text_preview": "why we treat early water skills in Parkland as essential rather than optional. Are there free swim lesson programs in Broward County? Yes. On top of Florida's statewide effort, Broward County offers i"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/fl/southwest-ranches",
+          "similarity": 0.5885,
+          "text_preview": "Private Swim Lessons in Southwest Ranches, Florida Swimingo brings private one-on-one swim lessons to Southwest Ranches, Florida \u2014 a certified instructor teaches in your own pool, whether home is in S"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/oakville",
+          "similarity": 0.5852,
+          "text_preview": "so much again for helping me on such short notice and providing me a wonderful experience with Charlotte! Samantha Perri 5.0 \u2b50 FAQs: Swim Lessons in Oakville How much do private swim lessons cost in O"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-thornhill-on/",
+          "similarity": 0.5832,
+          "text_preview": "Adult Swimming Lessons Thornhill ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Thornhill 1-888-950-7946 AquaMobile Home Swim Lessons - Southwest Oakville, Oakville ON L6H, Canada L6H"
+        }
+      ]
+    },
+    {
+      "question_id": 11,
+      "city": "Burlington",
+      "persona": "parent",
+      "type": "cost",
+      "question": "how much does it cost to book private one-on-one swim lessons in Burlington",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/burlington",
+          "similarity": 0.7449,
+          "text_preview": "Burlington How much do private swim lessons cost in Burlington? Prices are listed on our website and vary by lesson length and package size. Many Burlington families find private lessons at home save "
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/burlington",
+          "similarity": 0.7254,
+          "text_preview": "nearby communities also book with Swimingo. From Burlington, explore Private swim lessons in Oakville , Private swim lessons in Hamilton Private swim lessons in Milton Private swim lessons in Mississa"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/milton",
+          "similarity": 0.6715,
+          "text_preview": "Mississauga Private swim lessons in Burlington Private swim lessons in Brampton . Browse all Swimingo service areas Book a Lesson in Milton Our Services Save 10% by booking a package of 10 lessons! Wi"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-burlington-on/",
+          "similarity": 0.6658,
+          "text_preview": "Adult Swimming Lessons in Burlington ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Burlington AquaMobile Swim School offers private adult swim lessons in Burlington that cater to eve"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-burlington-on/",
+          "similarity": 0.6542,
+          "text_preview": "than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is either a current or former swim instructor, so they can make an informed "
+        }
+      ]
+    },
+    {
+      "question_id": 12,
+      "city": "Hamilton",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "what's the best at-home swim lesson company for kids in Hamilton",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+          "similarity": 0.739,
+          "text_preview": "Adult Swimming Lessons in Hamilton ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Hamilton AquaMobile Swim School offers private adult swim lessons in Hamilton that cater to every exp"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/hamilton",
+          "similarity": 0.7126,
+          "text_preview": "Hamilton families compare at-home lessons to municipal programs or driving to Burlington and Toronto facilities. Do you cover Ancaster, Dundas, and Stoney Creek? Yes. We serve Hamilton broadly, includ"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+          "similarity": 0.71,
+          "text_preview": "than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is either a current or former swim instructor, so they can make an informed "
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+          "similarity": 0.7029,
+          "text_preview": "gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson times that will work around your busy schedule. WATER SAFETY IS OUR #1 PRIOR"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/burlington",
+          "similarity": 0.6807,
+          "text_preview": "nearby communities also book with Swimingo. From Burlington, explore Private swim lessons in Oakville , Private swim lessons in Hamilton Private swim lessons in Milton Private swim lessons in Mississa"
+        }
+      ]
+    },
+    {
+      "question_id": 13,
+      "city": "Pickering",
+      "persona": "adult",
+      "type": "trust",
+      "question": "is it safe to hire a private swim instructor in Pickering",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-pickering-on/",
+          "similarity": 0.7021,
+          "text_preview": "comfortable with a familiar face by their side in the swimming pool. At parent and tot lessons, you'll also see firsthand how your child progresses and builds their swimming skill sets \u2014 not to mentio"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/pickering",
+          "similarity": 0.6847,
+          "text_preview": "compared to driving to facilities in Durham or Toronto. Do you cover Liverpool and Rougemount? Yes. We serve all of Pickering, including Liverpool, Dunbarton, Rougemount, Bay Ridges, and Amberlea. Can"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-pickering-on/",
+          "similarity": 0.6741,
+          "text_preview": "Regardless of age, your children should be using the buddy system. 10. Make sure your children don\u2019t engage in horseplay in the pool. This is a key swimming rule you should teach your child. In the wa"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-pickering-on/",
+          "similarity": 0.6695,
+          "text_preview": "or set you up with another swimming instructor, with your first infant swim lesson completely free of charge! With thousands of satisfied swimmers across North America, we're confident AquaMobile's sw"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/scarborough",
+          "similarity": 0.6503,
+          "text_preview": "Pickering Private swim lessons in Markham Private swim lessons in Ajax . Browse all Swimingo service areas Book a Lesson in Scarborough Our Services Save 10% by booking a package of 10 lessons! With p"
+        }
+      ]
+    },
+    {
+      "question_id": 14,
+      "city": "Ajax",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "who offers private swim lessons in Ajax",
+      "swimingo_rank": 5,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-ajax-on/",
+          "similarity": 0.8304,
+          "text_preview": "Adult Swimming Lessons Ajax ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Ajax 1-888-950-7946 AquaMobile Home Swim Lessons - Agincourt, Toronto ON M1S, Canada M1S AquaMobile Swim Sch"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-ajax-on/",
+          "similarity": 0.7802,
+          "text_preview": "picking the perfect one, our AquaMobile customer service team is more than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is eit"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-ajax-on/",
+          "similarity": 0.777,
+          "text_preview": "not more important \u2013 than the goal. Some Frequently Asked Questions: How long will it take for me to learn how to swim? A : Many people are different and progress at different rates. We tailor our swi"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-ajax-on/",
+          "similarity": 0.7669,
+          "text_preview": "no more driving from lesson to lesson; you will save time, save on gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson times tha"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/ajax",
+          "similarity": 0.734,
+          "text_preview": "at-home lessons to driving to facilities in Pickering or Toronto. Do you cover Westney Heights and Pickering Village? Yes. We serve all of Ajax, including Westney Heights, Pickering Village, south Aja"
+        }
+      ]
+    },
+    {
+      "question_id": 15,
+      "city": "Whitby",
+      "persona": "parent",
+      "type": "logistics",
+      "question": "how do I book a private swim instructor in Whitby",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/whitby",
+          "similarity": 0.707,
+          "text_preview": "Brooklin and Port Whitby? Yes. We serve all of Whitby, including Brooklin, Port Whitby, Williamsburg, Pringle Creek, and Taunton North. Can Swimingo teach at my condo pool in Whitby? Yes. We teach at "
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-whitby-on/",
+          "similarity": 0.6778,
+          "text_preview": "picking the perfect one, our AquaMobile customer service team is more than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is eit"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-whitby-on/",
+          "similarity": 0.6532,
+          "text_preview": "no more driving from lesson to lesson; you will save time, save on gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson times tha"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-whitby-on/",
+          "similarity": 0.6492,
+          "text_preview": "Adult Swimming Lessons Whitby ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Whitby 1-888-950-7946 AquaMobile Home Swim Lessons - Ancaster, Hamilton ON L9G, Canada L9G AquaMobile Swim"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-whitby-on/",
+          "similarity": 0.6338,
+          "text_preview": "not more important \u2013 than the goal. Some Frequently Asked Questions: How long will it take for me to learn how to swim? A : Many people are different and progress at different rates. We tailor our swi"
+        }
+      ]
+    },
+    {
+      "question_id": 16,
+      "city": "Oshawa",
+      "persona": "parent",
+      "type": "comparison",
+      "question": "what's the difference between private and semi-private swim lessons in Oshawa",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-oshawa-on/",
+          "similarity": 0.6956,
+          "text_preview": "if not more important \u2013 than the goal. Some Frequently Asked Questions: How long will it take for me to learn how to swim? A : Many people are different and progress at different rates. We tailor our "
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/oshawa",
+          "similarity": 0.6722,
+          "text_preview": "and package size. Many Oshawa families compare at-home lessons to municipal programs or driving to Whitby and Pickering facilities. Do you cover North Oshawa and Lakeview? Yes. We serve Oshawa broadly"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-oshawa-on/",
+          "similarity": 0.6692,
+          "text_preview": "Adult Swimming Lessons Oshawa ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Oshawa 1-888-950-7946 AquaMobile Home Swim Lessons - Old Town, Toronto ON M5A, Canada M5A AquaMobile Swim "
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-oshawa-on/",
+          "similarity": 0.6652,
+          "text_preview": "means no more driving from lesson to lesson; you will save time, save on gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson tim"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/oshawa",
+          "similarity": 0.6537,
+          "text_preview": "Private Swim Lessons in Oshawa Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified i"
+        }
+      ]
+    },
+    {
+      "question_id": 17,
+      "city": "Newmarket",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "is there an at-home swim lesson program for beginners in Newmarket",
+      "swimingo_rank": 3,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-newmarket-on/",
+          "similarity": 0.7945,
+          "text_preview": "Adult Swimming Lessons Newmarket ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Newmarket 1-888-950-7946 AquaMobile Home Swim Lessons - New Toronto, Toronto ON , Canada AquaMobile Swi"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-newmarket-on/",
+          "similarity": 0.7866,
+          "text_preview": "no more driving from lesson to lesson; you will save time, save on gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson times tha"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/newmarket",
+          "similarity": 0.7693,
+          "text_preview": "Newmarket families compare at-home lessons to municipal programs or driving to Aurora or Richmond Hill facilities. Do you cover Gorham-College Manor and Stonehaven? Yes. We serve Newmarket broadly, in"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/aurora",
+          "similarity": 0.7614,
+          "text_preview": "explore Private swim lessons in Newmarket , Private swim lessons in Richmond Hill Private swim lessons in Vaughan Private swim lessons in Barrie . Browse all Swimingo service areas Book a Lesson in Au"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-newmarket-on/",
+          "similarity": 0.7334,
+          "text_preview": "picking the perfect one, our AquaMobile customer service team is more than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is eit"
+        }
+      ]
+    },
+    {
+      "question_id": 18,
+      "city": "Aurora",
+      "persona": "adult",
+      "type": "cost",
+      "question": "how much does an adult swim instructor cost in Aurora",
+      "swimingo_rank": 3,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-aurora-on/",
+          "similarity": 0.7532,
+          "text_preview": "than happy to help you! We can offer multiple recommendations based on your needs. Each member of our customer service team is either a current or former swim instructor, so they can make an informed "
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-aurora-on/",
+          "similarity": 0.7072,
+          "text_preview": "Adult Swimming Lessons in Aurora ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Aurora AquaMobile Swim School offers private adult swim lessons in Aurora that cater to every expertise"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/aurora",
+          "similarity": 0.7035,
+          "text_preview": "cost in Aurora? Prices are on our website and vary by lesson length and package. Many Aurora families find at-home lessons save time compared to driving to Newmarket or Richmond Hill facilities. Do yo"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-aurora-on/",
+          "similarity": 0.6603,
+          "text_preview": "cost) group activity. We've organized our adult swim lessons into a handful of easy-to-understand steps that focus on the fundamentals of learning how to swim. Below are some of the skills that your A"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-aurora-on/",
+          "similarity": 0.6552,
+          "text_preview": "save on gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson times that will work around your busy schedule. WATER SAFETY IS OUR "
+        }
+      ]
+    },
+    {
+      "question_id": 19,
+      "city": "Barrie",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "who teaches private swim lessons in Barrie",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/barrie",
+          "similarity": 0.7531,
+          "text_preview": "to municipal programs or driving to facilities across the city. Do you cover Ardagh, Painswick, and Holly? Yes. We serve Barrie broadly, including downtown Barrie, Ardagh, Painswick, Holly, and Alland"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/barrie",
+          "similarity": 0.7298,
+          "text_preview": "Private Swim Lessons in Barrie Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified i"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/newmarket",
+          "similarity": 0.7266,
+          "text_preview": "Vaughan Private swim lessons in Barrie . Browse all Swimingo service areas Book a Lesson in Newmarket Our Services Save 10% by booking a package of 10 lessons! With personalized progress tracking feat"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/aurora",
+          "similarity": 0.7253,
+          "text_preview": "explore Private swim lessons in Newmarket , Private swim lessons in Richmond Hill Private swim lessons in Vaughan Private swim lessons in Barrie . Browse all Swimingo service areas Book a Lesson in Au"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.6836,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        }
+      ]
+    },
+    {
+      "question_id": 20,
+      "city": "Scarborough",
+      "persona": "parent",
+      "type": "trust",
+      "question": "are swim instructors background checked in Scarborough",
+      "swimingo_rank": null,
+      "classification": "losing",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "felixswimschools.com",
+        "schoolinthepool.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.6839,
+          "text_preview": "America that allows you to choose your own private swim instructor . All of our swim instructors in Scarborough Village, Toronto are warm, friendly, and highly qualified. If you have trouble picking t"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "felixswimschools.com",
+          "url": "https://felixswimschools.com/scarborough-swimming-lessons",
+          "similarity": 0.6645,
+          "text_preview": "Scarborough Swimming Lessons Trusted Swimming Lessons for Scarborough Families Looking for professional swimming lessons in Scarborough? Felix\u2019s Swim Schools proudly serves a large and growing communi"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/scarborough-swimming-lessons/",
+          "similarity": 0.6618,
+          "text_preview": "break, our classes are designed to help you achieve your personal objectives. We often deal with clients who want to get private swimming lessons in Scarborough, where they can receive one-on-one atte"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.6512,
+          "text_preview": "Adult Swimming Lessons Scarborough Village, Toronto ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Scarborough Village, Toronto 1-888-950-7946 AquaMobile Home Swim Lessons - Scarborou"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.6506,
+          "text_preview": "second half of June through August. There is often more availability in May and the first half of June. AquaMobile swim lessons are also available year round, but availability may be more limited in s"
+        }
+      ]
+    },
+    {
+      "question_id": 21,
+      "city": "Etobicoke",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "private swim lessons for kids with no waitlist in Etobicoke",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/toronto",
+          "similarity": 0.7467,
+          "text_preview": "lessons in Etobicoke , Private swim lessons in North York Private swim lessons in Scarborough Private swim lessons in Markham . Browse all Swimingo service areas Book a Lesson in Toronto Our Services "
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/etobicoke",
+          "similarity": 0.7196,
+          "text_preview": "lessons in Toronto , Private swim lessons in Mississauga Private swim lessons in North York Private swim lessons in Brampton . Browse all Swimingo service areas Book a Lesson in Etobicoke Our Services"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/north-york",
+          "similarity": 0.7137,
+          "text_preview": "Families in nearby communities also book with Swimingo. From North York, explore Private swim lessons in Toronto , Private swim lessons in Vaughan Private swim lessons in Richmond Hill Private swim le"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/brampton",
+          "similarity": 0.7084,
+          "text_preview": "in nearby communities also book with Swimingo. From Brampton, explore Private swim lessons in Mississauga , Private swim lessons in Vaughan Private swim lessons in Milton Private swim lessons in Etobi"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/downtown-toronto",
+          "similarity": 0.6926,
+          "text_preview": "a busy community centre. Beginners get patient, step-by-step coaching. Stronger swimmers work on breathing, form, and endurance. Every lesson is one-on-one, so progress matches the swimmer. Families i"
+        }
+      ]
+    },
+    {
+      "question_id": 22,
+      "city": "North York",
+      "persona": "adult",
+      "type": "logistics",
+      "question": "can I book adult swim lessons at my own pool in North York",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/east-york",
+          "similarity": 0.7339,
+          "text_preview": "private swim lessons cost in East York? Pricing is on our website and depends on lesson length and package size. Many East York families compare at-home lessons to driving to public facilities elsewhe"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/north-york",
+          "similarity": 0.7271,
+          "text_preview": "\u2b50 FAQs: Swim Lessons in North York How much do private swim lessons cost in North York? Pricing is on our website and depends on lesson length and package size. Many North York families compare at-hom"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://schoolinthepool.ca",
+          "similarity": 0.695,
+          "text_preview": "Skip to content Private Swim School in North York (Toronto) Swim Lessons for adults, kids, and infants. * Swimming Lessons for all ages * Hydrotherapy * Heated, Salt Water Pool (91\u00b0F/33\u00b0C) Swimming Le"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/swimming-school-north-york/",
+          "similarity": 0.6792,
+          "text_preview": "Skip to content \u2605 \u2605 \u2605 \u2605 \u2605 RATED 4.9 STARS ON GOOGLE! North York's Top Rated Swim School Infants, Kids, Adults, and Seniors \u2013 Learn to Swim with Confidence! The only accredited swim school for individu"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/east-york",
+          "similarity": 0.6772,
+          "text_preview": "York, explore Private swim lessons in Toronto , Private swim lessons in Scarborough Private swim lessons in North York Private swim lessons in Markham . Browse all Swimingo service areas Book a Lesson"
+        }
+      ]
+    },
+    {
+      "question_id": 23,
+      "city": "GTA",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "what are the best private swim lesson companies in the GTA",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "olympiaswimacademy.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+          "similarity": 0.6383,
+          "text_preview": "Mar Private Swim Programs Top In-Home Swim Lessons in West Vancouver Craving elite swim lessons in the comfort of your West Vancouver home? At Olympia Swim Academy, we offer the best swim lesson at ho"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.6176,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-north-york-centre-on/",
+          "similarity": 0.6045,
+          "text_preview": "makes us different \u2014 we're the only at-home adult swim lesson provider in North America that allows you to choose your own private swim instructor . All of our swim instructors in North York Centre, T"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+          "similarity": 0.5993,
+          "text_preview": "Adult Swimming Lessons in Hamilton ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Hamilton AquaMobile Swim School offers private adult swim lessons in Hamilton that cater to every exp"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/brampton",
+          "similarity": 0.5935,
+          "text_preview": "in nearby communities also book with Swimingo. From Brampton, explore Private swim lessons in Mississauga , Private swim lessons in Vaughan Private swim lessons in Milton Private swim lessons in Etobi"
+        }
+      ]
+    },
+    {
+      "question_id": 24,
+      "city": "GTA",
+      "persona": "parent",
+      "type": "comparison",
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/3",
+          "similarity": 0.6873,
+          "text_preview": "Learning how to Swim in Toronto - Skip the Waitlists with Swimingo June 7, 2025 - 5 min read Toronto is a vibrant city filled with pools, lakes, and waterfront activities, making swimming an essential"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/3",
+          "similarity": 0.6263,
+          "text_preview": "to ensure improvement at every session. Get Started with Swimingo Today! Swimming is a valuable life skill that promotes safety, fitness, and confidence. If you're in the Greater Toronto Area and tire"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+          "similarity": 0.614,
+          "text_preview": "Adult Swimming Lessons in Hamilton ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Hamilton AquaMobile Swim School offers private adult swim lessons in Hamilton that cater to every exp"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/1",
+          "similarity": 0.6053,
+          "text_preview": "back. Experience the future of swim education with Swimingo today! Visit Swimingo.com to book your first lesson and dive into a smarter way to learn swimming. Swimingo serves families across the GTA, "
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/1",
+          "similarity": 0.6024,
+          "text_preview": "Why Swimingo is the Best Choice for Learning to Swim October 21, 2024 - 6 min read Why are traditional swim lessons still outdated and inconvenient? In an era where technology has revolutionized nearl"
+        }
+      ]
+    },
+    {
+      "question_id": 25,
+      "city": "Vancouver",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "where can I find a private swim instructor in Vancouver",
+      "swimingo_rank": 4,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "olympiaswimacademy.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-vancouver/",
+          "similarity": 0.7185,
+          "text_preview": "Skip to content Mobile Swim Lessons Private & Mobile Swim Lessons in Vancouver, BC Certified instructors come to your home, condo, or HOA pool \u2014 serving Vancouver and surrounding areas. Book Your Vanc"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/l/swimming-lessons-north-vancouver-bc/",
+          "similarity": 0.7157,
+          "text_preview": "AquaMobile Private Swimming Lessons North Vancouver BC Your Pool. Our Instructors. Peace of Mind. Experienced, Certified & Insured Instructors Each AquaMobile swim instructor has gone through a rigoro"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+          "similarity": 0.7057,
+          "text_preview": "Mar Private Swim Programs Top In-Home Swim Lessons in West Vancouver Craving elite swim lessons in the comfort of your West Vancouver home? At Olympia Swim Academy, we offer the best swim lesson at ho"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.703,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/swimming-lessons/north-vancouver",
+          "similarity": 0.6889,
+          "text_preview": "Skip to main content Private Swimming Lessons in North Vancouver 1-on-1 instruction with certified professional instructors in warm, private pools. Serving families from our Coquitlam, Port Coquitlam,"
+        }
+      ]
+    },
+    {
+      "question_id": 26,
+      "city": "Vancouver",
+      "persona": "parent",
+      "type": "cost",
+      "question": "how much do private swim lessons cost in Vancouver",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "aquastarcanada.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-vancouver/",
+          "similarity": 0.7869,
+          "text_preview": "session for ages 5 and up, with monthly memberships from $249. See full details on our swim lesson pricing page . Ready to Get Started? Book your Vancouver trial assessment today and see the differenc"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/west-vancouver",
+          "similarity": 0.7594,
+          "text_preview": "in Vancouver Private swim lessons in Burnaby Private swim lessons in Richmond . Browse all Swimingo service areas Book a Lesson in West Vancouver Our Services Save 10% by booking a package of 10 lesso"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/north-vancouver",
+          "similarity": 0.7579,
+          "text_preview": "Families in nearby communities also book with Swimingo. From North Vancouver, explore Private swim lessons in West Vancouver , Private swim lessons in Vancouver Private swim lessons in Burnaby Private"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/vancouver",
+          "similarity": 0.7512,
+          "text_preview": "one-on-one. Families in nearby communities also book with Swimingo. From Vancouver, explore Private swim lessons in Burnaby , Private swim lessons in North Vancouver Private swim lessons in Richmond P"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/vancouver",
+          "similarity": 0.745,
+          "text_preview": "\u2b50 FAQs: Swim Lessons in Vancouver How much do private swim lessons cost in Vancouver? Pricing is on our website and depends on lesson length and package size. Many Vancouver families compare at-home l"
+        }
+      ]
+    },
+    {
+      "question_id": 27,
+      "city": "Vancouver",
+      "persona": "adult",
+      "type": "discovery",
+      "question": "private swim lessons for adults in Vancouver",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/north-vancouver",
+          "similarity": 0.7881,
+          "text_preview": "Families in nearby communities also book with Swimingo. From North Vancouver, explore Private swim lessons in West Vancouver , Private swim lessons in Vancouver Private swim lessons in Burnaby Private"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/vancouver",
+          "similarity": 0.7842,
+          "text_preview": "one-on-one. Families in nearby communities also book with Swimingo. From Vancouver, explore Private swim lessons in Burnaby , Private swim lessons in North Vancouver Private swim lessons in Richmond P"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://aquastarcanada.com",
+          "similarity": 0.7841,
+          "text_preview": "Skip to content Private Swim Lessons Vancouver BC | 1-on-1 Certified Instructors | AQUA S.T.A.R. Canada \ud83c\udf1f Registration Open At Anytime! Book Your Spot Today \u2192 Budget-Friendly & Affordable, Discover th"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/vancouver",
+          "similarity": 0.7777,
+          "text_preview": "\u2b50 FAQs: Swim Lessons in Vancouver How much do private swim lessons cost in Vancouver? Pricing is on our website and depends on lesson length and package size. Many Vancouver families compare at-home l"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/west-vancouver",
+          "similarity": 0.7683,
+          "text_preview": "in Vancouver Private swim lessons in Burnaby Private swim lessons in Richmond . Browse all Swimingo service areas Book a Lesson in West Vancouver Our Services Save 10% by booking a package of 10 lesso"
+        }
+      ]
+    },
+    {
+      "question_id": 28,
+      "city": "North Vancouver",
+      "persona": "parent",
+      "type": "logistics",
+      "question": "do swim instructors travel to condo pools in North Vancouver",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/6",
+          "similarity": 0.7679,
+          "text_preview": "Questions Can Swimingo instructors access my condo building's pool? Yes. Most condo buildings allow registered service providers. Check your building's guest policy and inform your concierge before th"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/vancouver",
+          "similarity": 0.7539,
+          "text_preview": "\u2b50 FAQs: Swim Lessons in Vancouver How much do private swim lessons cost in Vancouver? Pricing is on our website and depends on lesson length and package size. Many Vancouver families compare at-home l"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/swimming-lessons/north-vancouver",
+          "similarity": 0.736,
+          "text_preview": "Skip to main content Private Swimming Lessons in North Vancouver 1-on-1 instruction with certified professional instructors in warm, private pools. Serving families from our Coquitlam, Port Coquitlam,"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-vancouver/",
+          "similarity": 0.7352,
+          "text_preview": "Skip to content Mobile Swim Lessons Private & Mobile Swim Lessons in Vancouver, BC Certified instructors come to your home, condo, or HOA pool \u2014 serving Vancouver and surrounding areas. Book Your Vanc"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/north-vancouver",
+          "similarity": 0.732,
+          "text_preview": "Private Swim Lessons in North Vancouver Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Ce"
+        }
+      ]
+    },
+    {
+      "question_id": 29,
+      "city": "West Vancouver",
+      "persona": "parent",
+      "type": "trust",
+      "question": "are private swim instructors certified in West Vancouver",
+      "swimingo_rank": 4,
+      "classification": "close",
+      "beaten_by": [
+        "aquastarcanada.com",
+        "inspiredswim.com",
+        "olympiaswimacademy.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+          "similarity": 0.7227,
+          "text_preview": "Mar Private Swim Programs Top In-Home Swim Lessons in West Vancouver Craving elite swim lessons in the comfort of your West Vancouver home? At Olympia Swim Academy, we offer the best swim lesson at ho"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-vancouver/",
+          "similarity": 0.7058,
+          "text_preview": "Skip to content Mobile Swim Lessons Private & Mobile Swim Lessons in Vancouver, BC Certified instructors come to your home, condo, or HOA pool \u2014 serving Vancouver and surrounding areas. Book Your Vanc"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/swimming-lessons/north-vancouver",
+          "similarity": 0.7033,
+          "text_preview": "Skip to main content Private Swimming Lessons in North Vancouver 1-on-1 instruction with certified professional instructors in warm, private pools. Serving families from our Coquitlam, Port Coquitlam,"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/west-vancouver",
+          "similarity": 0.6934,
+          "text_preview": "and depends on lesson length and package size. Many West Vancouver families compare at-home lessons to private club programs or long commutes to facilities. Do you cover Ambleside, Dundarave, and Holl"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-west-vancouver/",
+          "similarity": 0.6917,
+          "text_preview": "Lessons in Vancouver Want swim lessons with pro-level expertise? At Olympia Swim Academy, our professional swim lessons at home in Vancouver bring certified coaching to your home pool, delivering top-"
+        }
+      ]
+    },
+    {
+      "question_id": 30,
+      "city": "Burnaby",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "at-home swim lessons for kids in Burnaby",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/richmond-bc",
+          "similarity": 0.7824,
+          "text_preview": "Burnaby Private swim lessons in West Vancouver Private swim lessons in Coquitlam . Browse all Swimingo service areas Book a Lesson in Richmond Our Services Save 10% by booking a package of 10 lessons!"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/burnaby-swim-lessons-near-lougheed-mall/",
+          "similarity": 0.7809,
+          "text_preview": "Skip to content Burnaby Swim Lessons Near Lougheed Mall May 15, 2026 6:14 am Looking for swim lessons in Burnaby near Lougheed Mall? Olympia Swim Academy now offers small group, private, and semi-priv"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/burnaby-swim-lessons-near-lougheed-mall/",
+          "similarity": 0.7686,
+          "text_preview": "they can focus better, relax more easily, and spend more time practising skills. This is especially helpful for children building early confidence and adults who are learning to swim later in life. Th"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/swimming-lessons/burnaby",
+          "similarity": 0.7682,
+          "text_preview": "Vancouver Programs for Every Swimmer Whether your child is just starting out or you're an adult learning for the first time, we have a program for you. \ud83e\uddd2 Kids Lessons Ages 4\u201312. Build water confidence"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/coquitlam",
+          "similarity": 0.7637,
+          "text_preview": "lessons in Burnaby , Private swim lessons in Vancouver Private swim lessons in North Vancouver Private swim lessons in Richmond . Browse all Swimingo service areas Book a Lesson in Coquitlam Our Servi"
+        }
+      ]
+    },
+    {
+      "question_id": 31,
+      "city": "Richmond",
+      "persona": "adult",
+      "type": "discovery",
+      "question": "who teaches private swim lessons in Richmond BC",
+      "swimingo_rank": 3,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "aquastarcanada.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-richmond/",
+          "similarity": 0.697,
+          "text_preview": "Skip to content Mobile Swim Lessons Private & Mobile Swim Lessons in Richmond, BC Certified instructors come to your home, condo, or HOA pool \u2014 serving Richmond and surrounding areas. Book Your Richmo"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/l/swimming-lessons-richmond-bc/",
+          "similarity": 0.695,
+          "text_preview": "AquaMobile Private Swimming Lessons Richmond BC Your Pool. Our Instructors. Peace of Mind. Experienced, Certified & Insured Instructors Each AquaMobile swim instructor has gone through a rigorous hiri"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.6758,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/richmond-bc",
+          "similarity": 0.6756,
+          "text_preview": "on lesson length and package size. Many Richmond families compare at-home lessons to driving to Vancouver or Burnaby facilities. Do you cover Steveston and Brighouse? Yes. We serve Richmond broadly, i"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/locations/richmond",
+          "similarity": 0.675,
+          "text_preview": "Skip to main content Openings available at our Richmond pool Private Swim Lessons in Richmond, BC Water confidence for every family \u2014 no matter where your swimming journey started. Richmond is one of "
+        }
+      ]
+    },
+    {
+      "question_id": 32,
+      "city": "Coquitlam",
+      "persona": "parent",
+      "type": "comparison",
+      "question": "private swim lessons vs swim school in Coquitlam",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/8",
+          "similarity": 0.687,
+          "text_preview": "connects you with certified private swim instructors who come to your pool on your schedule. One lesson equals three group lessons \u2014 see the difference for yourself. Book at Swimingo.com. Frequently A"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-coquitlam/",
+          "similarity": 0.6859,
+          "text_preview": "your Coquitlam trial assessment today and see the difference private, in-home swim lessons make for your family. Book Your Coquitlam Trial Private Swim Lessons in Coquitlam \u2014 FAQ Do you come to my hom"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.6736,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/swimming-lessons/north-vancouver",
+          "similarity": 0.6691,
+          "text_preview": "with background checks Evening and weekend availability No waitlists \u2014 book online and start this week Programs from babies (4 months) through adults Frequently Asked Questions Do you offer private sw"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://www.inspiredswim.com/locations/coquitlam",
+          "similarity": 0.6683,
+          "text_preview": "Skip to main content Openings at all 3 Tri-Cities pools Private Swim Lessons in Coquitlam & Tri-Cities The Tri-Cities' most trusted swim program \u2014 helping local families build confident swimmers since"
+        }
+      ]
+    },
+    {
+      "question_id": 33,
+      "city": "Metro Vancouver",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "best private swim lesson companies in Metro Vancouver",
+      "swimingo_rank": null,
+      "classification": "losing",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "olympiaswimacademy.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+          "similarity": 0.7598,
+          "text_preview": "Mar Private Swim Programs Top In-Home Swim Lessons in West Vancouver Craving elite swim lessons in the comfort of your West Vancouver home? At Olympia Swim Academy, we offer the best swim lesson at ho"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-west-vancouver/",
+          "similarity": 0.7154,
+          "text_preview": "Lessons in Vancouver Want swim lessons with pro-level expertise? At Olympia Swim Academy, our professional swim lessons at home in Vancouver bring certified coaching to your home pool, delivering top-"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/l/swimming-lessons-north-vancouver-bc/",
+          "similarity": 0.7142,
+          "text_preview": "AquaMobile Private Swimming Lessons North Vancouver BC Your Pool. Our Instructors. Peace of Mind. Experienced, Certified & Insured Instructors Each AquaMobile swim instructor has gone through a rigoro"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-north-vancouver/",
+          "similarity": 0.7054,
+          "text_preview": "it 30 Mar Private Swim Programs Professional In-Home Swim Lessons in Vancouver Want swim lessons with pro-level expertise? At Olympia Swim Academy, our professional swim lessons at home in Vancouver b"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-vancouver/",
+          "similarity": 0.7025,
+          "text_preview": "Skip to content Mobile Swim Lessons Private & Mobile Swim Lessons in Vancouver, BC Certified instructors come to your home, condo, or HOA pool \u2014 serving Vancouver and surrounding areas. Book Your Vanc"
+        }
+      ]
+    },
+    {
+      "question_id": 34,
+      "city": "Winnipeg",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "private swim instructors that come to your home in Winnipeg",
+      "swimingo_rank": 2,
+      "classification": "winning",
+      "beaten_by": [
+        "olympiaswimacademy.ca"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+          "similarity": 0.6737,
+          "text_preview": "Mar Private Swim Programs Top In-Home Swim Lessons in West Vancouver Craving elite swim lessons in the comfort of your West Vancouver home? At Olympia Swim Academy, we offer the best swim lesson at ho"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/markham",
+          "similarity": 0.6597,
+          "text_preview": "Private Swim Lessons in Markham Swimingo is a private, at-home swim lessons company serving families and adults in the Greater Toronto Area, Metro Vancouver, Winnipeg, Windsor, and Florida. Certified "
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/2",
+          "similarity": 0.6575,
+          "text_preview": "and teaching specialties \u2014 from toddler water acclimation to competitive stroke coaching. Find private swim lessons near you Swimingo offers certified one-on-one instructors across the GTA and Metro V"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "propelhq.com",
+          "url": "https://www.propelhq.com/locations/vancouver-bc",
+          "similarity": 0.6558,
+          "text_preview": "Gyms Home pools About us Blog Terms of service Privacy Help For swimmers For instructors For hosts BC Vancouver Richmond Burnaby Port Moody Surrey Langley Maple Ridge Mission AB Calgary Edmonton Red D"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "propelhq.com",
+          "url": "https://www.propelhq.com/locations/richmond-bc",
+          "similarity": 0.6558,
+          "text_preview": "Gyms Home pools About us Blog Terms of service Privacy Help For swimmers For instructors For hosts BC Vancouver Richmond Burnaby Port Moody Surrey Langley Maple Ridge Mission AB Calgary Edmonton Red D"
+        }
+      ]
+    },
+    {
+      "question_id": 35,
+      "city": "Winnipeg",
+      "persona": "parent",
+      "type": "cost",
+      "question": "how much are private swim lessons in Winnipeg",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/east-york",
+          "similarity": 0.6902,
+          "text_preview": "York, explore Private swim lessons in Toronto , Private swim lessons in Scarborough Private swim lessons in North York Private swim lessons in Markham . Browse all Swimingo service areas Book a Lesson"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/aurora",
+          "similarity": 0.6868,
+          "text_preview": "explore Private swim lessons in Newmarket , Private swim lessons in Richmond Hill Private swim lessons in Vaughan Private swim lessons in Barrie . Browse all Swimingo service areas Book a Lesson in Au"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/brampton",
+          "similarity": 0.6734,
+          "text_preview": "in nearby communities also book with Swimingo. From Brampton, explore Private swim lessons in Mississauga , Private swim lessons in Vaughan Private swim lessons in Milton Private swim lessons in Etobi"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquastarcanada.com",
+          "url": "https://www.aquastarcanada.com/mobile-vancouver/",
+          "similarity": 0.6666,
+          "text_preview": "session for ages 5 and up, with monthly memberships from $249. See full details on our swim lesson pricing page . Ready to Get Started? Book your Vancouver trial assessment today and see the differenc"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/newmarket",
+          "similarity": 0.6645,
+          "text_preview": "Vaughan Private swim lessons in Barrie . Browse all Swimingo service areas Book a Lesson in Newmarket Our Services Save 10% by booking a package of 10 lessons! With personalized progress tracking feat"
+        }
+      ]
+    },
+    {
+      "question_id": 36,
+      "city": "Windsor",
+      "persona": "parent",
+      "type": "discovery",
+      "question": "at-home swim lessons for kids in Windsor Ontario",
+      "swimingo_rank": 4,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "marinaswimschool.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+          "similarity": 0.7791,
+          "text_preview": "to swim than with your very own teacher. Infant swimming classes are taught on a one-on-one basis , providing your toddler or baby with undivided attention (which helps keep their short attention span"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+          "similarity": 0.7557,
+          "text_preview": "Adult Swimming Lessons Scarborough Village, Toronto ON Private Swim Lessons in Your Home Pool Adult Swim Lessons in Scarborough Village, Toronto 1-888-950-7946 AquaMobile Home Swim Lessons - Scarborou"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "marinaswimschool.com",
+          "url": "https://marinaswimschool.com/dive-into-excellence-marinas-swim-school-offers-premier-swimming-lessons-in-toronto/",
+          "similarity": 0.7439,
+          "text_preview": "Back to Blog Share this post Facebook Twitter LinkedIn Email WhatsApp Dive into Excellence: Marina\u2019s Swim School Offers Premier Swimming Lessons in Toronto Mehrdad Tavakoli 2026-04-29T06:29:52+00:00 D"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/downtown-toronto",
+          "similarity": 0.7429,
+          "text_preview": "a busy community centre. Beginners get patient, step-by-step coaching. Stronger swimmers work on breathing, form, and endurance. Every lesson is one-on-one, so progress matches the swimmer. Families i"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "olympiaswimacademy.ca",
+          "url": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+          "similarity": 0.7425,
+          "text_preview": "Skip to content In-Home Swim Lessons in Vancouver at Your Own Pool March 29, 2025 7:00 pm Looking for in-home swimming lessons in Vancouver? Olympia Swim Academy brings certified instructors directly "
+        }
+      ]
+    },
+    {
+      "question_id": 37,
+      "city": "Windsor",
+      "persona": "adult",
+      "type": "logistics",
+      "question": "can I book a private swim instructor to come to my pool in Windsor",
+      "swimingo_rank": 3,
+      "classification": "close",
+      "beaten_by": [
+        "aquamobileswim.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+          "similarity": 0.6989,
+          "text_preview": "system. 10. Make sure your children don\u2019t engage in horseplay in the pool. This is a key swimming rule you should teach your child. In the water, make sure your children don\u2019t push or jump on any othe"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+          "similarity": 0.6827,
+          "text_preview": "swimming pool. At parent and tot lessons, you'll also see firsthand how your child progresses and builds their swimming skill sets \u2014 not to mention participating parents can help identify areas for im"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/scarborough",
+          "similarity": 0.6545,
+          "text_preview": "length and package. Many Scarborough families find at-home lessons save time compared to driving to facilities across Toronto. Do you cover Agincourt, Malvern, and Guildwood? Yes. We serve Scarborough"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+          "similarity": 0.6471,
+          "text_preview": "first infant swim lesson completely free of charge! With thousands of satisfied swimmers across North America, we're confident AquaMobile's swim lessons and instructors can help your little one gain t"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/l/swimming-lessons-vancouver-bc/",
+          "similarity": 0.6422,
+          "text_preview": "Aquamobile Private Swimming Lessons in Vancouver Learning to Swim in Vancouver Private at-home swim lessons from AquaMobile Swim School will help you learn to love the water. One of the certified and "
+        }
+      ]
+    },
+    {
+      "question_id": 38,
+      "city": "general",
+      "persona": "parent",
+      "type": "trust",
+      "question": "are private swim instructors safer than group lessons for kids",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/8",
+          "similarity": 0.7096,
+          "text_preview": "connects you with certified private swim instructors who come to your pool on your schedule. One lesson equals three group lessons \u2014 see the difference for yourself. Book at Swimingo.com. Frequently A"
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/4",
+          "similarity": 0.6968,
+          "text_preview": "their home or condo pool. Private vs. group lessons for children Group lessons at public pools are affordable but come with trade-offs: fixed schedules, crowded lanes, and divided instructor attention"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/8",
+          "similarity": 0.6754,
+          "text_preview": "Benefits of One-on-One Swim Instruction July 12, 2025 - 6 min read Why one-on-one beats group swim lessons Group swim lessons are the default for most families \u2014 but they are not always the best optio"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+          "similarity": 0.6591,
+          "text_preview": "system. 10. Make sure your children don\u2019t engage in horseplay in the pool. This is a key swimming rule you should teach your child. In the water, make sure your children don\u2019t push or jump on any othe"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "schoolinthepool.ca",
+          "url": "https://www.schoolinthepool.ca/scarborough-swimming-lessons/",
+          "similarity": 0.6573,
+          "text_preview": "our Scarborough swimming lessons programs are the best option for both beginners and those who want to perfect specific techniques. One-on-one lessons work whether the student is about to take a swim "
+        }
+      ]
+    },
+    {
+      "question_id": 39,
+      "city": "general",
+      "persona": "adult",
+      "type": "comparison",
+      "question": "private swim lessons vs learning on my own with videos",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/blog/8",
+          "similarity": 0.6769,
+          "text_preview": "connects you with certified private swim instructors who come to your pool on your schedule. One lesson equals three group lessons \u2014 see the difference for yourself. Book at Swimingo.com. Frequently A"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-north-york-centre-on/",
+          "similarity": 0.6725,
+          "text_preview": "5. Have Fun: Last but not least, it is important to have fun and mix learning with laughter. We often practice skills in a circle and we end each lesson with something different like aqua yoga. In the"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-brampton-on/",
+          "similarity": 0.6616,
+          "text_preview": "if not more important \u2013 than the goal. Some Frequently Asked Questions: How long will it take for me to learn how to swim? A : Many people are different and progress at different rates. We tailor our "
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-thornhill-on/",
+          "similarity": 0.6602,
+          "text_preview": "if not more important \u2013 than the goal. Some Frequently Asked Questions: How long will it take for me to learn how to swim? A : Many people are different and progress at different rates. We tailor our "
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+          "similarity": 0.6602,
+          "text_preview": "long will it take for me to learn how to swim? A : Many people are different and progress at different rates. We tailor our swim lessons toward the individual. By booking one of our AquaMobile Swim In"
+        }
+      ]
+    },
+    {
+      "question_id": 40,
+      "city": "general",
+      "persona": "parent",
+      "type": "logistics",
+      "question": "what should I have ready before a private swim lesson at my house",
+      "swimingo_rank": 1,
+      "classification": "winning",
+      "beaten_by": [],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/richmond-hill",
+          "similarity": 0.7093,
+          "text_preview": ", Private swim lessons in Markham Private swim lessons in Aurora Private swim lessons in North York . Browse all Swimingo service areas Book a Lesson in Richmond Hill Our Services Save 10% by booking "
+        },
+        {
+          "rank": 2,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/east-york",
+          "similarity": 0.7057,
+          "text_preview": "York, explore Private swim lessons in Toronto , Private swim lessons in Scarborough Private swim lessons in North York Private swim lessons in Markham . Browse all Swimingo service areas Book a Lesson"
+        },
+        {
+          "rank": 3,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/burnaby",
+          "similarity": 0.7054,
+          "text_preview": "in North Vancouver Private swim lessons in Richmond . Browse all Swimingo service areas Book a Lesson in Burnaby Our Services Save 10% by booking a package of 10 lessons! With personalized progress tr"
+        },
+        {
+          "rank": 4,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/west-vancouver",
+          "similarity": 0.6954,
+          "text_preview": "in Vancouver Private swim lessons in Burnaby Private swim lessons in Richmond . Browse all Swimingo service areas Book a Lesson in West Vancouver Our Services Save 10% by booking a package of 10 lesso"
+        },
+        {
+          "rank": 5,
+          "category": "swimingo",
+          "domain": "swimingo.com",
+          "url": "https://www.swimingo.com/swim-lessons/thornhill",
+          "similarity": 0.6901,
+          "text_preview": "lessons in Vaughan , Private swim lessons in Richmond Hill Private swim lessons in Markham Private swim lessons in North York . Browse all Swimingo service areas Book a Lesson in Thornhill Our Service"
+        }
+      ]
+    },
+    {
+      "question_id": 41,
+      "city": "general",
+      "persona": "parent",
+      "type": "trust",
+      "question": "will my child have the same swim instructor every lesson",
+      "swimingo_rank": null,
+      "classification": "losing",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "propelhq.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-richmond-hill-on/",
+          "similarity": 0.6459,
+          "text_preview": "Make sure your child is not swimming alone so that there\u2019s always someone for them to go to in case of trouble! Regardless of age, your children should be using the buddy system. 10. Make sure your ch"
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-north-york-centre-on/",
+          "similarity": 0.6399,
+          "text_preview": "knew exactly what experience the instructors had, if they\u2019ve been working with children previously \u2013 I knew exactly what I was getting. Without a doubt, my children progressed at triple speed vs. enro"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "propelhq.com",
+          "url": "https://propelhq.com",
+          "similarity": 0.6396,
+          "text_preview": "for children on the spectrum! Pau L. Being an adult learning how to swim again was a bit embarrassing and intimidating but Propel made it so easy! \u2014 Stacey M. This will help me throughout my life late"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+          "similarity": 0.637,
+          "text_preview": "system. 10. Make sure your children don\u2019t engage in horseplay in the pool. This is a key swimming rule you should teach your child. In the water, make sure your children don\u2019t push or jump on any othe"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-richmond-hill-on/",
+          "similarity": 0.6362,
+          "text_preview": "Infant Swim Lessons Once your little swimmer has built a strong foundation of swim and water safety skills through AquaMobile\u2019s Private Infant Swim Lesson Program in Richmond Hill, there are a number "
+        }
+      ]
+    },
+    {
+      "question_id": 42,
+      "city": "general",
+      "persona": "parent",
+      "type": "trust",
+      "question": "can I watch my child's swim lesson",
+      "swimingo_rank": null,
+      "classification": "losing",
+      "beaten_by": [
+        "aquamobileswim.com",
+        "inspiredswim.com",
+        "propelhq.com"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-richmond-hill-on/",
+          "similarity": 0.6154,
+          "text_preview": "Infant Swim Lessons Once your little swimmer has built a strong foundation of swim and water safety skills through AquaMobile\u2019s Private Infant Swim Lesson Program in Richmond Hill, there are a number "
+        },
+        {
+          "rank": 2,
+          "category": "competitors",
+          "domain": "propelhq.com",
+          "url": "https://propelhq.com",
+          "similarity": 0.6083,
+          "text_preview": "for children on the spectrum! Pau L. Being an adult learning how to swim again was a bit embarrassing and intimidating but Propel made it so easy! \u2014 Stacey M. This will help me throughout my life late"
+        },
+        {
+          "rank": 3,
+          "category": "competitors",
+          "domain": "inspiredswim.com",
+          "url": "https://inspiredswim.com",
+          "similarity": 0.6062,
+          "text_preview": "Skip to main content \u2728 Summer 2026 In Progress \u2022 Join anytime \u2014 new students welcome The swimming lessons you've been looking for. Progress that doesn't reset. Confidence that actually builds. Results"
+        },
+        {
+          "rank": 4,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/infant-swimming-lessons-richmond-hill-on/",
+          "similarity": 0.5894,
+          "text_preview": "Infant Swimming Lessons Richmond Hill ON Private Swim Lessons in Your Home Pool Infant Swim Lessons in Richmond Hill 1-888-950-7946 AquaMobile Home Swim Lessons - Richmond Hill ON L4C, Canada L4C Want"
+        },
+        {
+          "rank": 5,
+          "category": "competitors",
+          "domain": "aquamobileswim.com",
+          "url": "https://aquamobileswim.com/adult-swimming-lessons-ajax-on/",
+          "similarity": 0.5839,
+          "text_preview": "no more driving from lesson to lesson; you will save time, save on gas and enjoy the convenience of lessons in your own home or community pool. FLEXIBLE SCHEDULING You choose the swim lesson times tha"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "source": "Aggregated from Week 1 swimingo-aeo-tracker results (2026-07-23 to 2026-07-24), all 5 platforms",
+  "note": "Ranked by total citation count across ChatGPT, Perplexity, Gemini, Copilot, AI Overviews. Excludes aggregator/social domains (google.com, reddit.com, facebook.com). City-specific page URLs (city_pages) were discovered per-competitor from each domain's own sitemap.xml on 2026-08-04, filtered to Swimingo's covered cities and Canadian-region-preferred where a competitor also serves same-named US cities. British Swim School's sitemap.xml intermittently 403s on repeat automated requests; its 3 city_pages URLs were captured from an earlier successful fetch.",
+  "competitors": [
+    {
+      "name": "AquaMobile",
+      "url": "https://aquamobileswim.com",
+      "citations": 55,
+      "city_pages": {
+        "toronto": "https://aquamobileswim.com/p/lifeguards-for-hire-toronto-on/",
+        "vancouver": "https://aquamobileswim.com/l/swimming-lessons-vancouver-bc/",
+        "mississauga": "https://aquamobileswim.com/p/lifeguards-for-hire-in-mississauga-on/",
+        "burnaby": "https://aquamobileswim.com/l/swimming-lessons-burnaby-bc/",
+        "richmond": "https://aquamobileswim.com/l/swimming-lessons-richmond-bc/",
+        "markham": "https://aquamobileswim.com/p/lifeguards-for-hire-in-markham-on/",
+        "vaughan": "https://aquamobileswim.com/p/lifeguards-for-hire-in-vaughan-on/",
+        "oakville": "https://aquamobileswim.com/p/lifeguards-for-hire-in-oakville-on/",
+        "burlington": "https://aquamobileswim.com/adult-swimming-lessons-burlington-on/",
+        "hamilton": "https://aquamobileswim.com/adult-swimming-lessons-hamilton-on/",
+        "brampton": "https://aquamobileswim.com/adult-swimming-lessons-brampton-on/",
+        "scarborough": "https://aquamobileswim.com/adult-swimming-lessons-scarborough-village-on/",
+        "north-york": "https://aquamobileswim.com/adult-swimming-lessons-north-york-centre-on/",
+        "oshawa": "https://aquamobileswim.com/adult-swimming-lessons-oshawa-on/",
+        "pickering": "https://aquamobileswim.com/infant-swimming-lessons-pickering-on/",
+        "ajax": "https://aquamobileswim.com/adult-swimming-lessons-ajax-on/",
+        "whitby": "https://aquamobileswim.com/adult-swimming-lessons-whitby-on/",
+        "aurora": "https://aquamobileswim.com/adult-swimming-lessons-aurora-on/",
+        "newmarket": "https://aquamobileswim.com/adult-swimming-lessons-newmarket-on/",
+        "barrie": "https://aquamobileswim.com/p/lifeguards-for-hire-in-barrie-on/",
+        "milton": "https://aquamobileswim.com/p/lifeguards-for-hire-in-milton-on/",
+        "thornhill": "https://aquamobileswim.com/adult-swimming-lessons-thornhill-on/",
+        "windsor": "https://aquamobileswim.com/infant-swimming-lessons-windsor-on/",
+        "richmond-hill": "https://aquamobileswim.com/infant-swimming-lessons-richmond-hill-on/",
+        "north-vancouver": "https://aquamobileswim.com/l/swimming-lessons-north-vancouver-bc/"
+      }
+    },
+    {
+      "name": "AQUA S.T.A.R.",
+      "url": "https://aquastarcanada.com",
+      "citations": 24,
+      "city_pages": {
+        "toronto": "https://www.aquastarcanada.com/lifeguard-services-toronto/",
+        "vancouver": "https://www.aquastarcanada.com/mobile-vancouver/",
+        "burnaby": "https://www.aquastarcanada.com/mobile-burnaby/",
+        "coquitlam": "https://www.aquastarcanada.com/mobile-coquitlam/",
+        "richmond": "https://www.aquastarcanada.com/mobile-richmond/",
+        "winnipeg": "https://www.aquastarcanada.com/lifeguard-services-winnipeg/"
+      }
+    },
+    {
+      "name": "Propel",
+      "url": "https://propelhq.com",
+      "citations": 22,
+      "city_pages": {
+        "toronto": "https://www.propelhq.com/locations/toronto-on",
+        "vancouver": "https://www.propelhq.com/locations/vancouver-bc",
+        "mississauga": "https://www.propelhq.com/locations/mississauga-on",
+        "burnaby": "https://www.propelhq.com/locations/burnaby-bc",
+        "richmond": "https://www.propelhq.com/locations/richmond-bc",
+        "markham": "https://www.propelhq.com/locations/markham-on",
+        "etobicoke": "https://www.propelhq.com/locations/etobicoke-on",
+        "richmond-hill": "https://www.propelhq.com/locations/richmond-hill-on"
+      }
+    },
+    {
+      "name": "Superprof",
+      "url": "https://superprof.ca",
+      "citations": 20
+    },
+    {
+      "name": "Swim Lessons Vancouver",
+      "url": "https://swimlessonsvancouver.ca",
+      "citations": 19,
+      "city_pages": {
+        "vancouver": "https://swimlessonsvancouver.ca/in-home-swim-lessons-west-vancouver/",
+        "burnaby": "https://swimlessonsvancouver.ca/burnaby-schedule/",
+        "richmond": "https://swimlessonsvancouver.ca/in-home-swim-lessons-richmond/",
+        "north-vancouver": "https://swimlessonsvancouver.ca/in-home-swim-lessons-north-vancouver/",
+        "west-vancouver": "https://swimlessonsvancouver.ca/in-home-swim-lessons-west-vancouver/"
+      }
+    },
+    {
+      "name": "British Swim School",
+      "url": "https://britishswimschool.com",
+      "citations": 19,
+      "city_pages": {
+        "toronto": "https://britishswimschool.com/regions/toronto/",
+        "vancouver": "https://britishswimschool.com/regions/greater-vancouver/",
+        "hamilton": "https://britishswimschool.com/regions/hamilton-niagara/"
+      }
+    },
+    {
+      "name": "School in the Pool",
+      "url": "https://schoolinthepool.ca",
+      "citations": 17,
+      "city_pages": {
+        "toronto": "https://www.schoolinthepool.ca/swimming-school-toronto/",
+        "richmond": "https://www.schoolinthepool.ca/swimming-school-richmond-hill/",
+        "markham": "https://www.schoolinthepool.ca/markham-swimming-lessons/",
+        "vaughan": "https://www.schoolinthepool.ca/swimming-school-vaughan/",
+        "brampton": "https://www.schoolinthepool.ca/brampton-swimming-lessons/",
+        "scarborough": "https://www.schoolinthepool.ca/scarborough-swimming-lessons/",
+        "north-york": "https://www.schoolinthepool.ca/swimming-school-north-york/",
+        "thornhill": "https://www.schoolinthepool.ca/swimming-school-thornhill/",
+        "east-york": "https://www.schoolinthepool.ca/swimming-school-east-york/",
+        "richmond-hill": "https://www.schoolinthepool.ca/swimming-school-richmond-hill/"
+      }
+    },
+    {
+      "name": "Inspired Swim",
+      "url": "https://inspiredswim.com",
+      "citations": 16,
+      "city_pages": {
+        "vancouver": "https://www.inspiredswim.com/swimming-lessons/north-vancouver",
+        "burnaby": "https://www.inspiredswim.com/swimming-lessons/burnaby",
+        "coquitlam": "https://www.inspiredswim.com/locations/coquitlam",
+        "richmond": "https://www.inspiredswim.com/locations/richmond",
+        "north-vancouver": "https://www.inspiredswim.com/swimming-lessons/north-vancouver"
+      }
+    },
+    {
+      "name": "Coast2Coast First Aid & Aquatics",
+      "url": "https://c2cfirstaidaquatics.com",
+      "citations": 16
+    },
+    {
+      "name": "Felix Swim Schools",
+      "url": "https://felixswimschools.com",
+      "citations": 15,
+      "city_pages": {
+        "toronto": "https://felixswimschools.com/winter-swimming-in-toronto",
+        "richmond": "https://felixswimschools.com/top-swim-schools-near-richmond-hill",
+        "markham": "https://felixswimschools.com/contact/markham-location",
+        "vaughan": "https://felixswimschools.com/top-swim-schools-near-vaughan",
+        "scarborough": "https://felixswimschools.com/scarborough-swimming-lessons",
+        "north-york": "https://felixswimschools.com/locations-schedules/north-york",
+        "thornhill": "https://felixswimschools.com/locations-schedules/thornhill",
+        "midtown-toronto": "https://felixswimschools.com/two-pools-swim-school-midtown-toronto",
+        "richmond-hill": "https://felixswimschools.com/top-swim-schools-near-richmond-hill"
+      }
+    },
+    {
+      "name": "Marina Swim School",
+      "url": "https://marinaswimschool.com",
+      "citations": 15,
+      "city_pages": {
+        "toronto": "https://marinaswimschool.com/dive-into-excellence-marinas-swim-school-offers-premier-swimming-lessons-in-toronto/",
+        "vancouver": "https://marinaswimschool.com/locations/vancouver/"
+      }
+    },
+    {
+      "name": "Davina's Swim House",
+      "url": "https://davinasswimhouse.com",
+      "citations": 14,
+      "city_pages": {
+        "toronto": "https://davinasswimhouse.com/toronto-swim-school/",
+        "vaughan": "https://davinasswimhouse.com/vaughan-swim-school/",
+        "scarborough": "https://davinasswimhouse.com/scarborough-swim-school/",
+        "north-york": "https://davinasswimhouse.com/north-york-swim-school/",
+        "thornhill": "https://davinasswimhouse.com/thornhill-swim-school/"
+      }
+    },
+    {
+      "name": "Toronto Swim School",
+      "url": "https://torontoswimschool.com",
+      "citations": 11
+    },
+    {
+      "name": "Olympia Swim Academy",
+      "url": "https://olympiaswimacademy.ca",
+      "citations": 10,
+      "city_pages": {
+        "vancouver": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-vancouver/",
+        "burnaby": "https://olympiaswimacademy.ca/burnaby-swim-lessons-near-lougheed-mall/",
+        "north-vancouver": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-north-vancouver/",
+        "west-vancouver": "https://olympiaswimacademy.ca/top-in-home-swim-lessons-west-vancouver/"
+      }
+    },
+    {
+      "name": "Coastal Waves Swim School",
+      "url": "https://coastalwavesswimschool.com",
+      "citations": 10,
+      "city_pages": {
+        "burnaby": "https://www.coastalwavesswimschool.com/burnaby-fall-2026"
+      }
+    }
+  ]
+}
