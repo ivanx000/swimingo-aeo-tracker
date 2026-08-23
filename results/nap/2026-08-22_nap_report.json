@@ -1,0 +1,53 @@
+[
+  {
+    "key": "intently",
+    "label": "Intently.co",
+    "url": "https://intently.co/profiles/36925043",
+    "status": "INACTIVE",
+    "fields": [],
+    "note": "Profile page reports the service provider's account as not fully activated \u2014 no name/phone/site content is published."
+  },
+  {
+    "key": "yellowpages",
+    "label": "Yellow Pages / 411.ca",
+    "url": "https://www.yellowpages.ca/bus/Ontario/Pickering/Swimingo/104576774.html",
+    "status": "OK",
+    "fields": [
+      {
+        "field": "name",
+        "canonical": "Swimingo",
+        "found": "Swimingo",
+        "status": "PASS"
+      },
+      {
+        "field": "phone",
+        "canonical": "437-499-7946",
+        "found": "437-499-7946",
+        "status": "PASS"
+      },
+      {
+        "field": "website",
+        "canonical": "https://www.swimingo.com",
+        "found": null,
+        "status": "NOT_FOUND"
+      }
+    ],
+    "note": null
+  },
+  {
+    "key": "superprof",
+    "label": "Superprof.ca",
+    "url": null,
+    "status": "PLACEHOLDER",
+    "fields": [],
+    "note": "URL not yet available \u2014 profile exists per Aakif but hasn't been captured yet."
+  },
+  {
+    "key": "chatterblock",
+    "label": "ChatterBlock",
+    "url": null,
+    "status": "PLACEHOLDER",
+    "fields": [],
+    "note": "URL not yet available \u2014 listing submitted and under review, not live yet."
+  }
+]
