@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
+import diff_runs
 import gemini_runner
 import manual_capture
 import parser as result_parser
@@ -42,6 +43,17 @@ def main() -> None:
 
     subparsers.add_parser("run-all", help="Run Gemini, then parse, then report (skips manual capture).")
 
+    diff_parser = subparsers.add_parser(
+        "diff", help="Diff a baseline run against a later run (default: Week 1 vs Week 6)."
+    )
+    diff_parser.add_argument(
+        "--baseline-dates", help="Comma-separated dates for the baseline run.", default=None
+    )
+    diff_parser.add_argument(
+        "--current-dates", help="Comma-separated dates for the current run.", default=None
+    )
+    diff_parser.add_argument("--label", help="Filename label for the saved diff (default: derived from dates).")
+
     args = arg_parser.parse_args()
 
     if args.command == "run-gemini":
@@ -61,6 +73,10 @@ def main() -> None:
         gemini_runner.run()
         result_parser.parse_today()
         report.run()
+    elif args.command == "diff":
+        baseline_dates = args.baseline_dates.split(",") if args.baseline_dates else diff_runs.WEEK1_DATES
+        current_dates = args.current_dates.split(",") if args.current_dates else diff_runs.WEEK6_DATES
+        diff_runs.run(baseline_dates, current_dates, label=args.label)
 
 
 if __name__ == "__main__":
