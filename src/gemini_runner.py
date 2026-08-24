@@ -12,6 +12,7 @@ from google.genai import errors
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
+RAW_DIR = RESULTS_DIR / "raw"
 QUESTIONS_FILE = DATA_DIR / "questions.json"
 
 # "gemini-2.5-flash-lite" (and "gemini-2.5-flash") 404 as "no longer available to
@@ -35,7 +36,7 @@ def load_questions() -> list[dict]:
 
 def output_path(today: str) -> Path:
     """Path to today's raw Gemini results file."""
-    return RESULTS_DIR / f"{today}_gemini_raw.json"
+    return RAW_DIR / f"{today}_gemini_raw.json"
 
 
 def load_existing_results(path: Path) -> list[dict]:
@@ -49,7 +50,7 @@ def load_existing_results(path: Path) -> list[dict]:
 def save_results(path: Path, results: list[dict]) -> None:
     """Write results to disk, sorted by question_id."""
     results = sorted(results, key=lambda r: r["question_id"])
-    RESULTS_DIR.mkdir(exist_ok=True)
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 

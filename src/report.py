@@ -6,6 +6,8 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
+PARSED_DIR = RESULTS_DIR / "parsed"
+REPORTS_DIR = RESULTS_DIR / "reports"
 QUESTIONS_FILE = DATA_DIR / "questions.json"
 
 
@@ -20,7 +22,7 @@ def load_parsed_entries(dates: list[str]) -> list[dict]:
     """Load and combine all *_parsed.json files for the given dates (a capture round
     can span more than one calendar day if manual capture takes a while)."""
     entries = []
-    paths = sorted(path for d in dates for path in RESULTS_DIR.glob(f"{d}_*_parsed.json"))
+    paths = sorted(path for d in dates for path in PARSED_DIR.glob(f"{d}_*_parsed.json"))
     for path in paths:
         with open(path, "r", encoding="utf-8") as f:
             entries.extend(json.load(f))
@@ -181,8 +183,8 @@ def run(dates: list[str] | None = None) -> None:
     report_text = build_report(dates)
 
     name_part = dates[0] if len(dates) == 1 else f"{dates[0]}_to_{dates[-1]}"
-    report_path = RESULTS_DIR / f"{name_part}_summary_report.md"
-    RESULTS_DIR.mkdir(exist_ok=True)
+    report_path = REPORTS_DIR / f"{name_part}_summary_report.md"
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report_text)
 

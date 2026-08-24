@@ -6,6 +6,8 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
+RAW_DIR = RESULTS_DIR / "raw"
+PARSED_DIR = RESULTS_DIR / "parsed"
 COMPETITORS_FILE = DATA_DIR / "competitors.json"
 
 SWIMINGO_DOMAIN = "swimingo.com"
@@ -77,7 +79,8 @@ def parse_file(raw_path: Path) -> Path:
     competitors = load_competitors()
     parsed_entries = [parse_entry(entry, competitors) for entry in raw_entries]
 
-    parsed_path = Path(str(raw_path).replace("_raw.json", "_parsed.json"))
+    PARSED_DIR.mkdir(parents=True, exist_ok=True)
+    parsed_path = PARSED_DIR / raw_path.name.replace("_raw.json", "_parsed.json")
     with open(parsed_path, "w", encoding="utf-8") as f:
         json.dump(parsed_entries, f, indent=2, ensure_ascii=False)
 
@@ -88,7 +91,7 @@ def parse_dates(dates: list[str]) -> list[Path]:
     """Parse every *_raw.json file for the given dates (a capture round can span more
     than one calendar day if manual capture takes a while)."""
     raw_files = sorted(
-        path for d in dates for path in RESULTS_DIR.glob(f"{d}_*_raw.json")
+        path for d in dates for path in RAW_DIR.glob(f"{d}_*_raw.json")
     )
 
     if not raw_files:

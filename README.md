@@ -40,8 +40,8 @@ cp .env.example .env
    python main.py run-gemini
    ```
    Asks every question via the Gemini API and saves raw responses to
-   `results/<date>_gemini_raw.json`. Safe to re-run — it skips questions
-   already answered today.
+   `results/raw/<date>_gemini_raw.json`. Safe to re-run — it skips
+   questions already answered today.
 
 2. **ChatGPT, Perplexity, Copilot, AI Overviews (manual):**
    ```bash
@@ -70,9 +70,10 @@ cp .env.example .env
    ```bash
    python main.py parse
    ```
-   Scans today's `*_raw.json` files and extracts whether Swimingo was
-   mentioned, which competitors were mentioned, and which domains were
-   cited, saving `*_parsed.json` files. If capturing all 5 platforms
+   Scans today's `results/raw/*_raw.json` files and extracts whether
+   Swimingo was mentioned, which competitors were mentioned, and which
+   domains were cited, saving `results/parsed/*_parsed.json` files. If
+   capturing all 5 platforms
    spanned more than one calendar day, pass every date it touched:
    `python main.py parse --dates 2026-07-23,2026-07-24`.
 
@@ -80,7 +81,7 @@ cp .env.example .env
    ```bash
    python main.py report
    ```
-   Builds `results/<date>_summary_report.md` — visibility by platform,
+   Builds `results/reports/<date>_summary_report.md` — visibility by platform,
    by question type, by persona, a competitor leaderboard, top cited
    domains, and a list of "gap" questions where Swimingo was absent but a
    competitor was mentioned. Also prints the report to the terminal. Use
@@ -96,6 +97,7 @@ python main.py run-all
 ## Week 8 comparison
 
 Run the exact same cycle again in Week 8. Because every result file is
-date-stamped (`results/<date>_...`), both weeks' raw data, parsed data,
-and summary reports stay side by side in `results/` for a direct before
-vs. after comparison.
+date-stamped (`results/raw/<date>_..._raw.json`, etc.), both weeks' raw
+data, parsed data, and summary reports stay side by side in
+`results/raw/`, `results/parsed/`, and `results/reports/` for a direct
+before vs. after comparison.
