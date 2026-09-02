@@ -14,5 +14,15 @@
   {"name": "Toronto Swim School", "domains": ["torontoswimschool.com"]},
   {"name": "Olympia Swim Academy", "domains": ["olympiaswimacademy.ca"]},
   {"name": "Coastal Waves Swim School", "domains": ["coastalwavesswimschool.com"]},
-  {"name": "Superprof", "domains": ["superprof.ca"], "note": "General tutoring marketplace, not swim-specific; cited in Week 1 results but treat separately in future analysis"}
+  {"name": "Superprof", "domains": ["superprof.ca"], "note": "General tutoring marketplace, not swim-specific; cited in Week 1 results but treat separately in future analysis"},
+  {"name": "Pedalheads", "domains": ["pedalheads.com"]},
+  {"name": "Canada Swim School", "domains": ["canadaswimschool.com"]},
+  {"name": "Aquatics Academy", "domains": ["aquaticsacademy.ca"]},
+  {"name": "GTA Swim School", "domains": ["gtaswimschool.ca"]},
+  {"name": "Swim Lesson", "domains": ["swimlesson.ca"]},
+  {"name": "Frank's Swim School", "domains": ["franksswimschool.com"]},
+  {"name": "Alex's Swim School", "domains": ["alexswimschool.com"]},
+  {"name": "Swim Brothers", "domains": ["swimbrothers.ca"]},
+  {"name": "Artquaswim", "domains": ["artquaswim.ca"]},
+  {"name": "Goldfish Swim School", "domains": ["goldfishswimschool.com"]}
 ]
