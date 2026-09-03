@@ -24,5 +24,7 @@
   {"name": "Alex's Swim School", "domains": ["alexswimschool.com"]},
   {"name": "Swim Brothers", "domains": ["swimbrothers.ca"]},
   {"name": "Artquaswim", "domains": ["artquaswim.ca"]},
-  {"name": "Goldfish Swim School", "domains": ["goldfishswimschool.com"]}
+  {"name": "Goldfish Swim School", "domains": ["goldfishswimschool.com"]},
+  {"name": "YMCA of Greater Toronto", "domains": ["ymcagta.org"]},
+  {"name": "YMCA BC", "domains": ["ymcabc.ca"]}
 ]
