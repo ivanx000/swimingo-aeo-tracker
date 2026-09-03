@@ -1,6 +1,11 @@
 """Manual capture tool for platforms that can't be automated (ChatGPT,
 Perplexity, Copilot, Google AI Overviews).
 
+Deprecated in favor of capture_web.py, which replaces the terminal
+editor/clipboard flow below with a local web page (no window-switching,
+no END sentinel, a plain textarea for long multi-paragraph responses).
+Kept here as a fallback in case the web tool misbehaves on a real run.
+
 Two capture methods avoid the terminal's paste-length issues with very long
 single blocks of text (e.g. a long AI Overview response):
   - "editor" (default): each question opens in the user's text editor; the

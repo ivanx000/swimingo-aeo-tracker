@@ -48,14 +48,33 @@ cp .env.example .env
 
 2. **ChatGPT, Perplexity, Copilot, AI Overviews (manual):**
    ```bash
+   python main.py capture-web chatgpt
+   python main.py capture-web perplexity
+   python main.py capture-web copilot
+   python main.py capture-web ai_overviews
+   ```
+   Opens a local web page (`http://127.0.0.1:8765`, stdlib `http.server`
+   only, no new dependency) showing one question at a time with its full
+   text, a "Question X of 42" indicator, and a large paste box. Ask the
+   question on that platform's website, paste the response, and click
+   **Save & Next** (or press Cmd/Ctrl+Enter) — no terminal/browser
+   switching and no `END` sentinel to type. Click **Skip** to leave a
+   question for later. `--port <n>` picks a different port and
+   `--no-browser` skips auto-opening the tab. Stop with Ctrl+C and rerun
+   to resume — already-captured questions aren't re-shown. Writes to the
+   same `results/raw/<date>_<platform>_raw.json` schema as the tool
+   below, so the parse/report pipeline needs no changes.
+
+   **Deprecated fallback — terminal-based capture (`manual_capture.py`):**
+   ```bash
    python main.py capture chatgpt
    python main.py capture perplexity
    python main.py capture copilot
    python main.py capture ai_overviews
    ```
-   For each platform, manually ask every printed question on that
-   platform's website. Two capture methods avoid the truncation that can
-   happen pasting a long response directly into the terminal:
+   Kept around in case the web tool misbehaves on a real run; not the
+   recommended path anymore. Two capture methods avoid the truncation
+   that can happen pasting a long response directly into the terminal:
    - `editor` (default): each question opens a temp file in your text
      editor (respects `$EDITOR`; otherwise falls back to TextEdit on
      macOS, notepad on Windows, or nano elsewhere) -- paste the response
@@ -158,7 +177,8 @@ main.py                 # weekly capture/parse/report/diff CLI
 retrieval.py             # RAG retrieval simulator CLI
 nap_check.py              # NAP consistency checker CLI
 src/gemini_runner.py      # Gemini automated capture
-src/manual_capture.py     # ChatGPT/Perplexity/Copilot/AI Overviews manual capture
+src/capture_web.py        # ChatGPT/Perplexity/Copilot/AI Overviews manual capture (local web page)
+src/manual_capture.py     # same, terminal-based (deprecated fallback)
 src/parser.py             # raw -> parsed result extraction
 src/report.py             # summary report generation
 src/diff_runs.py          # baseline-vs-current run diffing

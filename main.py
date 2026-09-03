@@ -5,6 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
+import capture_web
 import diff_runs
 import gemini_runner
 import manual_capture
@@ -30,6 +31,13 @@ def main() -> None:
         default="editor",
         help="How to capture each response (default: editor).",
     )
+
+    capture_web_parser = subparsers.add_parser(
+        "capture-web", help="Manually capture responses for one platform via a local web page."
+    )
+    capture_web_parser.add_argument("platform", choices=manual_capture.PLATFORMS)
+    capture_web_parser.add_argument("--port", type=int, default=8765)
+    capture_web_parser.add_argument("--no-browser", action="store_true", help="Don't auto-open the browser.")
 
     dates_help = (
         "Comma-separated dates (YYYY-MM-DD) to include, for a capture round that "
@@ -60,6 +68,8 @@ def main() -> None:
         gemini_runner.run()
     elif args.command == "capture":
         manual_capture.run(args.platform, args.method)
+    elif args.command == "capture-web":
+        capture_web.run(args.platform, port=args.port, open_browser=not args.no_browser)
     elif args.command == "parse":
         dates = args.dates.split(",") if args.dates else None
         if dates:
