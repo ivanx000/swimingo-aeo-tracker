@@ -165,13 +165,29 @@ The diff report has two sections for this:
   disappearing from citations, flagged inline as
   `[swimingo.com newly cited]` / `[swimingo.com newly dropped]`.
 
-One extra sanity check worth doing on citation changes: when an unfamiliar
-domain shows up for a question about a specific city, make sure it's
-actually about that city. AI platforms have been observed getting this
-wrong before — e.g. an "Aurora" cost question got answered about Aurora,
-Colorado and Aurora, Illinois instead of Aurora, Ontario in Week 1, and a
-Windsor, Ontario question briefly cited domains that don't look
-Windsor-related at all. It's a quick glance, not a deep investigation.
+One extra sanity check worth doing on citation changes: when
+`swimingo.com` (or any domain) is newly cited, check the *specific page*
+cited, not just the domain — the diff tool only tracks domains, so it
+can't tell a real, relevant page from a generic or wrong one on its own.
+Two things worth watching for, both seen in real Week 1/Week 6 data:
+
+- **City mixups.** An "Aurora" cost question got answered about Aurora,
+  Colorado (Gemini) and a mix of Aurora, Colorado and the Naperville/DuPage
+  (Illinois) area (Perplexity) instead of Aurora, Ontario in Week 1 —
+  Perplexity's answer even ended by asking "would you like me to narrow
+  this to Aurora, Ontario specifically," confirming it hadn't been.
+- **Homepage substitution.** A citation-changes row showing
+  `swimingo.com` newly cited doesn't guarantee a real, city-specific page
+  was cited. In the Windsor, Ontario questions (Week 6), Perplexity's
+  Q37 answer linked the bare homepage (`https://www.swimingo.com/`) with
+  vague text ("lets you enter your pool location") — not a real
+  Windsor-specific claim. By contrast, AI Overviews' Q36/Q37 answers and
+  Perplexity's Q36 answer cited a specific page
+  (`swimingo.com/swim-lessons/windsor`) with matching pricing, discount
+  terms, and named neighbourhoods; that page is live and accurate as of
+  this handoff, though whether it existed yet at the Week 6 capture date
+  is unconfirmed. Either way, the lesson is the same: open the actual
+  cited URL before counting a "newly cited" row as a real win.
 
 ## What to actually act on (checklist)
 
@@ -196,9 +212,12 @@ trigger — that's normal.
       These are high buyer-intent questions, so a real move here (like the
       observed 8%→24% jump) matters more than the same-sized move on a
       lower-intent question type.
-- [ ] **A newly-cited domain doesn't seem to actually be about the target
-      city** (see the Aurora/Windsor note above). → Flag as a possible
-      AI geo-confusion issue, not a real competitor gap.
+- [ ] **A newly-cited domain doesn't check out when you open the actual
+      page** — either it's about the wrong city entirely (see the Aurora
+      note above), or it's a generic/homepage link rather than a real
+      city-specific page (see the Windsor note above). → Flag as a
+      possible AI geo-confusion or citation-quality issue, not a real win
+      or a real competitor gap.
 
 If two or more boxes above get checked in the same week, that's worth a
 short written note (a few sentences) alongside that week's report, even if
