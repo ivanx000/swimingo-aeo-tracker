@@ -1,0 +1,2696 @@
+{
+  "baseline_dates": [
+    "2026-07-23",
+    "2026-07-24"
+  ],
+  "current_dates": [
+    "2026-09-10"
+  ],
+  "visibility_by_platform": [
+    {
+      "platform": "ai_overviews",
+      "baseline_mentioned": 26,
+      "baseline_total": 42,
+      "current_mentioned": 32,
+      "current_total": 42,
+      "delta": 6
+    },
+    {
+      "platform": "chatgpt",
+      "baseline_mentioned": 7,
+      "baseline_total": 42,
+      "current_mentioned": 4,
+      "current_total": 42,
+      "delta": -3
+    },
+    {
+      "platform": "copilot",
+      "baseline_mentioned": 0,
+      "baseline_total": 42,
+      "current_mentioned": 2,
+      "current_total": 42,
+      "delta": 2
+    },
+    {
+      "platform": "gemini",
+      "baseline_mentioned": 0,
+      "baseline_total": 42,
+      "current_mentioned": 0,
+      "current_total": 42,
+      "delta": 0
+    },
+    {
+      "platform": "perplexity",
+      "baseline_mentioned": 19,
+      "baseline_total": 42,
+      "current_mentioned": 18,
+      "current_total": 42,
+      "delta": -1
+    }
+  ],
+  "newly_appearing_mentions": [
+    {
+      "platform": "ai_overviews",
+      "question_id": 5,
+      "question": "how much do private swim lessons cost in Mississauga"
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 26,
+      "question": "how much do private swim lessons cost in Vancouver"
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver"
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 33,
+      "question": "best private swim lesson companies in Metro Vancouver"
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 35,
+      "question": "how much are private swim lessons in Winnipeg"
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario"
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 37,
+      "question": "can I book a private swim instructor to come to my pool in Windsor"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 2,
+      "question": "do private swim instructors come to condo pools in Toronto"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 22,
+      "question": "can I book adult swim lessons at my own pool in North York"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario"
+    },
+    {
+      "platform": "copilot",
+      "question_id": 13,
+      "question": "is it safe to hire a private swim instructor in Pickering"
+    },
+    {
+      "platform": "copilot",
+      "question_id": 42,
+      "question": "can I watch my child's swim lesson"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 5,
+      "question": "how much do private swim lessons cost in Mississauga"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 7,
+      "question": "private swim lessons vs group lessons for kids in Vaughan"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 11,
+      "question": "how much does it cost to book private one-on-one swim lessons in Burlington"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 12,
+      "question": "what's the best at-home swim lesson company for kids in Hamilton"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 18,
+      "question": "how much does an adult swim instructor cost in Aurora"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 28,
+      "question": "do swim instructors travel to condo pools in North Vancouver"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 35,
+      "question": "how much are private swim lessons in Winnipeg"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 37,
+      "question": "can I book a private swim instructor to come to my pool in Windsor"
+    }
+  ],
+  "newly_lost_mentions": [
+    {
+      "platform": "ai_overviews",
+      "question_id": 32,
+      "question": "private swim lessons vs swim school in Coquitlam"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 1,
+      "question": "where can I find a private swim instructor in Toronto"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 4,
+      "question": "who offers at-home swim lessons for kids in Mississauga"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 10,
+      "question": "can a swim instructor come to my backyard pool in Oakville"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 23,
+      "question": "what are the best private swim lesson companies in the GTA"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 24,
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 28,
+      "question": "do swim instructors travel to condo pools in North Vancouver"
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 33,
+      "question": "best private swim lesson companies in Metro Vancouver"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 2,
+      "question": "do private swim instructors come to condo pools in Toronto"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 8,
+      "question": "are private swim instructors certified in Markham"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 17,
+      "question": "is there an at-home swim lesson program for beginners in Newmarket"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 19,
+      "question": "who teaches private swim lessons in Barrie"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 21,
+      "question": "private swim lessons for kids with no waitlist in Etobicoke"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 22,
+      "question": "can I book adult swim lessons at my own pool in North York"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 24,
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 29,
+      "question": "are private swim instructors certified in West Vancouver"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 30,
+      "question": "at-home swim lessons for kids in Burnaby"
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 31,
+      "question": "who teaches private swim lessons in Richmond BC"
+    }
+  ],
+  "citation_changes": [
+    {
+      "platform": "ai_overviews",
+      "question_id": 1,
+      "question": "where can I find a private swim instructor in Toronto",
+      "domains_added": [
+        "aquamobileswim.com",
+        "aquaticsacademy.ca",
+        "davinasswimhouse.com",
+        "felixswimschools.com",
+        "google.com",
+        "jackofsports.com",
+        "mnjcc.org",
+        "reddit.com",
+        "sealswimming.ca",
+        "superprof.ca",
+        "swimingo.com",
+        "swimlesson.ca",
+        "teamatomica.com",
+        "toronto.ca"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 2,
+      "question": "do private swim instructors come to condo pools in Toronto",
+      "domains_added": [
+        "facebook.com",
+        "propelhq.com",
+        "torontoswimschool.com"
+      ],
+      "domains_dropped": [
+        "c2cfirstaidaquatics.com",
+        "fitness.pellea.com",
+        "reddit.com",
+        "swimlesson.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 3,
+      "question": "best private swim lessons for adults in Toronto",
+      "domains_added": [
+        "jackofsports.com",
+        "lh3.googleusercontent.com",
+        "rocketswim.com",
+        "teamatomica.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "better.org.uk",
+        "ca.nextdoor.com",
+        "peninsulaswimschool.com.au",
+        "propelhq.com",
+        "schoolinthepool.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 4,
+      "question": "who offers at-home swim lessons for kids in Mississauga",
+      "domains_added": [],
+      "domains_dropped": [
+        "c2cfirstaidaquatics.com",
+        "canadaswimschool.com",
+        "felixswimschools.com",
+        "pathwaypeds.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 5,
+      "question": "how much do private swim lessons cost in Mississauga",
+      "domains_added": [
+        "apexswimmers.com",
+        "aquamobileswim.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "c2cfirstaidaquatics.com",
+        "facebook.com",
+        "hotbot.com",
+        "kjaquatics.com",
+        "mississauga.ca",
+        "reddit.com",
+        "theglobeandmail.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 6,
+      "question": "are there swim instructors experienced with toddlers in Brampton",
+      "domains_added": [
+        "lh3.googleusercontent.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "britishswimschool.com",
+        "cookseyslifeguardcompany.com",
+        "facebook.com",
+        "instagram.com",
+        "justinsscubatime.com",
+        "nextlevelswimschool.com",
+        "puddlesswimschool.com",
+        "schoolinthepool.ca",
+        "swimfinityacademy.com",
+        "tiktok.com",
+        "werockthespectrumbrampton.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 7,
+      "question": "private swim lessons vs group lessons for kids in Vaughan",
+      "domains_added": [
+        "britishswimschool.com",
+        "my.lifetime.life"
+      ],
+      "domains_dropped": [
+        "hollandaquatic.org",
+        "reddit.com",
+        "schoolinthepool.ca",
+        "sunsationalswimschool.com",
+        "superprof.ca",
+        "swim-montreal.com",
+        "swim4lifeschools.com.au",
+        "swimlessonswithmary.com",
+        "ymcagta.org",
+        "youtube.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 8,
+      "question": "are private swim instructors certified in Markham",
+      "domains_added": [
+        "markhamswimschool.com"
+      ],
+      "domains_dropped": [
+        "ca.indeed.com",
+        "unionvilleac.com",
+        "wdswimming.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 9,
+      "question": "adult swim lessons that come to your condo pool in Richmond Hill",
+      "domains_added": [
+        "c2cfirstaidaquatics.com",
+        "swimbrothers.ca",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "regina.ca",
+        "settime.io"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 10,
+      "question": "can a swim instructor come to my backyard pool in Oakville",
+      "domains_added": [
+        "canadaswimschool.com",
+        "youtube.com"
+      ],
+      "domains_dropped": [
+        "aquaticsacademy.ca",
+        "backtobasicsswim.ca",
+        "c2cfirstaidaquatics.com",
+        "reddit.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 11,
+      "question": "how much does it cost to book private one-on-one swim lessons in Burlington",
+      "domains_added": [
+        "aqua-tots.com",
+        "facebook.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "atlantisschoolofswim.com",
+        "cityofburlington.perfectmind.com",
+        "goldfishswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 12,
+      "question": "what's the best at-home swim lesson company for kids in Hamilton",
+      "domains_added": [
+        "facebook.com"
+      ],
+      "domains_dropped": [
+        "c2cfirstaidaquatics.com",
+        "goldfishswimschool.com",
+        "shiningstarsswimschool.com",
+        "weswim.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 13,
+      "question": "is it safe to hire a private swim instructor in Pickering",
+      "domains_added": [
+        "ca.apm.activecommunities.com"
+      ],
+      "domains_dropped": [
+        "lifesavingsociety.com",
+        "marinaswimschool.com",
+        "propelhq.com",
+        "reddit.com",
+        "samanthaslearntoswim.ca",
+        "sunbrightaquatics.com",
+        "superprof.ca",
+        "swim.aimabove.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 14,
+      "question": "who offers private swim lessons in Ajax",
+      "domains_added": [],
+      "domains_dropped": [
+        "facebook.com",
+        "m.yelp.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 15,
+      "question": "how do I book a private swim instructor in Whitby",
+      "domains_added": [
+        "swimply.com"
+      ],
+      "domains_dropped": [
+        "123-swim-abc.com",
+        "905swimming.ca",
+        "swimstrongaquatics.ca",
+        "torontoswimschool.com",
+        "ymywha.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 16,
+      "question": "what's the difference between private and semi-private swim lessons in Oshawa",
+      "domains_added": [
+        "facebook.com",
+        "intotheswim.com"
+      ],
+      "domains_dropped": [
+        "blackfaldsabbey.ca",
+        "felixswimschools.com",
+        "rocketswim.com",
+        "snohomishaquatic.com",
+        "teachme.to",
+        "theaqualife.ca",
+        "ymcaofniagara.org"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 17,
+      "question": "is there an at-home swim lesson program for beginners in Newmarket",
+      "domains_added": [
+        "ca.nextdoor.com",
+        "facebook.com",
+        "swimcademy.ca"
+      ],
+      "domains_dropped": [
+        "shoreswim.com",
+        "swimply.com",
+        "swimripples.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 18,
+      "question": "how much does an adult swim instructor cost in Aurora",
+      "domains_added": [
+        "madelainesswimschool.com",
+        "swimbrothers.ca",
+        "torontoswimschool.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "championswimming.ca",
+        "goldfishswimschool.com",
+        "superprof.ca",
+        "teachme.to"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 19,
+      "question": "who teaches private swim lessons in Barrie",
+      "domains_added": [
+        "aquamobileswim.com",
+        "facebook.com",
+        "reddit.com"
+      ],
+      "domains_dropped": [
+        "ca.apm.activecommunities.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 20,
+      "question": "are swim instructors background checked in Scarborough",
+      "domains_added": [
+        "ca.indeed.com",
+        "ca.jobrapido.com",
+        "glassdoor.ca"
+      ],
+      "domains_dropped": [
+        "app.betterimpact.com",
+        "forensicscanada.ca",
+        "lifesavingsociety.com",
+        "tcdsb.org",
+        "tdsb.on.ca",
+        "workopolis.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 21,
+      "question": "private swim lessons for kids with no waitlist in Etobicoke",
+      "domains_added": [
+        "swim.aimabove.ca"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquaticsacademy.ca",
+        "blog.propelhq.com",
+        "propelhq.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 22,
+      "question": "can I book adult swim lessons at my own pool in North York",
+      "domains_added": [
+        "swim4style.ca"
+      ],
+      "domains_dropped": [
+        "c2cfirstaidaquatics.com",
+        "davinasswimhouse.com",
+        "fitness.pellea.com",
+        "resultsgymalexandria.com",
+        "schoolinthepool.ca",
+        "swimlesson.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 23,
+      "question": "what are the best private swim lesson companies in the GTA",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquaticsacademy.ca",
+        "britishswimschool.com",
+        "davinasswimhouse.com",
+        "facebook.com",
+        "felixswimschools.com",
+        "kjaquatics.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 24,
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA",
+      "domains_added": [
+        "alexswimschool.com",
+        "aquaelite.ca",
+        "facebook.com",
+        "reddit.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "backtobasicsswim.ca",
+        "sealswimming.ca",
+        "swim-time.com",
+        "swimlesson.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 25,
+      "question": "where can I find a private swim instructor in Vancouver",
+      "domains_added": [
+        "coastalwavesswimschool.com",
+        "propelhq.com"
+      ],
+      "domains_dropped": [
+        "active-living.ucalgary.ca",
+        "instaswimusa.com",
+        "marinaswimschool.com",
+        "olympiaswimacademy.ca",
+        "superprof.ca",
+        "swimlessonsvancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 26,
+      "question": "how much do private swim lessons cost in Vancouver",
+      "domains_added": [
+        "aquastarcanada.com",
+        "artquaswim.ca",
+        "ca.apm.activecommunities.com",
+        "swimingo.com",
+        "ywcabc.org"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "blog.propelhq.com",
+        "inspiredswim.com",
+        "kjaquatics.com",
+        "marinaswimschool.com",
+        "swimdesignspace.com",
+        "teachme.to"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver",
+      "domains_added": [
+        "marinaswimschool.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "activevancouver.ca",
+        "coastalwavesswimschool.com",
+        "furzefieldleisurecentre.co.uk",
+        "get-set-go.com",
+        "superprof.ca",
+        "swimmingclasses.sg",
+        "thearenaclub.com",
+        "vancouver.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 28,
+      "question": "do swim instructors travel to condo pools in North Vancouver",
+      "domains_added": [
+        "facebook.com"
+      ],
+      "domains_dropped": [
+        "google.com",
+        "nvrc.ca",
+        "olympiaswimacademy.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 29,
+      "question": "are private swim instructors certified in West Vancouver",
+      "domains_added": [
+        "aquamobileswim.com",
+        "facebook.com",
+        "superprof.ca"
+      ],
+      "domains_dropped": [
+        "activevancouver.ca",
+        "aquastarcanada.com",
+        "ca.apm.activecommunities.com",
+        "ca.indeed.com",
+        "lifesaving.bc.ca",
+        "parkroyal.ca",
+        "pedalheads.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 30,
+      "question": "at-home swim lessons for kids in Burnaby",
+      "domains_added": [],
+      "domains_dropped": [
+        "activevancouver.ca",
+        "aquamobileswim.com",
+        "fitness2000.ca",
+        "healthsport.com",
+        "inspiredswim.com",
+        "instaswimusa.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 31,
+      "question": "who teaches private swim lessons in Richmond BC",
+      "domains_added": [],
+      "domains_dropped": [
+        "facebook.com",
+        "instagram.com",
+        "minorucentre.ca",
+        "pickering.ca",
+        "sunsationalswimschool.com",
+        "swimfins.ca",
+        "vancouversbestplaces.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 32,
+      "question": "private swim lessons vs swim school in Coquitlam",
+      "domains_added": [
+        "aquaelite.ca",
+        "aquastarcanada.com",
+        "pedalheads.com",
+        "ymcabc.ca",
+        "youtube.com"
+      ],
+      "domains_dropped": [
+        "bearpaddle.com",
+        "cityofcoquitlam.perfectmind.com",
+        "jdesigns.com",
+        "portcoquitlam.ca",
+        "puddlesswimschool.com",
+        "sunsationalswimschool.com",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 33,
+      "question": "best private swim lesson companies in Metro Vancouver",
+      "domains_added": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "iswimschool.ca",
+        "reddit.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "artquaswim.ca",
+        "blog.propelhq.com",
+        "ca.linkedin.com",
+        "coastalwavesswimschool.com",
+        "facebook.com",
+        "healthyfamilyliving.com",
+        "instaswimusa.com",
+        "iwillteachyoutoswim.com",
+        "mnpcentre.com",
+        "olympiaswimacademy.ca",
+        "swimoclock.com",
+        "thirdcoasttraining.com",
+        "volunteerconnector.org"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg",
+      "domains_added": [
+        "canadaswimschool.com"
+      ],
+      "domains_dropped": [
+        "aquaessence.ca",
+        "aquamobileswim.com",
+        "benchmarkswimminglessons.com",
+        "h2oacademy.ca",
+        "instagram.com",
+        "kickstartswimschool.ca",
+        "swim.aimabove.ca",
+        "youtube.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 35,
+      "question": "how much are private swim lessons in Winnipeg",
+      "domains_added": [
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "alteaactive.com",
+        "aquaessence.ca",
+        "britishswimschool.com",
+        "chrisd.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario",
+      "domains_added": [
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "c2cfirstaidaquatics.com",
+        "citywindsor.ca",
+        "lancercentre.uwindsor.ca",
+        "smithtownaquatics.com",
+        "tidewaterswimschool.org",
+        "yelp.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 37,
+      "question": "can I book a private swim instructor to come to my pool in Windsor",
+      "domains_added": [
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquaticsacademy.ca",
+        "c2cfirstaidaquatics.com",
+        "ezlessonswindsor.ca",
+        "saguaroaquatics.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 38,
+      "question": "are private swim instructors safer than group lessons for kids",
+      "domains_added": [
+        "felixswimschools.com",
+        "sealswimming.ca",
+        "youtube.com"
+      ],
+      "domains_dropped": [
+        "babyotterswimschool.com",
+        "backtobasicsswim.ca",
+        "kimswim.com.au",
+        "marinaswimschool.com",
+        "redcross.org",
+        "reddit.com",
+        "safesplash.com",
+        "schoolinthepool.ca",
+        "swimmo.com",
+        "swimnow.co.uk",
+        "theaqualife.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 39,
+      "question": "private swim lessons vs learning on my own with videos",
+      "domains_added": [
+        "davinasswimhouse.com",
+        "inspiredswim.com",
+        "kjaquatics.com",
+        "swim-montreal.com"
+      ],
+      "domains_dropped": [
+        "blog.canadaswimschool.com",
+        "bluewaveclub.ae",
+        "hollandaquatic.org",
+        "instaswimusa.com",
+        "marinaswimschool.com",
+        "masterspas.com",
+        "quora.com",
+        "reddit.com",
+        "schoolinthepool.ca",
+        "swim-central.uk",
+        "swimdesignspace.com",
+        "swimexpert.co.uk",
+        "theaqualife.ca",
+        "trainerroad.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 40,
+      "question": "what should I have ready before a private swim lesson at my house",
+      "domains_added": [
+        "aquaelite.ca",
+        "happyswimmers.com",
+        "hvswim.com"
+      ],
+      "domains_dropped": [
+        "backtobasicsswim.ca",
+        "blog.myswimpro.com",
+        "c2cfirstaidaquatics.com",
+        "coljonesswim.com.au",
+        "discountpoolmart.com",
+        "fitness.beaconhealthsystem.org",
+        "instagram.com",
+        "intotheswim.com",
+        "iswim.ie",
+        "iswimschool.ca",
+        "reddit.com",
+        "redfin.com",
+        "saguaroaquatics.com",
+        "snowlake.ca",
+        "southeastspas.com",
+        "swimcore.co.uk",
+        "swimkids.us",
+        "swimminglessonscoach.com",
+        "urswim.com",
+        "wildfishswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 41,
+      "question": "will my child have the same swim instructor every lesson",
+      "domains_added": [
+        "goldfishswimschool.com",
+        "instagram.com",
+        "jumpswimschools.com.au",
+        "swimmigo.com",
+        "toronto.ca",
+        "youtube.com"
+      ],
+      "domains_dropped": [
+        "calgaryjcc.com",
+        "lifesavingsociety.com",
+        "mississauga.ca",
+        "swimangelfish.com",
+        "theaqualife.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "ai_overviews",
+      "question_id": 42,
+      "question": "can I watch my child's swim lesson",
+      "domains_added": [
+        "swimkids.us",
+        "whitby.ca",
+        "ymcagta.org"
+      ],
+      "domains_dropped": [
+        "kitchener.ca",
+        "kpe.utoronto.ca",
+        "letsdivein.co.uk",
+        "mwss.ca",
+        "reddit.com",
+        "swim4life.com",
+        "swimminglessonsideas.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 18,
+      "question": "how much does an adult swim instructor cost in Aurora",
+      "domains_added": [],
+      "domains_dropped": [
+        "aurora.ca",
+        "superstrokesswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 19,
+      "question": "who teaches private swim lessons in Barrie",
+      "domains_added": [],
+      "domains_dropped": [
+        "barrie.ca",
+        "bigsplashswimmingacademy.ca",
+        "eliteswimschool.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 20,
+      "question": "are swim instructors background checked in Scarborough",
+      "domains_added": [],
+      "domains_dropped": [
+        "app.betterimpact.com",
+        "toronto.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 21,
+      "question": "private swim lessons for kids with no waitlist in Etobicoke",
+      "domains_added": [],
+      "domains_dropped": [
+        "swim.aimabove.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 22,
+      "question": "can I book adult swim lessons at my own pool in North York",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "daveswimschool.ca",
+        "schoolinthepool.ca",
+        "swimlesson.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 23,
+      "question": "what are the best private swim lesson companies in the GTA",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquaelite.ca",
+        "gtaswimschool.ca",
+        "splashaquatics.ca",
+        "swim.aimabove.ca",
+        "swimingo.com",
+        "swimlesson.ca",
+        "wdswimming.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 24,
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA",
+      "domains_added": [],
+      "domains_dropped": [
+        "reddit.com",
+        "swimingo.com",
+        "toronto.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 25,
+      "question": "where can I find a private swim instructor in Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "olympiaswimacademy.ca",
+        "reddit.com",
+        "swimlessonsvancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 26,
+      "question": "how much do private swim lessons cost in Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "inspiredswim.com",
+        "swimlessonsvancouver.ca",
+        "vancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "vancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 28,
+      "question": "do swim instructors travel to condo pools in North Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 29,
+      "question": "are private swim instructors certified in West Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "cdn.redcross.ca",
+        "westvancouver.ca",
+        "wvlifeguarding.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 30,
+      "question": "at-home swim lessons for kids in Burnaby",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "coastalwavesswimschool.com",
+        "iwillteachyoutoswim.com",
+        "olympiaswimacademy.ca",
+        "reddit.com",
+        "zero2proswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 31,
+      "question": "who teaches private swim lessons in Richmond BC",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "inspiredswim.com",
+        "richmond.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 32,
+      "question": "private swim lessons vs swim school in Coquitlam",
+      "domains_added": [],
+      "domains_dropped": [
+        "inspiredswim.com",
+        "portcoquitlam.ca",
+        "waterwisekids.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 33,
+      "question": "best private swim lesson companies in Metro Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "swimingo.com",
+        "swimlessonsvancouver.ca",
+        "vancouverswimminglessons.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquaessence.ca",
+        "reddit.com",
+        "splashaquatics.ca",
+        "winnipeg.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 35,
+      "question": "how much are private swim lessons in Winnipeg",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquaessence.ca",
+        "benchmarkswimminglessons.com",
+        "superprof.ca",
+        "winnipeg.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "citywindsor.ca",
+        "ezlessonswindsor.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "chatgpt",
+      "question_id": 37,
+      "question": "can I book a private swim instructor to come to my pool in Windsor",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "ezlessonswindsor.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 1,
+      "question": "where can I find a private swim instructor in Toronto",
+      "domains_added": [],
+      "domains_dropped": [
+        "britishswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 2,
+      "question": "do private swim instructors come to condo pools in Toronto",
+      "domains_added": [
+        "britishswimschool.com",
+        "fitness.pellea.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 3,
+      "question": "best private swim lessons for adults in Toronto",
+      "domains_added": [
+        "superprof.ca"
+      ],
+      "domains_dropped": [
+        "schoolinthepool.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 4,
+      "question": "who offers at-home swim lessons for kids in Mississauga",
+      "domains_added": [
+        "aqua-tots.com",
+        "buckleraquatics.com",
+        "iswimaquatics.ca"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 5,
+      "question": "how much do private swim lessons cost in Mississauga",
+      "domains_added": [],
+      "domains_dropped": [
+        "britishswimschool.com",
+        "theswimfocus.com",
+        "togetherweswim.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 7,
+      "question": "private swim lessons vs group lessons for kids in Vaughan",
+      "domains_added": [
+        "aquaelite.ca",
+        "srcentre.ca",
+        "temposwim.ca",
+        "waterwisekids.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 8,
+      "question": "are private swim instructors certified in Markham",
+      "domains_added": [
+        "russellaquatics.com",
+        "samanthaslearntoswim.ca",
+        "swanswimschool.com",
+        "wdswimming.com"
+      ],
+      "domains_dropped": [
+        "905swimming.ca",
+        "aquakids.ca",
+        "felixswimschools.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 9,
+      "question": "adult swim lessons that come to your condo pool in Richmond Hill",
+      "domains_added": [
+        "jafferswimschool.ca",
+        "talentswimschool.ca"
+      ],
+      "domains_dropped": [
+        "ezbackyardswim.com",
+        "torontoswimschool.com",
+        "wdswimming.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 10,
+      "question": "can a swim instructor come to my backyard pool in Oakville",
+      "domains_added": [
+        "atlantisschoolofswim.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 11,
+      "question": "how much does it cost to book private one-on-one swim lessons in Burlington",
+      "domains_added": [
+        "backtobasicsswim.ca"
+      ],
+      "domains_dropped": [
+        "burlington.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 12,
+      "question": "what's the best at-home swim lesson company for kids in Hamilton",
+      "domains_added": [
+        "swimlesson.ca"
+      ],
+      "domains_dropped": [
+        "marlinswimacademy.com",
+        "samswimacademy.com",
+        "shiningstarsswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 13,
+      "question": "is it safe to hire a private swim instructor in Pickering",
+      "domains_added": [
+        "swim-time.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "swimpro.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 14,
+      "question": "who offers private swim lessons in Ajax",
+      "domains_added": [
+        "swim-time.com",
+        "swimsmartacademy.ca"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 15,
+      "question": "how do I book a private swim instructor in Whitby",
+      "domains_added": [
+        "bandcaquatics.com"
+      ],
+      "domains_dropped": [
+        "splashmasterswim.wixsite.com",
+        "whitbyswimming.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 16,
+      "question": "what's the difference between private and semi-private swim lessons in Oshawa",
+      "domains_added": [],
+      "domains_dropped": [
+        "oshawa.ca",
+        "portal.iclasspro.com",
+        "woodlaneswimacademy.ca",
+        "ymcagta.org"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 17,
+      "question": "is there an at-home swim lesson program for beginners in Newmarket",
+      "domains_added": [
+        "aquasplashswim.com"
+      ],
+      "domains_dropped": [
+        "sureswimmers.com",
+        "swimnextdoor.ca",
+        "swimsmartacademy.com",
+        "torontoswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 18,
+      "question": "how much does an adult swim instructor cost in Aurora",
+      "domains_added": [
+        "diveinswimschool.com"
+      ],
+      "domains_dropped": [
+        "kjaquatics.com",
+        "masterducks.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 19,
+      "question": "who teaches private swim lessons in Barrie",
+      "domains_added": [
+        "swimplus.ca",
+        "willowcreekswim.ca"
+      ],
+      "domains_dropped": [
+        "barrie.ca",
+        "eliteswimschool.ca",
+        "waterbabies.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 21,
+      "question": "private swim lessons for kids with no waitlist in Etobicoke",
+      "domains_added": [
+        "aqua-tots.com",
+        "buckleraquatics.com",
+        "swim2survive.ca"
+      ],
+      "domains_dropped": [
+        "instagram.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 22,
+      "question": "can I book adult swim lessons at my own pool in North York",
+      "domains_added": [
+        "aquamobileswim.com"
+      ],
+      "domains_dropped": [
+        "davinasswimhouse.com",
+        "sealswimming.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 23,
+      "question": "what are the best private swim lesson companies in the GTA",
+      "domains_added": [],
+      "domains_dropped": [
+        "davinasswimhouse.com",
+        "felixswimschools.com",
+        "franksswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 24,
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA",
+      "domains_added": [
+        "aquaelite.ca",
+        "felixsswimschools.blogspot.com",
+        "waterwisekids.com"
+      ],
+      "domains_dropped": [
+        "bcblueswim.com",
+        "iwillteachyoutoswim.com",
+        "propelhq.com",
+        "swimlessonsvancouver.ca",
+        "swimoclock.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 25,
+      "question": "where can I find a private swim instructor in Vancouver",
+      "domains_added": [
+        "olympiaswimacademy.ca"
+      ],
+      "domains_dropped": [
+        "iwillteachyoutoswim.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 26,
+      "question": "how much do private swim lessons cost in Vancouver",
+      "domains_added": [
+        "go.propelhq.com",
+        "swimoclock.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquaventuresswim.com",
+        "bcblueswim.com",
+        "olympiaswimacademy.ca",
+        "propelhq.com",
+        "swimlessonsvancouver.ca",
+        "swimoclock.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 28,
+      "question": "do swim instructors travel to condo pools in North Vancouver",
+      "domains_added": [],
+      "domains_dropped": [
+        "app.amilia.com",
+        "artquaswim.ca",
+        "chenaswimclub.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 29,
+      "question": "are private swim instructors certified in West Vancouver",
+      "domains_added": [
+        "lifesaving.bc.ca",
+        "swimlink.ca"
+      ],
+      "domains_dropped": [
+        "pedalheads.com",
+        "sophiaswimschool.godaddysites.com",
+        "swimlessonsvancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 30,
+      "question": "at-home swim lessons for kids in Burnaby",
+      "domains_added": [
+        "zero2proswimschool.com"
+      ],
+      "domains_dropped": [
+        "burnaby.ca",
+        "pedalheads.com",
+        "swimlessonsvancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 31,
+      "question": "who teaches private swim lessons in Richmond BC",
+      "domains_added": [
+        "aquastarcanada.com",
+        "pedalheads.com",
+        "waylandsports.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 32,
+      "question": "private swim lessons vs swim school in Coquitlam",
+      "domains_added": [
+        "aquaswimnspeak.com",
+        "britishswimschool.com",
+        "marinaswimschool.com",
+        "pedalheads.com",
+        "swimmigo.com"
+      ],
+      "domains_dropped": [
+        "aquaelite.ca",
+        "coquitlam.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 33,
+      "question": "best private swim lesson companies in Metro Vancouver",
+      "domains_added": [
+        "aquaventuresswim.com",
+        "bcblueswim.com"
+      ],
+      "domains_dropped": [
+        "chatterblock.com",
+        "emlerswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg",
+      "domains_added": [],
+      "domains_dropped": [
+        "flex-fitness.ca",
+        "winnipeg.swimrockers.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario",
+      "domains_added": [
+        "aqua-tots.com",
+        "teamunify.com"
+      ],
+      "domains_dropped": [
+        "tecumseh.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 37,
+      "question": "can I book a private swim instructor to come to my pool in Windsor",
+      "domains_added": [
+        "facebook.com",
+        "teamunify.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 38,
+      "question": "are private swim instructors safer than group lessons for kids",
+      "domains_added": [
+        "felixswimschools.com",
+        "toronto.ca"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 40,
+      "question": "what should I have ready before a private swim lesson at my house",
+      "domains_added": [
+        "aquaelite.ca",
+        "superheroswimacademy.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "copilot",
+      "question_id": 42,
+      "question": "can I watch my child's swim lesson",
+      "domains_added": [
+        "swimy.org"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 4,
+      "question": "who offers at-home swim lessons for kids in Mississauga",
+      "domains_added": [
+        "britishswimschool.com",
+        "propelswimschool.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "propelswim.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 5,
+      "question": "how much do private swim lessons cost in Mississauga",
+      "domains_added": [
+        "mississauga.ca"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 9,
+      "question": "adult swim lessons that come to your condo pool in Richmond Hill",
+      "domains_added": [
+        "richmond.hill.on.ca"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "sunsationalswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 17,
+      "question": "is there an at-home swim lesson program for beginners in Newmarket",
+      "domains_added": [],
+      "domains_dropped": [
+        "aquamileswimschool.com",
+        "britishswimschool.com",
+        "premieraquatics.ca",
+        "swimnow.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 25,
+      "question": "where can I find a private swim instructor in Vancouver",
+      "domains_added": [
+        "vancouver.ca"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver",
+      "domains_added": [
+        "britishswimschool.com"
+      ],
+      "domains_dropped": [
+        "ubcaquaticcentre.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 30,
+      "question": "at-home swim lessons for kids in Burnaby",
+      "domains_added": [
+        "britishswimschool.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "gemini",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg",
+      "domains_added": [
+        "britishswimschool.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 1,
+      "question": "where can I find a private swim instructor in Toronto",
+      "domains_added": [
+        "google.com",
+        "gtaswimschool.ca",
+        "kjaquatics.com",
+        "propelhq.com",
+        "schoolinthepool.ca",
+        "swim2survive.ca",
+        "swimlesson.ca",
+        "torontoswimschool.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "davinasswimhouse.com",
+        "felixswimschools.com",
+        "superprof.ca",
+        "swim.aimabove.ca",
+        "toronto.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 2,
+      "question": "do private swim instructors come to condo pools in Toronto",
+      "domains_added": [
+        "c2cfirstaidaquatics.com",
+        "yelp.com",
+        "ymcagta.org"
+      ],
+      "domains_dropped": [
+        "aquaticsacademy.ca",
+        "swim.aimabove.ca",
+        "swimingo.com",
+        "torontoswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 3,
+      "question": "best private swim lessons for adults in Toronto",
+      "domains_added": [
+        "felixswimschools.com",
+        "fitness.pellea.com",
+        "propelhq.com",
+        "swimlesson.ca",
+        "teamatomica.com",
+        "ymcagta.org"
+      ],
+      "domains_dropped": [
+        "gtaswimschool.ca",
+        "schoolinthepool.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 4,
+      "question": "who offers at-home swim lessons for kids in Mississauga",
+      "domains_added": [
+        "atlantisschoolofswim.com",
+        "splashaquatics.ca",
+        "superprof.ca"
+      ],
+      "domains_dropped": [
+        "aqua-tots.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 5,
+      "question": "how much do private swim lessons cost in Mississauga",
+      "domains_added": [
+        "fitness.pellea.com",
+        "goldfishswimschool.com",
+        "swimingo.com",
+        "wyzant.com",
+        "ymcagta.org"
+      ],
+      "domains_dropped": [
+        "apexswimmers.com",
+        "theaqualife.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 6,
+      "question": "are there swim instructors experienced with toddlers in Brampton",
+      "domains_added": [
+        "c2cfirstaidaquatics.com",
+        "emlerswimschool.com",
+        "insauga.com",
+        "reddit.com",
+        "ymcagta.org"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "backyardaquatics.ca",
+        "mwss.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 7,
+      "question": "private swim lessons vs group lessons for kids in Vaughan",
+      "domains_added": [
+        "mwss.ca",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "aquaelite.ca",
+        "inspiredswim.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 8,
+      "question": "are private swim instructors certified in Markham",
+      "domains_added": [
+        "minaswimschool.com",
+        "safety.ophea.net"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "swimingo.com",
+        "wdswimming.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 9,
+      "question": "adult swim lessons that come to your condo pool in Richmond Hill",
+      "domains_added": [
+        "c2cfirstaidaquatics.com",
+        "swimbrothers.ca"
+      ],
+      "domains_dropped": [
+        "schoolinthepool.ca",
+        "torontoswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 10,
+      "question": "can a swim instructor come to my backyard pool in Oakville",
+      "domains_added": [
+        "activeparents.ca",
+        "aquamobileswim.com",
+        "atlantisschoolofswim.com",
+        "kijiji.ca",
+        "summerswimacademy.com",
+        "swimlesson.ca"
+      ],
+      "domains_dropped": [
+        "oakville.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 11,
+      "question": "how much does it cost to book private one-on-one swim lessons in Burlington",
+      "domains_added": [
+        "assets.brandbot.com",
+        "atlantisschoolofswim.com",
+        "cityofburlington.perfectmind.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "burlingtoncommunitypool.org",
+        "burlingtonrec.com",
+        "burlingtontennis.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 12,
+      "question": "what's the best at-home swim lesson company for kids in Hamilton",
+      "domains_added": [
+        "activeparents.ca",
+        "aquastarcanada.com",
+        "superprof.ca",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "goldfishswimschool.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 13,
+      "question": "is it safe to hire a private swim instructor in Pickering",
+      "domains_added": [
+        "pickering.ca",
+        "waterloo.ca"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "waterwisekids.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 14,
+      "question": "who offers private swim lessons in Ajax",
+      "domains_added": [
+        "alyssasaquatics.ca",
+        "canadaswimschool.com",
+        "mackswimschool.com",
+        "my.lifetime.life",
+        "noahswimschool.ca"
+      ],
+      "domains_dropped": [
+        "facebook.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 15,
+      "question": "how do I book a private swim instructor in Whitby",
+      "domains_added": [
+        "swim-time.com"
+      ],
+      "domains_dropped": [
+        "aquaelite.ca",
+        "aquamobileswim.com",
+        "facebook.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 16,
+      "question": "what's the difference between private and semi-private swim lessons in Oshawa",
+      "domains_added": [
+        "oshawa.ca"
+      ],
+      "domains_dropped": [
+        "fossswimschool.com",
+        "intotheswim.com",
+        "theaqualife.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 17,
+      "question": "is there an at-home swim lesson program for beginners in Newmarket",
+      "domains_added": [
+        "facebook.com",
+        "sgsinkorswim.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "newmarket.ca",
+        "swimingo.com",
+        "torontoswimschool.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 18,
+      "question": "how much does an adult swim instructor cost in Aurora",
+      "domains_added": [
+        "aqualifeswimschool.ca",
+        "aurora.ca",
+        "superswimmers.ca",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "dupageswimmingcenter.com",
+        "safesplash.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 19,
+      "question": "who teaches private swim lessons in Barrie",
+      "domains_added": [
+        "c2cfirstaidaquatics.com",
+        "emploiete.ca",
+        "lifesavingsociety.com",
+        "splashnlearn.com"
+      ],
+      "domains_dropped": [
+        "bigsplashswimmingacademy.ca",
+        "eliteswimschool.ca",
+        "superprof.ca",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 20,
+      "question": "are swim instructors background checked in Scarborough",
+      "domains_added": [
+        "ca.indeed.com",
+        "propelhq.com",
+        "toronto.ca"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "ca.mncjobz.com",
+        "lifesavingsociety.com",
+        "swimming.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 21,
+      "question": "private swim lessons for kids with no waitlist in Etobicoke",
+      "domains_added": [],
+      "domains_dropped": [
+        "britishswimschool.com",
+        "swim.aimabove.ca",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 22,
+      "question": "can I book adult swim lessons at my own pool in North York",
+      "domains_added": [
+        "c2cfirstaidaquatics.com",
+        "jobs.ca",
+        "toronto.ca",
+        "yelp.com"
+      ],
+      "domains_dropped": [
+        "fitness.pellea.com",
+        "schoolinthepool.ca",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 23,
+      "question": "what are the best private swim lesson companies in the GTA",
+      "domains_added": [
+        "buckleraquatics.com",
+        "davinasswimhouse.com",
+        "fitness.pellea.com",
+        "kjaquatics.com",
+        "ymcagta.org"
+      ],
+      "domains_dropped": [
+        "felixswimschools.com",
+        "gtaswimschool.ca",
+        "schoolinthepool.ca",
+        "sealswimming.ca",
+        "superprof.ca",
+        "swim-time.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 24,
+      "question": "at-home swim lessons vs public swim school waitlists in the GTA",
+      "domains_added": [
+        "getmoving.to",
+        "toronto.ca"
+      ],
+      "domains_dropped": [
+        "helpwevegotkids.com",
+        "reddit.com",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 25,
+      "question": "where can I find a private swim instructor in Vancouver",
+      "domains_added": [
+        "bcblueswim.com",
+        "foujanswimacademy.com",
+        "olympiaswimacademy.ca",
+        "vancouverswimschool.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "coastalwavesswimschool.com",
+        "recreation.ubc.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 26,
+      "question": "how much do private swim lessons cost in Vancouver",
+      "domains_added": [
+        "activevancouver.ca",
+        "ywcavan.org"
+      ],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "marinaswimschool.com",
+        "superprof.ca",
+        "swimlessonsvancouver.ca",
+        "ywcabc.org"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 27,
+      "question": "private swim lessons for adults in Vancouver",
+      "domains_added": [
+        "artquaswim.ca",
+        "propelhq.com",
+        "swimlessonsvancouver.ca",
+        "swimoclock.com",
+        "vancouver.ca",
+        "ymcabc.ca"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "superprof.ca",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 28,
+      "question": "do swim instructors travel to condo pools in North Vancouver",
+      "domains_added": [
+        "aquamobileswim.com",
+        "bcblueswim.com",
+        "farshaquatics.ca",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "vancouverswimschool.com"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 29,
+      "question": "are private swim instructors certified in West Vancouver",
+      "domains_added": [
+        "bebee.com",
+        "ca.indeed.com",
+        "lifesaving.bc.ca",
+        "superprof.ca"
+      ],
+      "domains_dropped": [
+        "linkedin.com",
+        "redcross.org",
+        "swimingo.com",
+        "westvancouver.ca"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 30,
+      "question": "at-home swim lessons for kids in Burnaby",
+      "domains_added": [
+        "burnaby.ca",
+        "inspiredswim.com",
+        "iwillteachyoutoswim.com"
+      ],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 31,
+      "question": "who teaches private swim lessons in Richmond BC",
+      "domains_added": [
+        "bebee.com",
+        "richmond.ca",
+        "waylandsports.com"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "aquastarcanada.com",
+        "inspiredswim.com",
+        "marinaswimschool.com",
+        "propelhq.com",
+        "richmondcity.perfectmind.com",
+        "swimingo.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": true
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 32,
+      "question": "private swim lessons vs swim school in Coquitlam",
+      "domains_added": [
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "aquastarcanada.com",
+        "coquitlam.ca",
+        "portcoquitlam.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 33,
+      "question": "best private swim lesson companies in Metro Vancouver",
+      "domains_added": [
+        "artquaswim.ca",
+        "foujanswimacademy.com",
+        "olympiaswimacademy.ca",
+        "swimlessonsvancouver.ca"
+      ],
+      "domains_dropped": [
+        "aquamobileswim.com",
+        "inspiredswim.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 34,
+      "question": "private swim instructors that come to your home in Winnipeg",
+      "domains_added": [
+        "aquastarcanada.com",
+        "benchmarkswimminglessons.com",
+        "finance.yahoo.com",
+        "littleripplesacademy.com",
+        "reddit.com",
+        "splashersswimming.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "alteaactive.com",
+        "aquaessence.ca",
+        "facebook.com",
+        "linkedin.com",
+        "superprof.ca",
+        "theaqualife.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 35,
+      "question": "how much are private swim lessons in Winnipeg",
+      "domains_added": [
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "alteaactive.com",
+        "centresportifdelapetitebourgogne.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 36,
+      "question": "at-home swim lessons for kids in Windsor Ontario",
+      "domains_added": [
+        "aqua-tots.com",
+        "swimingo.com"
+      ],
+      "domains_dropped": [
+        "lancercentre.uwindsor.ca"
+      ],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 37,
+      "question": "can I book a private swim instructor to come to my pool in Windsor",
+      "domains_added": [
+        "swimingo.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": true,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 38,
+      "question": "are private swim instructors safer than group lessons for kids",
+      "domains_added": [
+        "babyotterswimschool.com",
+        "drifttravel.com",
+        "hollandaquatic.org",
+        "inspiredswim.com",
+        "waterwisekids.com"
+      ],
+      "domains_dropped": [
+        "aquatots.com.au",
+        "bigblueswimschool.com",
+        "starfishswimschool.com.au",
+        "swim4lifeschools.com.au"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 39,
+      "question": "private swim lessons vs learning on my own with videos",
+      "domains_added": [
+        "swimtosurvive.swimming.ca",
+        "toronto.ca"
+      ],
+      "domains_dropped": [
+        "diventures.com",
+        "reddit.com",
+        "thirdcoasttraining.com",
+        "youtube.com"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 40,
+      "question": "what should I have ready before a private swim lesson at my house",
+      "domains_added": [
+        "gwrymca.org",
+        "phecanada.ca",
+        "superheroswimacademy.com"
+      ],
+      "domains_dropped": [],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 41,
+      "question": "will my child have the same swim instructor every lesson",
+      "domains_added": [
+        "demontswim.com",
+        "waterwisekids.com",
+        "wyeepointsc.com.au"
+      ],
+      "domains_dropped": [
+        "buckeyeswimschool.com",
+        "rmparks.org"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    },
+    {
+      "platform": "perplexity",
+      "question_id": 42,
+      "question": "can I watch my child's swim lesson",
+      "domains_added": [
+        "cygnetswimming.co.uk",
+        "haltonhills.ic12.esolg.ca",
+        "swimbsc.org",
+        "utc.edu"
+      ],
+      "domains_dropped": [
+        "max-aquatics.com",
+        "swimy.org"
+      ],
+      "swimingo_newly_cited": false,
+      "swimingo_newly_dropped": false
+    }
+  ],
+  "methodology_limitations": "- **Location (primary suspected confound):** the two runs were captured from\n  different physical locations — Toronto for Week 1, Bancroft for Week 6.\n  This could plausibly affect any platform that uses IP-based geolocation for\n  local-intent queries, not just Google AI Overviews — search-grounded\n  platforms may weight \"what's near the searcher\" even when a city is named\n  explicitly in the question text. Platform-level visibility deltas below\n  should NOT be read as clean causal evidence of Week 2-5 content/technical\n  changes without this caveat in mind.\n- **Account history (minor, not a confound between these two runs):**\n  Perplexity and Copilot both used brand-new accounts with no prior\n  interaction history in both Week 1 and Week 6, so account-history-based\n  personalization drift is not a meaningful difference between the two runs\n  — both started from the same blank-slate state. Different email addresses\n  were used each time, and Perplexity's self-reported age field may have\n  differed between runs (uncertain in Week 1, \"23\" in Week 6); these are\n  documented for completeness but their likely impact is small.\n- **What's less affected:** question-type-level findings (e.g. cost-question\n  visibility) aren't tied to a single platform's personalization/location\n  behavior, so they can be read with more confidence than platform-level\n  deltas — though the same caveat still applies in general.\n- **Forward-looking note for Week 8:** control for location and account\n  consistency this time (same location, same or comparably-aged accounts)\n  to get a cleaner final comparison.\n"
+}
