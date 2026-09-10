@@ -37,7 +37,10 @@ GENERIC_LOCATION_NOTE = """\
   before treating platform-level deltas as clean evidence.
 """
 
-METHODOLOGY_LIMITATIONS_COMMON = """\
+# Documents a real, one-time fact (both Week 1 and Week 6 used brand-new
+# accounts with no prior history). Only accurate for that exact comparison —
+# see build_methodology_limitations().
+ACCOUNT_HISTORY_WEEK1_WEEK6 = """\
 - **Account history (minor, not a confound between these two runs):**
   Perplexity and Copilot both used brand-new accounts with no prior
   interaction history in both Week 1 and Week 6, so account-history-based
@@ -46,25 +49,61 @@ METHODOLOGY_LIMITATIONS_COMMON = """\
   were used each time, and Perplexity's self-reported age field may have
   differed between runs (uncertain in Week 1, "23" in Week 6); these are
   documented for completeness but their likely impact is small.
+"""
+
+GENERIC_ACCOUNT_HISTORY_NOTE = """\
+- **Account history:** No known account-history confound has been recorded
+  for this specific comparison. If account setup (freshly created vs.
+  established, self-reported details like age) differed between these two
+  runs, note that manually, it can affect personalization-sensitive
+  platforms like Perplexity.
+"""
+
+WHATS_LESS_AFFECTED = """\
 - **What's less affected:** question-type-level findings (e.g. cost-question
   visibility) aren't tied to a single platform's personalization/location
   behavior, so they can be read with more confidence than platform-level
   deltas — though the same caveat still applies in general.
+"""
+
+# Genuinely forward-looking only for the original Week 1 vs. Week 6
+# comparison (written as advice for the not-yet-run Week 8 capture). See
+# build_methodology_limitations().
+FORWARD_LOOKING_NOTE_WEEK1_WEEK6 = """\
 - **Forward-looking note for Week 8:** control for location and account
   consistency this time (same location, same or comparably-aged accounts)
   to get a cleaner final comparison.
 """
 
+GENERIC_CONSISTENCY_NOTE = """\
+- **Capture consistency:** keeping capture conditions (location, account
+  setup) consistent between the two runs being compared makes platform-level
+  deltas easier to trust.
+"""
+
 
 def build_methodology_limitations(baseline_dates: list[str], current_dates: list[str]) -> str:
     """Build the Methodology Limitations text for a given baseline/current date
-    pairing. The location-confound paragraph is specific to the original Week 1
-    vs. Week 6 comparison and must not be inherited by unrelated diffs."""
-    if baseline_dates == WEEK1_DATES and current_dates == WEEK6_DATES:
+    pairing. The location, account-history, and forward-looking paragraphs are
+    specific to the original Week 1 vs. Week 6 comparison and must not be
+    inherited by unrelated diffs."""
+    is_week1_vs_week6 = baseline_dates == WEEK1_DATES and current_dates == WEEK6_DATES
+
+    if is_week1_vs_week6:
         location_note = LOCATION_CONFOUND_WEEK1_WEEK6
+        account_history_note = ACCOUNT_HISTORY_WEEK1_WEEK6
+        forward_looking_note = FORWARD_LOOKING_NOTE_WEEK1_WEEK6
     else:
         location_note = GENERIC_LOCATION_NOTE
-    return location_note + METHODOLOGY_LIMITATIONS_COMMON
+        account_history_note = GENERIC_ACCOUNT_HISTORY_NOTE
+        forward_looking_note = GENERIC_CONSISTENCY_NOTE
+
+    return (
+        location_note
+        + account_history_note
+        + WHATS_LESS_AFFECTED
+        + forward_looking_note
+    )
 
 
 def load_questions_by_id() -> dict[int, dict]:

@@ -6,21 +6,18 @@
   recorded for this specific comparison. If capture conditions (location,
   device, account age) differed between these two runs, note that manually
   before treating platform-level deltas as clean evidence.
-- **Account history (minor, not a confound between these two runs):**
-  Perplexity and Copilot both used brand-new accounts with no prior
-  interaction history in both Week 1 and Week 6, so account-history-based
-  personalization drift is not a meaningful difference between the two runs
-  — both started from the same blank-slate state. Different email addresses
-  were used each time, and Perplexity's self-reported age field may have
-  differed between runs (uncertain in Week 1, "23" in Week 6); these are
-  documented for completeness but their likely impact is small.
+- **Account history:** No known account-history confound has been recorded
+  for this specific comparison. If account setup (freshly created vs.
+  established, self-reported details like age) differed between these two
+  runs, note that manually, it can affect personalization-sensitive
+  platforms like Perplexity.
 - **What's less affected:** question-type-level findings (e.g. cost-question
   visibility) aren't tied to a single platform's personalization/location
   behavior, so they can be read with more confidence than platform-level
   deltas — though the same caveat still applies in general.
-- **Forward-looking note for Week 8:** control for location and account
-  consistency this time (same location, same or comparably-aged accounts)
-  to get a cleaner final comparison.
+- **Capture consistency:** keeping capture conditions (location, account
+  setup) consistent between the two runs being compared makes platform-level
+  deltas easier to trust.
 
 
 ## Visibility by platform (baseline -> current)
