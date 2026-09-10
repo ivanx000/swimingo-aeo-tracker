@@ -1,0 +1,531 @@
+# Swimingo AEO Diff — 2026-07-23-2026-07-24 (baseline) vs. 2026-08-23-2026-08-24
+
+## Methodology Limitations
+
+- **Location (primary suspected confound):** the two runs were captured from
+  different physical locations — Toronto for Week 1, Bancroft for Week 6.
+  This could plausibly affect any platform that uses IP-based geolocation for
+  local-intent queries, not just Google AI Overviews — search-grounded
+  platforms may weight "what's near the searcher" even when a city is named
+  explicitly in the question text. Platform-level visibility deltas below
+  should NOT be read as clean causal evidence of Week 2-5 content/technical
+  changes without this caveat in mind.
+- **Account history (minor, not a confound between these two runs):**
+  Perplexity and Copilot both used brand-new accounts with no prior
+  interaction history in both Week 1 and Week 6, so account-history-based
+  personalization drift is not a meaningful difference between the two runs
+  — both started from the same blank-slate state. Different email addresses
+  were used each time, and Perplexity's self-reported age field may have
+  differed between runs (uncertain in Week 1, "23" in Week 6); these are
+  documented for completeness but their likely impact is small.
+- **What's less affected:** question-type-level findings (e.g. cost-question
+  visibility) aren't tied to a single platform's personalization/location
+  behavior, so they can be read with more confidence than platform-level
+  deltas — though the same caveat still applies in general.
+- **Forward-looking note for Week 8:** control for location and account
+  consistency this time (same location, same or comparably-aged accounts)
+  to get a cleaner final comparison.
+
+
+## Visibility by platform (baseline -> current)
+- **ai_overviews**: 26/42 -> 30/42, +4
+- **chatgpt**: 7/42 -> 8/42, +1
+- **copilot**: 0/42 -> 0/42, 0
+- **gemini**: 0/42 -> 0/42, 0
+- **perplexity**: 19/42 -> 16/42, -3
+
+## Newly-appearing Swimingo mentions (absent in baseline, present in current)
+- [ai_overviews] Q5: "how much do private swim lessons cost in Mississauga"
+- [ai_overviews] Q20: "are swim instructors background checked in Scarborough"
+- [ai_overviews] Q26: "how much do private swim lessons cost in Vancouver"
+- [ai_overviews] Q27: "private swim lessons for adults in Vancouver"
+- [ai_overviews] Q35: "how much are private swim lessons in Winnipeg"
+- [ai_overviews] Q36: "at-home swim lessons for kids in Windsor Ontario"
+- [ai_overviews] Q37: "can I book a private swim instructor to come to my pool in Windsor"
+- [chatgpt] Q2: "do private swim instructors come to condo pools in Toronto"
+- [chatgpt] Q22: "can I book adult swim lessons at my own pool in North York"
+- [chatgpt] Q34: "private swim instructors that come to your home in Winnipeg"
+- [chatgpt] Q36: "at-home swim lessons for kids in Windsor Ontario"
+- [chatgpt] Q37: "can I book a private swim instructor to come to my pool in Windsor"
+- [perplexity] Q1: "where can I find a private swim instructor in Toronto"
+- [perplexity] Q5: "how much do private swim lessons cost in Mississauga"
+- [perplexity] Q12: "what's the best at-home swim lesson company for kids in Hamilton"
+- [perplexity] Q18: "how much does an adult swim instructor cost in Aurora"
+- [perplexity] Q23: "what are the best private swim lesson companies in the GTA"
+- [perplexity] Q28: "do swim instructors travel to condo pools in North Vancouver"
+- [perplexity] Q34: "private swim instructors that come to your home in Winnipeg"
+- [perplexity] Q36: "at-home swim lessons for kids in Windsor Ontario"
+- [perplexity] Q37: "can I book a private swim instructor to come to my pool in Windsor"
+
+## Newly-lost Swimingo mentions (present in baseline, absent in current)
+- [ai_overviews] Q16: "what's the difference between private and semi-private swim lessons in Oshawa"
+- [ai_overviews] Q18: "how much does an adult swim instructor cost in Aurora"
+- [ai_overviews] Q25: "where can I find a private swim instructor in Vancouver"
+- [chatgpt] Q1: "where can I find a private swim instructor in Toronto"
+- [chatgpt] Q23: "what are the best private swim lesson companies in the GTA"
+- [chatgpt] Q28: "do swim instructors travel to condo pools in North Vancouver"
+- [chatgpt] Q33: "best private swim lesson companies in Metro Vancouver"
+- [perplexity] Q8: "are private swim instructors certified in Markham"
+- [perplexity] Q9: "adult swim lessons that come to your condo pool in Richmond Hill"
+- [perplexity] Q10: "can a swim instructor come to my backyard pool in Oakville"
+- [perplexity] Q19: "who teaches private swim lessons in Barrie"
+- [perplexity] Q21: "private swim lessons for kids with no waitlist in Etobicoke"
+- [perplexity] Q22: "can I book adult swim lessons at my own pool in North York"
+- [perplexity] Q25: "where can I find a private swim instructor in Vancouver"
+- [perplexity] Q27: "private swim lessons for adults in Vancouver"
+- [perplexity] Q29: "are private swim instructors certified in West Vancouver"
+- [perplexity] Q30: "at-home swim lessons for kids in Burnaby"
+- [perplexity] Q31: "who teaches private swim lessons in Richmond BC"
+- [perplexity] Q32: "private swim lessons vs swim school in Coquitlam"
+
+## Citation source changes
+- [ai_overviews] Q1: "where can I find a private swim instructor in Toronto" [swimingo.com newly cited]
+  - added: aquamobileswim.com, aquaticsacademy.ca, davinasswimhouse.com, felixswimschools.com, google.com, gtaswimschool.ca, schoolinthepool.ca, superprof.ca, swimingo.com, swimlesson.ca, toronto.ca
+  - dropped: none
+- [ai_overviews] Q2: "do private swim instructors come to condo pools in Toronto"
+  - added: propelhq.com, superprof.ca, torontoswimschool.com
+  - dropped: c2cfirstaidaquatics.com, fitness.pellea.com
+- [ai_overviews] Q3: "best private swim lessons for adults in Toronto"
+  - added: gtaswimschool.ca, superprof.ca, swim.aimabove.ca
+  - dropped: better.org.uk, ca.nextdoor.com, davinasswimhouse.com, peninsulaswimschool.com.au, propelhq.com
+- [ai_overviews] Q4: "who offers at-home swim lessons for kids in Mississauga"
+  - added: aqua-tots.com
+  - dropped: canadaswimschool.com, felixswimschools.com, pathwaypeds.com
+- [ai_overviews] Q5: "how much do private swim lessons cost in Mississauga" [swimingo.com newly cited]
+  - added: apexswimmers.com, swimingo.com
+  - dropped: c2cfirstaidaquatics.com, facebook.com, hotbot.com, kjaquatics.com, mississauga.ca, reddit.com, theglobeandmail.com
+- [ai_overviews] Q6: "are there swim instructors experienced with toddlers in Brampton"
+  - added: none
+  - dropped: aquamobileswim.com, britishswimschool.com, cookseyslifeguardcompany.com, facebook.com, instagram.com, justinsscubatime.com, nextlevelswimschool.com, puddlesswimschool.com, schoolinthepool.ca, swimfinityacademy.com, tiktok.com, werockthespectrumbrampton.ca
+- [ai_overviews] Q7: "private swim lessons vs group lessons for kids in Vaughan"
+  - added: alexswimschool.com, inspiredswim.com, my.lifetime.life, swimcamp.com, theaqualife.ca
+  - dropped: hollandaquatic.org, reddit.com, schoolinthepool.ca, superprof.ca, swim-montreal.com, swim4lifeschools.com.au, swimlessonswithmary.com, ymcagta.org
+- [ai_overviews] Q8: "are private swim instructors certified in Markham"
+  - added: alexswimschool.com, propelhq.com
+  - dropped: aquamobileswim.com, ca.indeed.com, unionvilleac.com, wdswimming.com
+- [ai_overviews] Q9: "adult swim lessons that come to your condo pool in Richmond Hill" [swimingo.com newly cited]
+  - added: c2cfirstaidaquatics.com, swimbrothers.ca, swimingo.com, talentswimschool.ca
+  - dropped: regina.ca, settime.io
+- [ai_overviews] Q10: "can a swim instructor come to my backyard pool in Oakville"
+  - added: crawfordsbackyardswimschool.com, poolsideswimming.com, summerswimacademy.com, ymcaofoakville.org, youtube.com
+  - dropped: aquaticsacademy.ca, backtobasicsswim.ca
+- [ai_overviews] Q11: "how much does it cost to book private one-on-one swim lessons in Burlington"
+  - added: canadaswimschool.com
+  - dropped: atlantisschoolofswim.com
+- [ai_overviews] Q12: "what's the best at-home swim lesson company for kids in Hamilton" [swimingo.com newly dropped]
+  - added: none
+  - dropped: aquamobileswim.com, c2cfirstaidaquatics.com, goldfishswimschool.com, shiningstarsswimschool.com, swimingo.com, weswim.ca
+- [ai_overviews] Q13: "is it safe to hire a private swim instructor in Pickering"
+  - added: bandcaquatics.com, halton.ca, safety.ophea.net, wdswimming.com
+  - dropped: marinaswimschool.com, propelhq.com, samanthaslearntoswim.ca, sunbrightaquatics.com, superprof.ca, swim.aimabove.ca
+- [ai_overviews] Q14: "who offers private swim lessons in Ajax"
+  - added: noahswimschool.ca
+  - dropped: ca.apm.activecommunities.com, m.yelp.ca
+- [ai_overviews] Q15: "how do I book a private swim instructor in Whitby"
+  - added: facebook.com
+  - dropped: 123-swim-abc.com, 905swimming.ca, swimstrongaquatics.ca, torontoswimschool.com, ymywha.com
+- [ai_overviews] Q16: "what's the difference between private and semi-private swim lessons in Oshawa" [swimingo.com newly dropped]
+  - added: bgcdurham.com, intotheswim.com
+  - dropped: blackfaldsabbey.ca, davinasswimhouse.com, oshawa.ca, rocketswim.com, snohomishaquatic.com, swimingo.com, teachme.to
+- [ai_overviews] Q17: "is there an at-home swim lesson program for beginners in Newmarket"
+  - added: facebook.com
+  - dropped: shoreswim.com, swimply.com
+- [ai_overviews] Q18: "how much does an adult swim instructor cost in Aurora" [swimingo.com newly dropped]
+  - added: aqualifeswimschool.ca, madelainesswimschool.com, swimsmartacademy.com
+  - dropped: aquamobileswim.com, aquastarcanada.com, britishswimschool.com, championswimming.ca, goldfishswimschool.com, kjaquatics.com, superprof.ca, swimingo.com, teachme.to
+- [ai_overviews] Q19: "who teaches private swim lessons in Barrie"
+  - added: facebook.com
+  - dropped: davinasswimhouse.com
+- [ai_overviews] Q20: "are swim instructors background checked in Scarborough" [swimingo.com newly cited]
+  - added: c2cfirstaidaquatics.com, swimingo.com
+  - dropped: crto.on.ca, forensicscanada.ca, tcdsb.org, tdsb.on.ca, tps.ca, workopolis.com, ymcagta.org
+- [ai_overviews] Q21: "private swim lessons for kids with no waitlist in Etobicoke"
+  - added: facebook.com, swim.aimabove.ca, swimlesson.ca, toronto.ca
+  - dropped: aquamobileswim.com, aquaticsacademy.ca, blog.propelhq.com, propelhq.com
+- [ai_overviews] Q22: "can I book adult swim lessons at my own pool in North York"
+  - added: none
+  - dropped: c2cfirstaidaquatics.com, davinasswimhouse.com, fitness.pellea.com, resultsgymalexandria.com, schoolinthepool.ca, swimlesson.ca
+- [ai_overviews] Q23: "what are the best private swim lesson companies in the GTA"
+  - added: none
+  - dropped: aquamobileswim.com, aquaticsacademy.ca, britishswimschool.com, davinasswimhouse.com, facebook.com, felixswimschools.com, kjaquatics.com
+- [ai_overviews] Q24: "at-home swim lessons vs public swim school waitlists in the GTA"
+  - added: alexswimschool.com, aquaelite.ca, aquaticsacademy.ca, facebook.com, franksswimschool.com, gtaswimschool.ca, instagram.com, jackofsports.com, reddit.com, toronto.ca
+  - dropped: aquamobileswim.com, backtobasicsswim.ca, sealswimming.ca, swim-time.com
+- [ai_overviews] Q25: "where can I find a private swim instructor in Vancouver" [swimingo.com newly dropped]
+  - added: coach-stewart.com, coastalwavesswimschool.com, propelhq.com, vancouver.ca
+  - dropped: active-living.ucalgary.ca, instaswimusa.com, marinaswimschool.com, swimingo.com, swimlessonsvancouver.ca
+- [ai_overviews] Q26: "how much do private swim lessons cost in Vancouver" [swimingo.com newly cited]
+  - added: aquastarcanada.com, swimingo.com, vancouver.ca
+  - dropped: aquamobileswim.com, blog.propelhq.com, inspiredswim.com, kjaquatics.com, propelhq.com, superprof.com, swimdesignspace.com, swimlessonsvancouver.ca, teachme.to
+- [ai_overviews] Q27: "private swim lessons for adults in Vancouver" [swimingo.com newly cited]
+  - added: chatterblock.com, go.propelhq.com, nvrc.ca, swimingo.com
+  - dropped: activevancouver.ca, coastalwavesswimschool.com, facebook.com, furzefieldleisurecentre.co.uk, get-set-go.com, reddit.com, superprof.ca, swimmingclasses.sg, thearenaclub.com
+- [ai_overviews] Q28: "do swim instructors travel to condo pools in North Vancouver"
+  - added: facebook.com, propelhq.com
+  - dropped: nvrc.ca
+- [ai_overviews] Q29: "are private swim instructors certified in West Vancouver"
+  - added: aquamobileswim.com, artquaswim.ca, facebook.com
+  - dropped: activevancouver.ca, aquastarcanada.com, ca.apm.activecommunities.com, ca.indeed.com, lifesaving.bc.ca, parkroyal.ca, pedalheads.com
+- [ai_overviews] Q30: "at-home swim lessons for kids in Burnaby"
+  - added: olympiaswimacademy.ca
+  - dropped: activevancouver.ca, facebook.com, fitness2000.ca, healthsport.com, instagram.com, instaswimusa.com, reddit.com, swimlessonsvancouver.ca
+- [ai_overviews] Q31: "who teaches private swim lessons in Richmond BC"
+  - added: none
+  - dropped: facebook.com, instagram.com, minorucentre.ca, pedalheads.com, pickering.ca, sunsationalswimschool.com, vancouversbestplaces.com
+- [ai_overviews] Q32: "private swim lessons vs swim school in Coquitlam"
+  - added: aquastarcanada.com, facebook.com, ymcabc.ca
+  - dropped: bearpaddle.com, cityofcoquitlam.perfectmind.com, felixswimschools.com, jdesigns.com, puddlesswimschool.com, reddit.com, sunsationalswimschool.com
+- [ai_overviews] Q33: "best private swim lesson companies in Metro Vancouver"
+  - added: go.propelhq.com, iswimschool.ca
+  - dropped: artquaswim.ca, blog.propelhq.com, ca.linkedin.com, facebook.com, healthyfamilyliving.com, instaswimusa.com, iwillteachyoutoswim.com, marinaswimschool.com, mnpcentre.com, olympiaswimacademy.ca, thirdcoasttraining.com, volunteerconnector.org
+- [ai_overviews] Q34: "private swim instructors that come to your home in Winnipeg"
+  - added: none
+  - dropped: h2oacademy.ca, instagram.com, kickstartswimschool.ca, swim.aimabove.ca, youtube.com
+- [ai_overviews] Q35: "how much are private swim lessons in Winnipeg"
+  - added: none
+  - dropped: alteaactive.com, aquaessence.ca, britishswimschool.com, chrisd.ca, ywinnipeg.ca
+- [ai_overviews] Q36: "at-home swim lessons for kids in Windsor Ontario" [swimingo.com newly cited]
+  - added: swimingo.com
+  - dropped: c2cfirstaidaquatics.com, citywindsor.ca, lancercentre.uwindsor.ca, smithtownaquatics.com, tidewaterswimschool.org, yelp.ca
+- [ai_overviews] Q37: "can I book a private swim instructor to come to my pool in Windsor" [swimingo.com newly cited]
+  - added: reddit.com, swimingo.com
+  - dropped: aquaticsacademy.ca, saguaroaquatics.com
+- [ai_overviews] Q38: "are private swim instructors safer than group lessons for kids"
+  - added: alphaswimclub.com, davinasswimhouse.com, felixswimschools.com, speediswim.org, sunsationalswimschool.com
+  - dropped: babyotterswimschool.com, backtobasicsswim.ca, kimswim.com.au, marinaswimschool.com, redcross.org, reddit.com, safesplash.com, schoolinthepool.ca, swimmo.com, swimnow.co.uk, theaqualife.ca
+- [ai_overviews] Q39: "private swim lessons vs learning on my own with videos"
+  - added: davinasswimhouse.com
+  - dropped: backtobasicsswim.ca, blog.canadaswimschool.com, bluewaveclub.ae, hollandaquatic.org, instaswimusa.com, marinaswimschool.com, masterspas.com, quora.com, swim-central.uk, swimdesignspace.com, swimexpert.co.uk, trainerroad.com
+- [ai_overviews] Q40: "what should I have ready before a private swim lesson at my house"
+  - added: aquaelite.ca
+  - dropped: backtobasicsswim.ca, blog.myswimpro.com, c2cfirstaidaquatics.com, coljonesswim.com.au, davinasswimhouse.com, discountpoolmart.com, fitness.beaconhealthsystem.org, instagram.com, intotheswim.com, iswim.ie, iswimschool.ca, reddit.com, redfin.com, rocketswim.com, snowlake.ca, southeastspas.com, swimcore.co.uk, swimkids.us, swimming.org, swimminglessonscoach.com, urswim.com, wildfishswimschool.com
+- [ai_overviews] Q41: "will my child have the same swim instructor every lesson"
+  - added: goldfishswimschool.com, instagram.com, jumpswimschools.com.au, marlins.com.au, swimstars.es, youtube.com
+  - dropped: calgaryjcc.com, lifesavingsociety.com, mississauga.ca, reddit.com, swimangelfish.com
+- [ai_overviews] Q42: "can I watch my child's swim lesson"
+  - added: ajax.ca, davinasswimhouse.com, healthychildren.org, lincoln.ca
+  - dropped: kitchener.ca, kpe.utoronto.ca, letsdivein.co.uk, mwss.ca, reddit.com, swim4life.com, swimminglessonsideas.com, toronto.ca, townofbwg.com
+- [chatgpt] Q18: "how much does an adult swim instructor cost in Aurora"
+  - added: none
+  - dropped: aurora.ca, superstrokesswimschool.com
+- [chatgpt] Q19: "who teaches private swim lessons in Barrie"
+  - added: none
+  - dropped: barrie.ca, bigsplashswimmingacademy.ca, eliteswimschool.ca
+- [chatgpt] Q20: "are swim instructors background checked in Scarborough"
+  - added: none
+  - dropped: app.betterimpact.com, toronto.ca
+- [chatgpt] Q21: "private swim lessons for kids with no waitlist in Etobicoke"
+  - added: none
+  - dropped: swim.aimabove.ca
+- [chatgpt] Q22: "can I book adult swim lessons at my own pool in North York"
+  - added: none
+  - dropped: aquamobileswim.com, daveswimschool.ca, schoolinthepool.ca, swimlesson.ca
+- [chatgpt] Q23: "what are the best private swim lesson companies in the GTA" [swimingo.com newly dropped]
+  - added: none
+  - dropped: aquaelite.ca, gtaswimschool.ca, splashaquatics.ca, swim.aimabove.ca, swimingo.com, swimlesson.ca, wdswimming.com
+- [chatgpt] Q24: "at-home swim lessons vs public swim school waitlists in the GTA" [swimingo.com newly dropped]
+  - added: none
+  - dropped: reddit.com, swimingo.com, toronto.ca
+- [chatgpt] Q25: "where can I find a private swim instructor in Vancouver"
+  - added: none
+  - dropped: aquastarcanada.com, olympiaswimacademy.ca, reddit.com, swimlessonsvancouver.ca
+- [chatgpt] Q26: "how much do private swim lessons cost in Vancouver"
+  - added: none
+  - dropped: aquastarcanada.com, inspiredswim.com, swimlessonsvancouver.ca, vancouver.ca
+- [chatgpt] Q27: "private swim lessons for adults in Vancouver"
+  - added: none
+  - dropped: aquastarcanada.com, vancouver.ca
+- [chatgpt] Q28: "do swim instructors travel to condo pools in North Vancouver" [swimingo.com newly dropped]
+  - added: none
+  - dropped: aquamobileswim.com, aquastarcanada.com, swimingo.com
+- [chatgpt] Q29: "are private swim instructors certified in West Vancouver"
+  - added: none
+  - dropped: aquastarcanada.com, cdn.redcross.ca, westvancouver.ca, wvlifeguarding.com
+- [chatgpt] Q30: "at-home swim lessons for kids in Burnaby"
+  - added: none
+  - dropped: aquastarcanada.com, coastalwavesswimschool.com, iwillteachyoutoswim.com, olympiaswimacademy.ca, reddit.com, zero2proswimschool.com
+- [chatgpt] Q31: "who teaches private swim lessons in Richmond BC"
+  - added: none
+  - dropped: aquastarcanada.com, inspiredswim.com, richmond.ca
+- [chatgpt] Q32: "private swim lessons vs swim school in Coquitlam"
+  - added: none
+  - dropped: inspiredswim.com, portcoquitlam.ca, waterwisekids.com
+- [chatgpt] Q33: "best private swim lesson companies in Metro Vancouver" [swimingo.com newly dropped]
+  - added: none
+  - dropped: aquastarcanada.com, swimingo.com, swimlessonsvancouver.ca, vancouverswimminglessons.ca
+- [chatgpt] Q34: "private swim instructors that come to your home in Winnipeg"
+  - added: none
+  - dropped: aquaessence.ca, reddit.com, splashaquatics.ca, winnipeg.ca
+- [chatgpt] Q35: "how much are private swim lessons in Winnipeg"
+  - added: none
+  - dropped: aquaessence.ca, benchmarkswimminglessons.com, superprof.ca, winnipeg.ca
+- [chatgpt] Q36: "at-home swim lessons for kids in Windsor Ontario"
+  - added: none
+  - dropped: aquamobileswim.com, citywindsor.ca, ezlessonswindsor.ca
+- [chatgpt] Q37: "can I book a private swim instructor to come to my pool in Windsor"
+  - added: none
+  - dropped: aquamobileswim.com, ezlessonswindsor.ca
+- [copilot] Q1: "where can I find a private swim instructor in Toronto"
+  - added: aquamobileswim.com
+  - dropped: britishswimschool.com
+- [copilot] Q2: "do private swim instructors come to condo pools in Toronto"
+  - added: kjaquatics.com
+  - dropped: propelhq.com, schoolinthepool.ca
+- [copilot] Q3: "best private swim lessons for adults in Toronto"
+  - added: none
+  - dropped: schoolinthepool.ca
+- [copilot] Q4: "who offers at-home swim lessons for kids in Mississauga"
+  - added: aqua-tots.com, buckleraquatics.com, theswimfocus.com
+  - dropped: none
+- [copilot] Q5: "how much do private swim lessons cost in Mississauga"
+  - added: none
+  - dropped: aqua-tots.com, britishswimschool.com, buckleraquatics.com, marinaswimschool.com, mwss.ca, propelhq.com, theswimfocus.com, togetherweswim.ca
+- [copilot] Q7: "private swim lessons vs group lessons for kids in Vaughan"
+  - added: none
+  - dropped: bluewavesswimschool.ca, felixswimschools.com, mwss.ca, splashville.ca, swim-time.com
+- [copilot] Q8: "are private swim instructors certified in Markham"
+  - added: propelhq.com, russellaquatics.com, samanthaslearntoswim.ca, wdswimming.com
+  - dropped: 905swimming.ca, aquakids.ca
+- [copilot] Q9: "adult swim lessons that come to your condo pool in Richmond Hill"
+  - added: minaswimschool.com
+  - dropped: none
+- [copilot] Q10: "can a swim instructor come to my backyard pool in Oakville"
+  - added: atlantisschoolofswim.com
+  - dropped: heatherscoolpoolschool.com, summerswimacademy.com
+- [copilot] Q11: "how much does it cost to book private one-on-one swim lessons in Burlington"
+  - added: backtobasicsswim.ca
+  - dropped: burlington.ca
+- [copilot] Q12: "what's the best at-home swim lesson company for kids in Hamilton"
+  - added: goldfishswimschool.com
+  - dropped: none
+- [copilot] Q13: "is it safe to hire a private swim instructor in Pickering"
+  - added: felixswimschools.com
+  - dropped: aquamobileswim.com, bandcaquatics.com, colinsswimschool.ca, swimpro.ca
+- [copilot] Q14: "who offers private swim lessons in Ajax"
+  - added: ajaxaquaticclub.com, colinsswimschool.ca, lifetime.life
+  - dropped: none
+- [copilot] Q15: "how do I book a private swim instructor in Whitby"
+  - added: none
+  - dropped: whitbyswimming.ca
+- [copilot] Q16: "what's the difference between private and semi-private swim lessons in Oshawa"
+  - added: none
+  - dropped: canadaswimschool.com, oshawa.ca, woodlaneswimacademy.ca, ymcagta.org
+- [copilot] Q17: "is there an at-home swim lesson program for beginners in Newmarket"
+  - added: limitlessswimming.com
+  - dropped: sureswimmers.com
+- [copilot] Q18: "how much does an adult swim instructor cost in Aurora"
+  - added: swimsquad.ca
+  - dropped: kjaquatics.com
+- [copilot] Q19: "who teaches private swim lessons in Barrie"
+  - added: willowcreekswim.ca
+  - dropped: barrie.ca, splashnlearn.com, waterbabies.ca
+- [copilot] Q20: "are swim instructors background checked in Scarborough"
+  - added: none
+  - dropped: davinasswimhouse.com, gtaswim.com
+- [copilot] Q21: "private swim lessons for kids with no waitlist in Etobicoke"
+  - added: aqua-tots.com, buckleraquatics.com
+  - dropped: instagram.com
+- [copilot] Q22: "can I book adult swim lessons at my own pool in North York"
+  - added: online.fliphtml5.com, swimlesson.ca, swimmerly.com
+  - dropped: davinasswimhouse.com, schoolinthepool.ca, sealswimming.ca, torontoswimschool.com
+- [copilot] Q23: "what are the best private swim lesson companies in the GTA"
+  - added: none
+  - dropped: felixswimschools.com, franksswimschool.com
+- [copilot] Q24: "at-home swim lessons vs public swim school waitlists in the GTA"
+  - added: felixsswimschools.blogspot.com, felixswimschools.com, franksswimschool.com, gtaswimschool.ca, kjaquatics.com, schoolinthepool.ca, torontoswimschool.com, waterwisekids.com
+  - dropped: bcblueswim.com, iwillteachyoutoswim.com, propelhq.com, swimlessonsvancouver.ca, swimoclock.com
+- [copilot] Q25: "where can I find a private swim instructor in Vancouver"
+  - added: coastalwavesswimschool.com, olympiaswimacademy.ca
+  - dropped: iwillteachyoutoswim.com
+- [copilot] Q26: "how much do private swim lessons cost in Vancouver"
+  - added: none
+  - dropped: bcblueswim.com, olympiaswimacademy.ca
+- [copilot] Q27: "private swim lessons for adults in Vancouver"
+  - added: none
+  - dropped: aquaventuresswim.com, olympiaswimacademy.ca
+- [copilot] Q28: "do swim instructors travel to condo pools in North Vancouver"
+  - added: none
+  - dropped: app.amilia.com, artquaswim.ca, chenaswimclub.ca
+- [copilot] Q29: "are private swim instructors certified in West Vancouver"
+  - added: artquaswim.ca
+  - dropped: none
+- [copilot] Q30: "at-home swim lessons for kids in Burnaby"
+  - added: none
+  - dropped: pedalheads.com, propelhq.com
+- [copilot] Q31: "who teaches private swim lessons in Richmond BC"
+  - added: pedalheads.com
+  - dropped: none
+- [copilot] Q32: "private swim lessons vs swim school in Coquitlam"
+  - added: aquaswimnspeak.com, pedalheads.com
+  - dropped: aquaelite.ca, waterwisekids.com
+- [copilot] Q33: "best private swim lesson companies in Metro Vancouver"
+  - added: bcblueswim.com, coach-stewart.com, olympiaswimacademy.ca
+  - dropped: artquaswim.ca, chatterblock.com, emlerswimschool.com
+- [copilot] Q34: "private swim instructors that come to your home in Winnipeg"
+  - added: none
+  - dropped: flex-fitness.ca, winnipeg.swimrockers.ca
+- [copilot] Q35: "how much are private swim lessons in Winnipeg"
+  - added: none
+  - dropped: alphaswimclub.com, aquaessence.ca, gomotionapp.com, h2oacademy.ca, winnipeg.swimrockers.ca
+- [copilot] Q36: "at-home swim lessons for kids in Windsor Ontario"
+  - added: none
+  - dropped: tecumseh.ca
+- [copilot] Q37: "can I book a private swim instructor to come to my pool in Windsor"
+  - added: facebook.com, lasalle.ca
+  - dropped: none
+- [copilot] Q38: "are private swim instructors safer than group lessons for kids"
+  - added: canada.ca, health.harvard.edu
+  - dropped: none
+- [copilot] Q39: "private swim lessons vs learning on my own with videos"
+  - added: none
+  - dropped: inspiredswim.com
+- [gemini] Q1: "where can I find a private swim instructor in Toronto"
+  - added: toronto.ca
+  - dropped: none
+- [gemini] Q4: "who offers at-home swim lessons for kids in Mississauga"
+  - added: britishswimschool.com, sunsationalswimschool.com
+  - dropped: aquamobileswim.com, propelswim.com
+- [gemini] Q9: "adult swim lessons that come to your condo pool in Richmond Hill"
+  - added: none
+  - dropped: aquamobileswim.com, sunsationalswimschool.com
+- [gemini] Q15: "how do I book a private swim instructor in Whitby"
+  - added: propelswim.ca
+  - dropped: none
+- [gemini] Q17: "is there an at-home swim lesson program for beginners in Newmarket"
+  - added: none
+  - dropped: aquamileswimschool.com, britishswimschool.com, premieraquatics.ca, swimnow.ca
+- [gemini] Q27: "private swim lessons for adults in Vancouver"
+  - added: recreation.ubc.ca, ywcavan.org
+  - dropped: ubcaquaticcentre.com
+- [gemini] Q31: "who teaches private swim lessons in Richmond BC"
+  - added: richmond.ca
+  - dropped: none
+- [gemini] Q34: "private swim instructors that come to your home in Winnipeg"
+  - added: britishswimschool.com
+  - dropped: none
+- [perplexity] Q1: "where can I find a private swim instructor in Toronto" [swimingo.com newly cited]
+  - added: fitness.pellea.com, franksswimschool.com, jackofsports.com, kpe.utoronto.ca, swimingo.com
+  - dropped: felixswimschools.com, superprof.ca, swim.aimabove.ca
+- [perplexity] Q2: "do private swim instructors come to condo pools in Toronto"
+  - added: aquamobileswim.com, swimbrothers.ca
+  - dropped: swim.aimabove.ca
+- [perplexity] Q3: "best private swim lessons for adults in Toronto"
+  - added: fitness.pellea.com, propelhq.com, swimlesson.ca
+  - dropped: gtaswimschool.ca, schoolinthepool.ca, superprof.ca
+- [perplexity] Q4: "who offers at-home swim lessons for kids in Mississauga"
+  - added: instaswimusa.com
+  - dropped: aqua-tots.com
+- [perplexity] Q5: "how much do private swim lessons cost in Mississauga" [swimingo.com newly cited]
+  - added: britishswimschool.com, canadaswimschool.com, goldfishswimschool.com, mississauga.ca, swimingo.com
+  - dropped: apexswimmers.com, theaqualife.ca
+- [perplexity] Q6: "are there swim instructors experienced with toddlers in Brampton"
+  - added: britishswimschool.com, schoolinthepool.ca, splashaquatics.ca, ymcagta.org
+  - dropped: backyardaquatics.ca
+- [perplexity] Q7: "private swim lessons vs group lessons for kids in Vaughan"
+  - added: davinasswimhouse.com, felixswimschools.com, mwss.ca
+  - dropped: aquaelite.ca, inspiredswim.com, srcentre.ca
+- [perplexity] Q8: "are private swim instructors certified in Markham" [swimingo.com newly dropped]
+  - added: none
+  - dropped: aquamobileswim.com, swimingo.com, wdswimming.com
+- [perplexity] Q9: "adult swim lessons that come to your condo pool in Richmond Hill" [swimingo.com newly dropped]
+  - added: richmondhill.ca, swimbrothers.ca
+  - dropped: schoolinthepool.ca, swim.aimabove.ca, swimingo.com, torontoswimschool.com
+- [perplexity] Q10: "can a swim instructor come to my backyard pool in Oakville" [swimingo.com newly dropped]
+  - added: aquamobileswim.com
+  - dropped: swimingo.com
+- [perplexity] Q11: "how much does it cost to book private one-on-one swim lessons in Burlington"
+  - added: backtobasicsswim.ca, britishswimschool.com, canadaswimschool.com, swimply.com
+  - dropped: burlingtoncommunitypool.org, burlingtonrec.com, burlingtontennis.com, marinaswimschool.com
+- [perplexity] Q12: "what's the best at-home swim lesson company for kids in Hamilton" [swimingo.com newly cited]
+  - added: marlinswimacademy.com, summerswimacademy.com, swimingo.com
+  - dropped: goldfishswimschool.com
+- [perplexity] Q13: "is it safe to hire a private swim instructor in Pickering"
+  - added: lifesavingsociety.com, pickering.ca
+  - dropped: waterwisekids.com
+- [perplexity] Q14: "who offers private swim lessons in Ajax"
+  - added: canadaswimschool.com, my.lifetime.life
+  - dropped: ajaxprivatesummerswim.ca, facebook.com
+- [perplexity] Q15: "how do I book a private swim instructor in Whitby"
+  - added: britishswimschool.com
+  - dropped: facebook.com
+- [perplexity] Q16: "what's the difference between private and semi-private swim lessons in Oshawa"
+  - added: none
+  - dropped: fossswimschool.com, intotheswim.com, theaqualife.ca
+- [perplexity] Q17: "is there an at-home swim lesson program for beginners in Newmarket"
+  - added: championswimming.ca
+  - dropped: torontoswimschool.com
+- [perplexity] Q18: "how much does an adult swim instructor cost in Aurora" [swimingo.com newly cited]
+  - added: aurora.ca, britishswimschool.com, c2cfirstaidaquatics.com, swimingo.com
+  - dropped: dupageswimmingcenter.com, safesplash.com
+- [perplexity] Q19: "who teaches private swim lessons in Barrie" [swimingo.com newly dropped]
+  - added: barrie.ca, britishswimschool.com, splashnlearn.com, stellaswimschool.com
+  - dropped: swimingo.com
+- [perplexity] Q20: "are swim instructors background checked in Scarborough"
+  - added: toronto.ca, tps.ca
+  - dropped: aquamobileswim.com, ca.mncjobz.com, lifesavingsociety.com, swimming.ca
+- [perplexity] Q21: "private swim lessons for kids with no waitlist in Etobicoke" [swimingo.com newly dropped]
+  - added: aqua-tots.com, c2cfirstaidaquatics.com, marinaswimschool.com, toronto.ca, verobeachsc.ca
+  - dropped: swim.aimabove.ca, swimingo.com
+- [perplexity] Q22: "can I book adult swim lessons at my own pool in North York" [swimingo.com newly dropped]
+  - added: aquamobileswim.com, aquaticsacademy.ca, ymcagta.org
+  - dropped: schoolinthepool.ca, swimingo.com
+- [perplexity] Q23: "what are the best private swim lesson companies in the GTA" [swimingo.com newly cited]
+  - added: aquamobileswim.com, aquaticsacademy.ca, franksswimschool.com, swimingo.com, torontoswimschool.com
+  - dropped: gtaswimschool.ca, sealswimming.ca, superprof.ca, swim-time.com
+- [perplexity] Q24: "at-home swim lessons vs public swim school waitlists in the GTA"
+  - added: mississauga.ca, ymcagta.org
+  - dropped: c2cfirstaidaquatics.com, helpwevegotkids.com, reddit.com
+- [perplexity] Q25: "where can I find a private swim instructor in Vancouver" [swimingo.com newly dropped]
+  - added: aquastarcanada.com, marinaswimschool.com, pedalheads.com, reddit.com, vancouver.ca, ymcabc.ca
+  - dropped: coastalwavesswimschool.com, recreation.ubc.ca, superprof.ca, swimingo.com
+- [perplexity] Q26: "how much do private swim lessons cost in Vancouver"
+  - added: ca.apm.activecommunities.com
+  - dropped: aquastarcanada.com, ywcabc.org
+- [perplexity] Q27: "private swim lessons for adults in Vancouver" [swimingo.com newly dropped]
+  - added: artquaswim.ca, propelhq.com, swimlessonsvancouver.ca, swimoclock.com
+  - dropped: aquamobileswim.com, aquastarcanada.com, superprof.ca, swimingo.com, ywcavan.org
+- [perplexity] Q28: "do swim instructors travel to condo pools in North Vancouver" [swimingo.com newly cited]
+  - added: aquamobileswim.com, nvrc.ca, swimingo.com
+  - dropped: vancouverswimschool.com
+- [perplexity] Q29: "are private swim instructors certified in West Vancouver" [swimingo.com newly dropped]
+  - added: pedalheads.com
+  - dropped: linkedin.com, redcross.org, swimingo.com
+- [perplexity] Q30: "at-home swim lessons for kids in Burnaby" [swimingo.com newly dropped]
+  - added: iwillteachyoutoswim.com, pedalheads.com, swimlessonsvancouver.ca
+  - dropped: aquastarcanada.com, swimingo.com
+- [perplexity] Q31: "who teaches private swim lessons in Richmond BC" [swimingo.com newly dropped]
+  - added: pedalheads.com, richmond.ca, swimfins.ca
+  - dropped: aquastarcanada.com, propelhq.com, richmondcity.perfectmind.com, swimingo.com
+- [perplexity] Q32: "private swim lessons vs swim school in Coquitlam"
+  - added: pedalheads.com
+  - dropped: aquastarcanada.com
+- [perplexity] Q33: "best private swim lesson companies in Metro Vancouver"
+  - added: activevancouver.ca, aquaventuresswim.com, pedalheads.com, propelswimacademy.com
+  - dropped: inspiredswim.com, propelhq.com
+- [perplexity] Q34: "private swim instructors that come to your home in Winnipeg" [swimingo.com newly cited]
+  - added: aquamobileswim.com, canadaswimschool.com, swimingo.com, winnipeg.ca
+  - dropped: alteaactive.com, aquaessence.ca, facebook.com, linkedin.com, superprof.ca, theaqualife.ca
+- [perplexity] Q35: "how much are private swim lessons in Winnipeg"
+  - added: winnipeg.ca
+  - dropped: alteaactive.com, centresportifdelapetitebourgogne.ca
+- [perplexity] Q36: "at-home swim lessons for kids in Windsor Ontario" [swimingo.com newly cited]
+  - added: swimingo.com
+  - dropped: lancercentre.uwindsor.ca
+- [perplexity] Q37: "can I book a private swim instructor to come to my pool in Windsor" [swimingo.com newly cited]
+  - added: swimingo.com
+  - dropped: none
+- [perplexity] Q38: "are private swim instructors safer than group lessons for kids"
+  - added: safesplash.com, watersafetyusa.org
+  - dropped: aquatots.com.au, bigblueswimschool.com, starfishswimschool.com.au, swim4lifeschools.com.au
+- [perplexity] Q39: "private swim lessons vs learning on my own with videos"
+  - added: redcross.org
+  - dropped: diventures.com, reddit.com, thirdcoasttraining.com, youtube.com
+- [perplexity] Q40: "what should I have ready before a private swim lesson at my house"
+  - added: bigblueswimschool.com, poolsafely.gov, redcross.org
+  - dropped: none
+- [perplexity] Q41: "will my child have the same swim instructor every lesson"
+  - added: aqua-tots.com, jimherrickswimschool.com
+  - dropped: buckeyeswimschool.com, rmparks.org
+- [perplexity] Q42: "can I watch my child's swim lesson"
+  - added: healthychildren.org, ymcanyc.org
+  - dropped: max-aquatics.com, swimy.org

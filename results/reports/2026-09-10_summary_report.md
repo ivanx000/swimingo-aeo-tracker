@@ -1,0 +1,204 @@
+# Swimingo AEO Visibility Report — 2026-09-10
+
+**Overall Swimingo visibility: 27% (56/210 responses)**
+
+## Visibility by platform
+- **ai_overviews**: 76% (32/42)
+- **chatgpt**: 10% (4/42)
+- **copilot**: 5% (2/42)
+- **gemini**: 0% (0/42)
+- **perplexity**: 43% (18/42)
+
+## Visibility by question type
+- **comparison**: 20% (5/25)
+- **cost**: 36% (9/25)
+- **discovery**: 28% (25/90)
+- **logistics**: 34% (12/35)
+- **trust**: 14% (5/35)
+
+## Visibility by persona
+- **adult**: 27% (12/45)
+- **parent**: 27% (44/165)
+
+## Competitor leaderboard
+Overall mentions:
+- Swim Lesson: 153
+- AquaMobile: 65
+- Propel: 55
+- British Swim School: 44
+- Superprof: 24
+- AQUA S.T.A.R.: 20
+- Swim Lessons Vancouver: 17
+- Coastal Waves Swim School: 11
+- Goldfish Swim School: 11
+- Olympia Swim Academy: 10
+- Toronto Swim School: 9
+- Canada Swim School: 9
+- GTA Swim School: 9
+- Inspired Swim: 9
+- YMCA of Greater Toronto: 9
+- School in the Pool: 7
+- Swim Brothers: 6
+- Davina's Swim House: 5
+- Coast2Coast First Aid & Aquatics: 5
+- Pedalheads: 5
+- Artquaswim: 5
+- Aquatics Academy: 3
+- Marina Swim School: 2
+
+By platform:
+- **ai_overviews**: Swim Lesson: 32, AquaMobile: 25, Propel: 10, AQUA S.T.A.R.: 9, Superprof: 7, Swim Lessons Vancouver: 7, British Swim School: 6, Davina's Swim House: 4, Coastal Waves Swim School: 4, Aquatics Academy: 3, Swim Brothers: 3, Canada Swim School: 3, Pedalheads: 3, Toronto Swim School: 2, Coast2Coast First Aid & Aquatics: 2, Inspired Swim: 2, School in the Pool: 1, GTA Swim School: 1, Artquaswim: 1, Olympia Swim Academy: 1, Goldfish Swim School: 1, YMCA of Greater Toronto: 1
+- **chatgpt**: Swim Lesson: 32, AquaMobile: 17, Propel: 9, AQUA S.T.A.R.: 7, British Swim School: 6, Swim Lessons Vancouver: 5, GTA Swim School: 3, YMCA of Greater Toronto: 3, Olympia Swim Academy: 3, Superprof: 3, Coastal Waves Swim School: 3, Inspired Swim: 3, Canada Swim School: 2, Swim Brothers: 2, Goldfish Swim School: 1, School in the Pool: 1, Davina's Swim House: 1
+- **copilot**: Swim Lesson: 31, Propel: 12, British Swim School: 8, Toronto Swim School: 6, AquaMobile: 5, School in the Pool: 4, GTA Swim School: 3, Swim Lessons Vancouver: 3, Canada Swim School: 2, Olympia Swim Academy: 2, Artquaswim: 2, Coastal Waves Swim School: 2, Pedalheads: 2, Superprof: 1, Goldfish Swim School: 1, AQUA S.T.A.R.: 1, Inspired Swim: 1
+- **gemini**: Swim Lesson: 34, British Swim School: 22, Propel: 19, AquaMobile: 10, Goldfish Swim School: 7, Superprof: 6, Canada Swim School: 1, Olympia Swim Academy: 1
+- **perplexity**: Swim Lesson: 24, AquaMobile: 8, Superprof: 7, Propel: 5, YMCA of Greater Toronto: 5, Coast2Coast First Aid & Aquatics: 3, Olympia Swim Academy: 3, AQUA S.T.A.R.: 3, Inspired Swim: 3, GTA Swim School: 2, Marina Swim School: 2, British Swim School: 2, Swim Lessons Vancouver: 2, Artquaswim: 2, Coastal Waves Swim School: 2, School in the Pool: 1, Toronto Swim School: 1, Goldfish Swim School: 1, Swim Brothers: 1, Canada Swim School: 1
+
+## Top cited domains
+- swimingo.com: 51
+- google.com: 37
+- aquamobileswim.com: 34
+- propelhq.com: 22
+- facebook.com: 20
+- britishswimschool.com: 19
+- aquastarcanada.com: 15
+- superprof.ca: 14
+- reddit.com: 13
+- c2cfirstaidaquatics.com: 13
+- davinasswimhouse.com: 12
+- felixswimschools.com: 12
+- swimlessonsvancouver.ca: 12
+- aquaelite.ca: 11
+- aqua-tots.com: 11
+
+## Gaps (Swimingo absent, competitor present)
+- [ai_overviews] Q3: "best private swim lessons for adults in Toronto" — mentioned: Propel, Davina's Swim House, Swim Lesson
+- [ai_overviews] Q6: "are there swim instructors experienced with toddlers in Brampton" — mentioned: British Swim School
+- [ai_overviews] Q20: "are swim instructors background checked in Scarborough" — mentioned: AquaMobile
+- [ai_overviews] Q23: "what are the best private swim lesson companies in the GTA" — mentioned: AquaMobile, Propel, School in the Pool, Davina's Swim House, GTA Swim School, Swim Lesson
+- [ai_overviews] Q32: "private swim lessons vs swim school in Coquitlam" — mentioned: AQUA S.T.A.R., Inspired Swim, British Swim School, Pedalheads, Swim Lesson
+- [ai_overviews] Q38: "are private swim instructors safer than group lessons for kids" — mentioned: Swim Lesson
+- [ai_overviews] Q39: "private swim lessons vs learning on my own with videos" — mentioned: Swim Lesson
+- [ai_overviews] Q40: "what should I have ready before a private swim lesson at my house" — mentioned: Swim Lesson
+- [ai_overviews] Q41: "will my child have the same swim instructor every lesson" — mentioned: Goldfish Swim School
+- [ai_overviews] Q42: "can I watch my child's swim lesson" — mentioned: Swim Lesson, YMCA of Greater Toronto
+- [chatgpt] Q1: "where can I find a private swim instructor in Toronto" — mentioned: AquaMobile, Propel, GTA Swim School, Swim Lesson
+- [chatgpt] Q3: "best private swim lessons for adults in Toronto" — mentioned: Propel, GTA Swim School, Swim Lesson, YMCA of Greater Toronto
+- [chatgpt] Q4: "who offers at-home swim lessons for kids in Mississauga" — mentioned: AquaMobile, Canada Swim School, Swim Lesson
+- [chatgpt] Q5: "how much do private swim lessons cost in Mississauga" — mentioned: British Swim School, Swim Lesson
+- [chatgpt] Q6: "are there swim instructors experienced with toddlers in Brampton" — mentioned: British Swim School, YMCA of Greater Toronto
+- [chatgpt] Q7: "private swim lessons vs group lessons for kids in Vaughan" — mentioned: Swim Lesson, YMCA of Greater Toronto
+- [chatgpt] Q8: "are private swim instructors certified in Markham" — mentioned: AquaMobile, Propel
+- [chatgpt] Q9: "adult swim lessons that come to your condo pool in Richmond Hill" — mentioned: AquaMobile, Swim Lesson, Swim Brothers
+- [chatgpt] Q10: "can a swim instructor come to my backyard pool in Oakville" — mentioned: AquaMobile, Swim Lesson
+- [chatgpt] Q11: "how much does it cost to book private one-on-one swim lessons in Burlington" — mentioned: Propel, Swim Lesson, Goldfish Swim School
+- [chatgpt] Q12: "what's the best at-home swim lesson company for kids in Hamilton" — mentioned: AquaMobile, Swim Lesson
+- [chatgpt] Q14: "who offers private swim lessons in Ajax" — mentioned: AquaMobile, Swim Lesson
+- [chatgpt] Q15: "how do I book a private swim instructor in Whitby" — mentioned: Swim Lesson
+- [chatgpt] Q17: "is there an at-home swim lesson program for beginners in Newmarket" — mentioned: AquaMobile, Swim Lesson, Swim Brothers
+- [chatgpt] Q18: "how much does an adult swim instructor cost in Aurora" — mentioned: British Swim School, Swim Lesson
+- [chatgpt] Q19: "who teaches private swim lessons in Barrie" — mentioned: British Swim School, Swim Lesson
+- [chatgpt] Q21: "private swim lessons for kids with no waitlist in Etobicoke" — mentioned: Propel, British Swim School, Swim Lesson
+- [chatgpt] Q23: "what are the best private swim lesson companies in the GTA" — mentioned: AquaMobile, Propel, School in the Pool, Davina's Swim House, GTA Swim School
+- [chatgpt] Q24: "at-home swim lessons vs public swim school waitlists in the GTA" — mentioned: AquaMobile, Swim Lesson
+- [chatgpt] Q25: "where can I find a private swim instructor in Vancouver" — mentioned: Propel, Swim Lessons Vancouver, AQUA S.T.A.R., Olympia Swim Academy, Swim Lesson
+- [chatgpt] Q26: "how much do private swim lessons cost in Vancouver" — mentioned: Swim Lessons Vancouver, AQUA S.T.A.R., Superprof, Swim Lesson
+- [chatgpt] Q27: "private swim lessons for adults in Vancouver" — mentioned: Swim Lessons Vancouver, AQUA S.T.A.R., Swim Lesson
+- [chatgpt] Q28: "do swim instructors travel to condo pools in North Vancouver" — mentioned: AquaMobile, AQUA S.T.A.R., Coastal Waves Swim School, Swim Lesson
+- [chatgpt] Q30: "at-home swim lessons for kids in Burnaby" — mentioned: Swim Lessons Vancouver, AQUA S.T.A.R., Olympia Swim Academy, Coastal Waves Swim School, Swim Lesson
+- [chatgpt] Q31: "who teaches private swim lessons in Richmond BC" — mentioned: AquaMobile, Propel, AQUA S.T.A.R., Inspired Swim, Swim Lesson
+- [chatgpt] Q32: "private swim lessons vs swim school in Coquitlam" — mentioned: Inspired Swim, British Swim School, Swim Lesson
+- [chatgpt] Q33: "best private swim lesson companies in Metro Vancouver" — mentioned: Propel, Swim Lessons Vancouver, AQUA S.T.A.R., Inspired Swim, Olympia Swim Academy, Coastal Waves Swim School, Swim Lesson
+- [chatgpt] Q35: "how much are private swim lessons in Winnipeg" — mentioned: Superprof, Canada Swim School, Swim Lesson
+- [chatgpt] Q37: "can I book a private swim instructor to come to my pool in Windsor" — mentioned: AquaMobile, Swim Lesson
+- [chatgpt] Q38: "are private swim instructors safer than group lessons for kids" — mentioned: Swim Lesson
+- [chatgpt] Q40: "what should I have ready before a private swim lesson at my house" — mentioned: Swim Lesson
+- [copilot] Q1: "where can I find a private swim instructor in Toronto" — mentioned: Propel, School in the Pool, Toronto Swim School
+- [copilot] Q2: "do private swim instructors come to condo pools in Toronto" — mentioned: AquaMobile, Propel, School in the Pool, British Swim School, Toronto Swim School
+- [copilot] Q3: "best private swim lessons for adults in Toronto" — mentioned: Propel, Toronto Swim School, Superprof, GTA Swim School, Swim Lesson
+- [copilot] Q4: "who offers at-home swim lessons for kids in Mississauga" — mentioned: Propel, GTA Swim School, Swim Lesson
+- [copilot] Q5: "how much do private swim lessons cost in Mississauga" — mentioned: Propel, Swim Lesson
+- [copilot] Q6: "are there swim instructors experienced with toddlers in Brampton" — mentioned: British Swim School, Swim Lesson
+- [copilot] Q7: "private swim lessons vs group lessons for kids in Vaughan" — mentioned: Swim Lesson
+- [copilot] Q9: "adult swim lessons that come to your condo pool in Richmond Hill" — mentioned: Swim Lesson
+- [copilot] Q11: "how much does it cost to book private one-on-one swim lessons in Burlington" — mentioned: British Swim School, Swim Lesson
+- [copilot] Q12: "what's the best at-home swim lesson company for kids in Hamilton" — mentioned: Swim Lesson, Goldfish Swim School
+- [copilot] Q14: "who offers private swim lessons in Ajax" — mentioned: Canada Swim School, Swim Lesson
+- [copilot] Q16: "what's the difference between private and semi-private swim lessons in Oshawa" — mentioned: British Swim School, Canada Swim School, Swim Lesson
+- [copilot] Q17: "is there an at-home swim lesson program for beginners in Newmarket" — mentioned: British Swim School, Toronto Swim School, Swim Lesson
+- [copilot] Q19: "who teaches private swim lessons in Barrie" — mentioned: British Swim School, Swim Lesson
+- [copilot] Q20: "are swim instructors background checked in Scarborough" — mentioned: British Swim School
+- [copilot] Q21: "private swim lessons for kids with no waitlist in Etobicoke" — mentioned: Propel, British Swim School, Swim Lesson
+- [copilot] Q22: "can I book adult swim lessons at my own pool in North York" — mentioned: AquaMobile, School in the Pool, Toronto Swim School, Swim Lesson
+- [copilot] Q23: "what are the best private swim lesson companies in the GTA" — mentioned: School in the Pool, Toronto Swim School, GTA Swim School, Swim Lesson
+- [copilot] Q24: "at-home swim lessons vs public swim school waitlists in the GTA" — mentioned: AquaMobile, Swim Lesson
+- [copilot] Q25: "where can I find a private swim instructor in Vancouver" — mentioned: Propel, Swim Lessons Vancouver, Olympia Swim Academy, Swim Lesson
+- [copilot] Q26: "how much do private swim lessons cost in Vancouver" — mentioned: Propel, Swim Lessons Vancouver, Olympia Swim Academy, Swim Lesson, Artquaswim
+- [copilot] Q27: "private swim lessons for adults in Vancouver" — mentioned: Propel
+- [copilot] Q28: "do swim instructors travel to condo pools in North Vancouver" — mentioned: AquaMobile, Swim Lesson
+- [copilot] Q29: "are private swim instructors certified in West Vancouver" — mentioned: Swim Lesson
+- [copilot] Q30: "at-home swim lessons for kids in Burnaby" — mentioned: Propel, Coastal Waves Swim School, Swim Lesson
+- [copilot] Q31: "who teaches private swim lessons in Richmond BC" — mentioned: Propel, AQUA S.T.A.R., Inspired Swim, Pedalheads, Swim Lesson
+- [copilot] Q32: "private swim lessons vs swim school in Coquitlam" — mentioned: Pedalheads, Swim Lesson
+- [copilot] Q33: "best private swim lesson companies in Metro Vancouver" — mentioned: Propel, Swim Lessons Vancouver, Coastal Waves Swim School, Swim Lesson, Artquaswim
+- [copilot] Q35: "how much are private swim lessons in Winnipeg" — mentioned: Swim Lesson
+- [copilot] Q37: "can I book a private swim instructor to come to my pool in Windsor" — mentioned: Swim Lesson
+- [copilot] Q38: "are private swim instructors safer than group lessons for kids" — mentioned: Swim Lesson
+- [copilot] Q39: "private swim lessons vs learning on my own with videos" — mentioned: Swim Lesson
+- [copilot] Q40: "what should I have ready before a private swim lesson at my house" — mentioned: Swim Lesson
+- [copilot] Q41: "will my child have the same swim instructor every lesson" — mentioned: Swim Lesson
+- [gemini] Q1: "where can I find a private swim instructor in Toronto" — mentioned: Propel, Canada Swim School, Swim Lesson
+- [gemini] Q2: "do private swim instructors come to condo pools in Toronto" — mentioned: Swim Lesson
+- [gemini] Q3: "best private swim lessons for adults in Toronto" — mentioned: Propel, Swim Lesson
+- [gemini] Q4: "who offers at-home swim lessons for kids in Mississauga" — mentioned: Propel, British Swim School, Swim Lesson
+- [gemini] Q5: "how much do private swim lessons cost in Mississauga" — mentioned: AquaMobile, Propel, Swim Lesson
+- [gemini] Q6: "are there swim instructors experienced with toddlers in Brampton" — mentioned: Propel, Superprof, Swim Lesson, Goldfish Swim School
+- [gemini] Q7: "private swim lessons vs group lessons for kids in Vaughan" — mentioned: Propel, Swim Lesson
+- [gemini] Q8: "are private swim instructors certified in Markham" — mentioned: British Swim School
+- [gemini] Q9: "adult swim lessons that come to your condo pool in Richmond Hill" — mentioned: Swim Lesson
+- [gemini] Q10: "can a swim instructor come to my backyard pool in Oakville" — mentioned: British Swim School
+- [gemini] Q11: "how much does it cost to book private one-on-one swim lessons in Burlington" — mentioned: AquaMobile, British Swim School, Swim Lesson
+- [gemini] Q12: "what's the best at-home swim lesson company for kids in Hamilton" — mentioned: AquaMobile, British Swim School, Swim Lesson
+- [gemini] Q14: "who offers private swim lessons in Ajax" — mentioned: Propel, Swim Lesson
+- [gemini] Q15: "how do I book a private swim instructor in Whitby" — mentioned: AquaMobile, Propel, British Swim School
+- [gemini] Q16: "what's the difference between private and semi-private swim lessons in Oshawa" — mentioned: Swim Lesson, Goldfish Swim School
+- [gemini] Q17: "is there an at-home swim lesson program for beginners in Newmarket" — mentioned: British Swim School, Swim Lesson
+- [gemini] Q18: "how much does an adult swim instructor cost in Aurora" — mentioned: British Swim School, Goldfish Swim School
+- [gemini] Q19: "who teaches private swim lessons in Barrie" — mentioned: British Swim School, Superprof, Swim Lesson
+- [gemini] Q20: "are swim instructors background checked in Scarborough" — mentioned: Propel, Goldfish Swim School
+- [gemini] Q21: "private swim lessons for kids with no waitlist in Etobicoke" — mentioned: AquaMobile, Propel, Olympia Swim Academy, Swim Lesson, Goldfish Swim School
+- [gemini] Q22: "can I book adult swim lessons at my own pool in North York" — mentioned: AquaMobile, Propel, Swim Lesson
+- [gemini] Q23: "what are the best private swim lesson companies in the GTA" — mentioned: Propel, British Swim School, Swim Lesson, Goldfish Swim School
+- [gemini] Q24: "at-home swim lessons vs public swim school waitlists in the GTA" — mentioned: AquaMobile, British Swim School, Swim Lesson
+- [gemini] Q25: "where can I find a private swim instructor in Vancouver" — mentioned: Propel, British Swim School, Superprof, Swim Lesson
+- [gemini] Q26: "how much do private swim lessons cost in Vancouver" — mentioned: Propel, British Swim School, Swim Lesson
+- [gemini] Q27: "private swim lessons for adults in Vancouver" — mentioned: Propel, British Swim School, Superprof, Swim Lesson
+- [gemini] Q28: "do swim instructors travel to condo pools in North Vancouver" — mentioned: British Swim School, Swim Lesson
+- [gemini] Q29: "are private swim instructors certified in West Vancouver" — mentioned: British Swim School, Swim Lesson
+- [gemini] Q30: "at-home swim lessons for kids in Burnaby" — mentioned: British Swim School, Superprof, Swim Lesson
+- [gemini] Q31: "who teaches private swim lessons in Richmond BC" — mentioned: AquaMobile, Propel, British Swim School, Superprof, Swim Lesson
+- [gemini] Q32: "private swim lessons vs swim school in Coquitlam" — mentioned: British Swim School, Swim Lesson
+- [gemini] Q33: "best private swim lesson companies in Metro Vancouver" — mentioned: AquaMobile, Propel, British Swim School, Swim Lesson
+- [gemini] Q34: "private swim instructors that come to your home in Winnipeg" — mentioned: British Swim School, Swim Lesson, Goldfish Swim School
+- [gemini] Q35: "how much are private swim lessons in Winnipeg" — mentioned: Propel
+- [gemini] Q36: "at-home swim lessons for kids in Windsor Ontario" — mentioned: Propel, Swim Lesson
+- [gemini] Q37: "can I book a private swim instructor to come to my pool in Windsor" — mentioned: AquaMobile, British Swim School, Swim Lesson
+- [gemini] Q38: "are private swim instructors safer than group lessons for kids" — mentioned: Swim Lesson
+- [gemini] Q39: "private swim lessons vs learning on my own with videos" — mentioned: Swim Lesson
+- [gemini] Q40: "what should I have ready before a private swim lesson at my house" — mentioned: Swim Lesson
+- [gemini] Q42: "can I watch my child's swim lesson" — mentioned: Swim Lesson
+- [perplexity] Q1: "where can I find a private swim instructor in Toronto" — mentioned: Propel, School in the Pool, Toronto Swim School, GTA Swim School, Swim Lesson
+- [perplexity] Q2: "do private swim instructors come to condo pools in Toronto" — mentioned: Coast2Coast First Aid & Aquatics, YMCA of Greater Toronto
+- [perplexity] Q3: "best private swim lessons for adults in Toronto" — mentioned: AquaMobile, Propel, Superprof, Swim Lesson, YMCA of Greater Toronto
+- [perplexity] Q6: "are there swim instructors experienced with toddlers in Brampton" — mentioned: YMCA of Greater Toronto
+- [perplexity] Q17: "is there an at-home swim lesson program for beginners in Newmarket" — mentioned: Coast2Coast First Aid & Aquatics, Swim Lesson
+- [perplexity] Q19: "who teaches private swim lessons in Barrie" — mentioned: Coast2Coast First Aid & Aquatics, Swim Lesson
+- [perplexity] Q20: "are swim instructors background checked in Scarborough" — mentioned: Propel
+- [perplexity] Q21: "private swim lessons for kids with no waitlist in Etobicoke" — mentioned: British Swim School, Swim Lesson
+- [perplexity] Q22: "can I book adult swim lessons at my own pool in North York" — mentioned: Swim Lesson
+- [perplexity] Q23: "what are the best private swim lesson companies in the GTA" — mentioned: Swim Lesson, YMCA of Greater Toronto
+- [perplexity] Q26: "how much do private swim lessons cost in Vancouver" — mentioned: Superprof, Swim Lesson
+- [perplexity] Q27: "private swim lessons for adults in Vancouver" — mentioned: Propel, Swim Lessons Vancouver, Olympia Swim Academy, Swim Lesson, Artquaswim
+- [perplexity] Q29: "are private swim instructors certified in West Vancouver" — mentioned: Superprof
+- [perplexity] Q30: "at-home swim lessons for kids in Burnaby" — mentioned: Inspired Swim, Coastal Waves Swim School, Swim Lesson
+- [perplexity] Q31: "who teaches private swim lessons in Richmond BC" — mentioned: Inspired Swim, Swim Lesson
+- [perplexity] Q38: "are private swim instructors safer than group lessons for kids" — mentioned: Swim Lesson
