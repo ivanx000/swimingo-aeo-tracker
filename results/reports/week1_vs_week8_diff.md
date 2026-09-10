@@ -2,14 +2,10 @@
 
 ## Methodology Limitations
 
-- **Location (primary suspected confound):** the two runs were captured from
-  different physical locations — Toronto for Week 1, Bancroft for Week 6.
-  This could plausibly affect any platform that uses IP-based geolocation for
-  local-intent queries, not just Google AI Overviews — search-grounded
-  platforms may weight "what's near the searcher" even when a city is named
-  explicitly in the question text. Platform-level visibility deltas below
-  should NOT be read as clean causal evidence of Week 2-5 content/technical
-  changes without this caveat in mind.
+- **Location/account confound:** No known location/account confound has been
+  recorded for this specific comparison. If capture conditions (location,
+  device, account age) differed between these two runs, note that manually
+  before treating platform-level deltas as clean evidence.
 - **Account history (minor, not a confound between these two runs):**
   Perplexity and Copilot both used brand-new accounts with no prior
   interaction history in both Week 1 and Week 6, so account-history-based

@@ -13,7 +13,13 @@ QUESTIONS_FILE = DATA_DIR / "questions.json"
 
 SWIMINGO_DOMAIN = "swimingo.com"
 
-METHODOLOGY_LIMITATIONS = """\
+WEEK1_DATES = ["2026-07-23", "2026-07-24"]
+WEEK6_DATES = ["2026-08-23", "2026-08-24"]
+
+# Documents a real, one-time issue (Week 1 captured from Toronto, Week 6 from
+# Bancroft). Only accurate for that exact comparison — see
+# build_methodology_limitations().
+LOCATION_CONFOUND_WEEK1_WEEK6 = """\
 - **Location (primary suspected confound):** the two runs were captured from
   different physical locations — Toronto for Week 1, Bancroft for Week 6.
   This could plausibly affect any platform that uses IP-based geolocation for
@@ -22,6 +28,16 @@ METHODOLOGY_LIMITATIONS = """\
   explicitly in the question text. Platform-level visibility deltas below
   should NOT be read as clean causal evidence of Week 2-5 content/technical
   changes without this caveat in mind.
+"""
+
+GENERIC_LOCATION_NOTE = """\
+- **Location/account confound:** No known location/account confound has been
+  recorded for this specific comparison. If capture conditions (location,
+  device, account age) differed between these two runs, note that manually
+  before treating platform-level deltas as clean evidence.
+"""
+
+METHODOLOGY_LIMITATIONS_COMMON = """\
 - **Account history (minor, not a confound between these two runs):**
   Perplexity and Copilot both used brand-new accounts with no prior
   interaction history in both Week 1 and Week 6, so account-history-based
@@ -38,6 +54,17 @@ METHODOLOGY_LIMITATIONS = """\
   consistency this time (same location, same or comparably-aged accounts)
   to get a cleaner final comparison.
 """
+
+
+def build_methodology_limitations(baseline_dates: list[str], current_dates: list[str]) -> str:
+    """Build the Methodology Limitations text for a given baseline/current date
+    pairing. The location-confound paragraph is specific to the original Week 1
+    vs. Week 6 comparison and must not be inherited by unrelated diffs."""
+    if baseline_dates == WEEK1_DATES and current_dates == WEEK6_DATES:
+        location_note = LOCATION_CONFOUND_WEEK1_WEEK6
+    else:
+        location_note = GENERIC_LOCATION_NOTE
+    return location_note + METHODOLOGY_LIMITATIONS_COMMON
 
 
 def load_questions_by_id() -> dict[int, dict]:
@@ -200,7 +227,7 @@ def build_diff(
         "newly_appearing_mentions": newly_appearing,
         "newly_lost_mentions": newly_lost,
         "citation_changes": citation_changes,
-        "methodology_limitations": METHODOLOGY_LIMITATIONS,
+        "methodology_limitations": build_methodology_limitations(baseline_dates, current_dates),
     }
 
 
@@ -216,7 +243,7 @@ def render_markdown(diff: dict) -> str:
 
     lines.append("## Methodology Limitations")
     lines.append("")
-    lines.append(METHODOLOGY_LIMITATIONS)
+    lines.append(diff["methodology_limitations"])
     lines.append("")
 
     lines.append("## Visibility by platform (baseline -> current)")
@@ -287,10 +314,6 @@ def run(
 
     print(report_text)
     print(f"\nFull diff saved to {md_path} and {json_path}")
-
-
-WEEK1_DATES = ["2026-07-23", "2026-07-24"]
-WEEK6_DATES = ["2026-08-23", "2026-08-24"]
 
 
 if __name__ == "__main__":
