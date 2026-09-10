@@ -21,14 +21,22 @@ a listing as stale, and a real edit each month keeps it active and current.
   (`https://www.yellowpages.ca/bus/Ontario/Pickering/Swimingo/104576774.html`
   as of the last NAP report).
 - **Yelp** — Swimingo's Yelp business page.
-- **Whichever Week 5 directory profiles are confirmed live by then.** Check
-  `src/nap/profiles.py` — any `Profile` entry with a real `url` (not `None`)
-  is live. As of this handoff that's Intently.co and Yellow Pages;
-  Superprof.ca and ChatterBlock are still placeholders (`url=None`). If
-  either of those has gone live since, add its freshness touch to this
-  month's list too — and update its entry in `src/nap/profiles.py` with the
-  real URL and a parser (see the NAP section below) so `nap_check.py`
-  starts tracking it automatically.
+- **Whichever Week 5 directory profiles are confirmed live and active by
+  then.** Check `src/nap/profiles.py` for what's registered, and the most
+  recent `results/nap/` report for actual status. As of this handoff (per
+  the 2026-09-10 NAP report) that's Yellow Pages only, the sole profile
+  confirmed live with real, checkable NAP data. Intently.co is registered
+  but reports as INACTIVE, blocked on an unresolved paid subscription
+  requirement; don't do a freshness touch on it until that's resolved and
+  it's actually public — an edit to a listing nobody can see isn't a real
+  freshness touch. ChatterBlock is still under platform review.
+  Superprof.ca was evaluated and deliberately not pursued — it's built
+  around individual tutor profiles, not a fit for a business like
+  Swimingo — so no action is needed there; it's not a gap to fill. If
+  Intently's subscription gets resolved or ChatterBlock clears review,
+  add its freshness touch to this month's list and update its entry in
+  `src/nap/profiles.py` with the real URL and a parser (see the NAP
+  section below) so `nap_check.py` starts tracking it automatically.
 
 Note: Wikidata and Yelp are **not** currently checked by `nap_check.py` —
 only the profiles registered in `src/nap/profiles.py` are (right now:
